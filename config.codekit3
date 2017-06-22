@@ -65,6 +65,112 @@
 		"oAP": "\/module.stl",
 		"oF": 0
 		},
+	"\/Plugins\/AddInSample\/AddInSample.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Plugins\/AddInSample\/AddInSample.html",
+		"oF": 0
+		},
+	"\/Plugins\/AddInSample\/AddInSample.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Plugins\/AddInSample\/AddInSample-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/Plugins\/AddInSample\/AddInSample.manifest": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Plugins\/AddInSample\/AddInSample.manifest",
+		"oF": 0
+		},
+	"\/Plugins\/AddInSample\/help.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Plugins\/AddInSample\/help.html",
+		"oF": 0
+		},
+	"\/Plugins\/AddInSample\/resource.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Plugins\/AddInSample\/resource-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/Plugins\/AddInSample\/resources\/16x16-dark.png": {
+		"ft": 32768,
+		"iS": 726,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/Plugins\/AddInSample\/resources\/16x16-dark.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Plugins\/AddInSample\/resources\/16x16-disabled.png": {
+		"ft": 32768,
+		"iS": 726,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/Plugins\/AddInSample\/resources\/16x16-disabled.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Plugins\/AddInSample\/resources\/16x16-pressed.png": {
+		"ft": 32768,
+		"iS": 842,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/Plugins\/AddInSample\/resources\/16x16-pressed.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Plugins\/AddInSample\/resources\/16x16.png": {
+		"ft": 32768,
+		"iS": 708,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/Plugins\/AddInSample\/resources\/16x16.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Plugins\/AddInSample\/resources\/32x32-dark.png": {
+		"ft": 32768,
+		"iS": 1300,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/Plugins\/AddInSample\/resources\/32x32-dark.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Plugins\/AddInSample\/resources\/32x32-disabled.png": {
+		"ft": 32768,
+		"iS": 1300,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/Plugins\/AddInSample\/resources\/32x32-disabled.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Plugins\/AddInSample\/resources\/32x32.png": {
+		"ft": 32768,
+		"iS": 1234,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/Plugins\/AddInSample\/resources\/32x32.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/reflector.stl": {
 		"ft": 8192,
 		"oA": 2,
