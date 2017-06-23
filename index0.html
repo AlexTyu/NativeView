@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Beyond Reality Face - BRFv4 - HTML5/Javascript face tracking</title>
+	<script async src="js/libs/brf/BRFv4_JS_trial.js"></script>
+
+	<script src="js/three.min.js"></script>
+	<script src="js/STLLoader.js"></script>
+	<script src="js/DAT.GUI.min.js"></script>
+	<script src="js/stats.js"></script>
+	<link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+<video	id="_webcam"></video>
+<canvas id="_imageData"></canvas>
+
+
+<script>
+
+
+var webcam		= document.getElementById("_webcam");		// our webcam video
+var imageData	= document.getElementById("_imageData");	// image data for BRFv4
+var brfManager	= null;
+var resolution	= null;
+var brfv4		= null;
+
+startCamera();
+
+function startCamera() {
+
+    // Start video playback once the camera was fetched.
+    function onStreamFetched (mediaStream) {
+
+        webcam.srcObject = mediaStream;
+        webcam.play();
+		mediaStream.opacity = 0.2;
+
+
+        // Check whether we know the video dimensions yet, if so, start BRFv4.
+        function onStreamDimensionsAvailable () {
+
+            if (webcam.videoWidth === 0) {
+                setTimeout(onStreamDimensionsAvailable, 100);
+            } else {
+                waitForSDK();
+            }
+        }
+
+        onStreamDimensionsAvailable();
+    }
+
+    window.navigator.mediaDevices.getUserMedia({video: {width: 640, height: 480, frameRate: 30}})
+        .then(onStreamFetched).catch(function () { alert("No camera available."); });
+}
+
+function waitForSDK() {
+
+    if(brfv4 === null) {
+        brfv4 = {locateFile: function() { return "js/libs/brf/BRFv4_JS_trial.js.mem" }};
+        initializeBRF(brfv4);
+    }
+
+    if(brfv4.sdkReady) {
+        initSDK();
+    } else {
+        setTimeout(waitForSDK, 100);
+    }
+}
+
+function initSDK() {
+
+    // Resize the canvas to match the webcam video size.
+    imageData.width		= webcam.videoWidth;
+    imageData.height	= webcam.videoHeight;
+
+    resolution	= new brfv4.Rectangle(0, 0, imageData.width, imageData.height);
+
+    brfManager	= new brfv4.BRFManager();
+    brfManager.init(resolution, resolution, "com.tastenkunst.brfv4.js.examples.minimal.webcam");
+
+    setInterval(trackFaces, 1000/30);
+}
+
+function trackFaces() {
+
+    var imageDataCtx = imageData.getContext("2d");
+
+    imageDataCtx.setTransform(-1.0, 0, 0, 1, resolution.width, 0); // mirrored for draw of video
+    imageDataCtx.drawImage(webcam, 0, 0, resolution.width, resolution.height);
+
+    imageDataCtx.setTransform( 1.0, 0, 0, 1, 0, 0); // unmirrored for draw of results
+
+    brfManager.update(imageDataCtx.getImageData(0, 0, resolution.width, resolution.height).data);
+
+    var faces = brfManager.getFaces();
+
+    for(var i = 0; i < faces.length; i++) {
+
+        var face = faces[i];
+
+        if(		face.state === brfv4.BRFState.FACE_TRACKING_START ||
+                face.state === brfv4.BRFState.FACE_TRACKING) {
+
+            imageDataCtx.strokeStyle="lime";
+
+            for(var k = 0; k < face.vertices.length; k += 2) {
+                imageDataCtx.beginPath();
+                imageDataCtx.arc(face.vertices[k], face.vertices[k + 1], 2, 0, 2 * Math.PI);
+                imageDataCtx.stroke();
+            }
+        }
+    }
+}
+
+</script>
+
+
+
+<script>
+
+var container, neck, camera, scene, renderer;
+
+container=document.createElement('div');
+document.body.appendChild(container);
+
+function degInRad(deg) {
+    return deg * Math.PI / 180;
+}
+
+scene=new THREE.Scene();
+
+camera = new THREE.PerspectiveCamera(20, window.innerWidth / window.innerHeight, 1, 10000);
+
+neck = new THREE.Object3D();
+neck.up = new THREE.Vector3(0, 0, 1);
+neck.position.z = 1;
+neck.position.y = 0;
+
+neck.add(camera);
+scene.add(neck);
+
+// object
+var loader = new THREE.STLLoader();
+
+loader.addEventListener('load', function (event){
+    var geometry=event.content;
+    var material=new THREE.MeshNormalMaterial({
+        linewidth: 0.01,
+        wireframe: true,
+        ambient: 0xFBB917,
+        transparent: true,
+        opacity: 0.3,
+    });
+
+    var mesh=new THREE.Mesh(geometry, material);
+        mesh.name="model"
+        mesh.scale.set(0.2, 0.2, 0.2);
+        mesh.translateY(0)
+        mesh.translateX(0)
+        mesh.translateZ(0)
+
+    mesh.material.needsUpdate = true;
+
+    scene.add(mesh);
+
+    }
+
+);
+
+// STL file to be loaded
+loader.load('test.stl');
+var object = scene.getObjectByName("model");
+
+// renderer
+renderer=new THREE.WebGLRenderer({ antialias: true });
+renderer.setSize(window.innerWidth, window.innerHeight);
+
+//appliyng to canvas
+container.appendChild(renderer.domElement);
+
+window.addEventListener('resize', onWindowResize, false);
+
+var boxWidth = 90;
+var skyloader = new THREE.TextureLoader();
+skyloader.load('img/box.png', onTextureLoaded);
+
+
+animate();
+
+function onTextureLoaded(texture) {
+  texture.wrapS = THREE.RepeatWrapping;
+  texture.wrapT = THREE.RepeatWrapping;
+  texture.repeat.set(boxWidth, boxWidth);
+
+  var geometry = new THREE.BoxGeometry(boxWidth, boxWidth, boxWidth);
+  var material = new THREE.MeshBasicMaterial({
+    map: texture,
+    transparent: true,
+    opacity: 0.5,
+    color: 0x01BE00,
+    side: THREE.BackSide
+  });
+
+  var skybox = new THREE.Mesh(geometry, material);
+  scene.add(skybox);
+  skybox.scale.set(100, 100, 100);
+}
+
+
+function onWindowResize(){
+    camera.aspect=window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+}
+
+function animate(){
+    requestAnimationFrame(animate);
+    render();
+}
+
+function render(){
+    var timer=Date.now() * 0.000001;
+    r=150;
+    var object = scene.getObjectByName("model");
+    if (camera.flighAround){
+        object.rotation.y=r*Math.sin(timer);
+        // camera.position.x=r*Math.cos(timer);
+        // camera.position.z=r*Math.sin(timer);
+    }
+    camera.lookAt(scene.position);
+
+    renderer.render(scene, camera);
+    renderer.setClearColor(0x000000, 1);
+}
+
+neck = new THREE.Object3D();
+
+camera.position.x = 0;
+camera.position.y = 10;
+camera.position.z = 150;
+camera.flighAround = true;
+
+
+//UI
+// var objectMaterial = object.material;
+
+var gui = new dat.GUI();
+
+var cameraFolderPosition = gui.addFolder("Camera Position");
+    cameraFolderPosition.add(camera.position, "x", 0, 150);
+    cameraFolderPosition.add(camera.position, "y", 0, 150);
+    cameraFolderPosition.add(camera.position, "z", 0, 150);
+    // cameraFolderPosition.open();
+
+var cameraFolderOrientation = gui.addFolder("Camera Orientation");
+    cameraFolderOrientation.add(camera.rotation, "x", 0, 6.27);
+    cameraFolderOrientation.add(camera.rotation, "y", 0, 6.27);
+    cameraFolderOrientation.add(camera.rotation, "z", 0, 6.27);
+    // cameraFolderOrientation.open();
+
+var appearanceFolder = gui.addFolder("Appearance");
+    // appearanceFolder.add(camera.rotation, "z", 0, 6.27);
+    // appearanceFolder.add(object.material, "opacity", 0, 1);
+
+gui.add(camera, "flighAround");
+
+
+</script>
+
+</body>
+
+</html>

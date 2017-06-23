@@ -9,6 +9,1460 @@
 	],
 "creatorBuild": "25704",
 "files": {
+	"\/bridge\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/.gitignore",
+		"oF": 0
+		},
+	"\/bridge\/app\/build\/oculus-bridge-osx.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/build\/oculus-bridge-osx.zip",
+		"oF": 0
+		},
+	"\/bridge\/app\/build\/oculus-bridge-windows.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/build\/oculus-bridge-windows.zip",
+		"oF": 0
+		},
+	"\/bridge\/app\/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/bridge\/app\/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/macosx\/libboost_random.a": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/macosx\/libboost_random.a",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/macosx\/libboost_regex.a": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/macosx\/libboost_regex.a",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/msw\/libboost_random-vc110-mt-s-1_53.lib": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/msw\/libboost_random-vc110-mt-s-1_53.lib",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/msw\/libboost_random-vc110-mt-sgd-1_53.lib": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/msw\/libboost_random-vc110-mt-sgd-1_53.lib",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketClient.cpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketClient.cpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketClient.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketClient.h",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketConnection.cpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketConnection.cpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketConnection.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketConnection.h",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/base64\/base64.cpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/base64\/base64.cpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/base64\/base64.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/base64\/base64.h",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/base64\/base64.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/base64\/base64.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/client.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/client.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/close.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/close.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/chrono.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/chrono.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/connection_hdl.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/connection_hdl.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/cpp11.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/cpp11.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/functional.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/functional.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/md5.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/md5.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/memory.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/memory.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/network.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/network.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/platforms.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/platforms.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/random.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/random.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/regex.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/regex.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/stdint.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/stdint.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/system_error.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/system_error.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/thread.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/thread.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/concurrency\/basic.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/concurrency\/basic.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/concurrency\/none.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/concurrency\/none.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio_client.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio_client.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio_no_tls.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio_no_tls.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio_no_tls_client.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio_no_tls_client.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/boost_config.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/boost_config.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/core.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/core.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/core_client.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/core_client.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/debug.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/debug.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/debug_asio.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/debug_asio.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/debug_asio_no_tls.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/debug_asio_no_tls.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/connection.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/connection.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/connection_base.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/connection_base.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/COPYING": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/COPYING",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/endpoint.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/endpoint.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/endpoint_base.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/endpoint_base.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/error.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/error.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/error_container.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/error_container.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/extensions\/extension.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/extensions\/extension.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/extensions\/permessage_deflate\/disabled.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/extensions\/permessage_deflate\/disabled.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/extensions\/permessage_deflate\/enabled.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/extensions\/permessage_deflate\/enabled.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/frame.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/frame.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/constants.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/constants.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/impl\/parser.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/impl\/parser.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/impl\/request.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/impl\/request.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/impl\/response.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/impl\/response.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/parser.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/parser.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/request.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/request.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/response.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/response.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/impl\/connection_impl.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/impl\/connection_impl.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/impl\/endpoint_impl.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/impl\/endpoint_impl.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/impl\/utilities_impl.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/impl\/utilities_impl.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/logger\/basic.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/logger\/basic.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/logger\/levels.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/logger\/levels.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/logger\/stub.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/logger\/stub.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/message_buffer\/alloc.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/message_buffer\/alloc.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/message_buffer\/message.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/message_buffer\/message.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/message_buffer\/pool.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/message_buffer\/pool.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/base.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/base.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi00.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi00.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi07.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi07.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi08.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi08.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi13.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi13.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/processor.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/processor.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/random\/none.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/random\/none.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/random\/random_device.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/random\/random_device.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/roles\/client_endpoint.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/roles\/client_endpoint.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/roles\/server_endpoint.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/roles\/server_endpoint.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/server.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/server.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/sha1\/license.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/sha1\/license.txt",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/sha1\/sha1.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/sha1\/sha1.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/base.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/base.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/connection.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/connection.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/endpoint.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/endpoint.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/security\/base.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/security\/base.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/security\/none.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/security\/none.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/security\/tls.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/security\/tls.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/base\/connection.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/base\/connection.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/base\/endpoint.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/base\/endpoint.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/iostream\/base.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/iostream\/base.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/iostream\/connection.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/iostream\/connection.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/iostream\/endpoint.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/iostream\/endpoint.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/uri.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/uri.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/utf8_validator.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/utf8_validator.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/utilities.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/utilities.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/version.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/version.hpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketServer.cpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketServer.cpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketServer.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketServer.h",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/include\/Resources.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/include\/Resources.h",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/resources\/cinder_app_icon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/resources\/cinder_app_icon.ico",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/resources\/oculus_bridge.icns": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/resources\/oculus_bridge.icns",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/resources\/oculus_bridge.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/resources\/oculus_bridge.ico",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/resources\/status.jpg": {
+		"ft": 16384,
+		"iS": 35532,
+		"oA": 0,
+		"oAP": "\/bridge\/app\/src\/resources\/status.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bridge\/app\/src\/src\/Oculus.cpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/src\/Oculus.cpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/src\/Oculus.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/src\/Oculus.h",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/src\/OculusSocketServerApp.cpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/src\/OculusSocketServerApp.cpp",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/vc11\/OculusSocketServer.sln": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/vc11\/OculusSocketServer.sln",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/vc11\/OculusSocketServer.vcxproj": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/vc11\/OculusSocketServer.vcxproj",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/vc11\/OculusSocketServer.vcxproj.filters": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/vc11\/OculusSocketServer.vcxproj.filters",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/vc11\/OculusSocketServer.vcxproj.user": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/vc11\/OculusSocketServer.vcxproj.user",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/vc11\/Resources.rc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/vc11\/Resources.rc",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/build\/Debug\/Oculus Bridge.app\/Contents\/Info.plist": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/build\/Debug\/Oculus Bridge.app\/Contents\/Info.plist",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/build\/Debug\/Oculus Bridge.app\/Contents\/PkgInfo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/build\/Debug\/Oculus Bridge.app\/Contents\/PkgInfo",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/build\/Debug\/Oculus Bridge.app\/Contents\/Resources\/oculus_bridge.icns": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/build\/Debug\/Oculus Bridge.app\/Contents\/Resources\/oculus_bridge.icns",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/build\/Debug\/Oculus Bridge.app\/Contents\/Resources\/status.jpg": {
+		"ft": 16384,
+		"iS": 35532,
+		"oA": 0,
+		"oAP": "\/bridge\/app\/src\/xcode\/build\/Debug\/Oculus Bridge.app\/Contents\/Resources\/status.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/dgph": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/dgph",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/dgph~": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/dgph~",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Objects-normal\/x86_64\/Oculus Bridge.LinkFileList": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Objects-normal\/x86_64\/Oculus Bridge.LinkFileList",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge-all-non-framework-target-headers.hmap": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge-all-non-framework-target-headers.hmap",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge-all-target-headers.hmap": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge-all-target-headers.hmap",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge-generated-files.hmap": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge-generated-files.hmap",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge-own-target-headers.hmap": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge-own-target-headers.hmap",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge-project-headers.hmap": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge-project-headers.hmap",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge.hmap": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge.hmap",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/build\/SharedPrecompiledHeaders\/OculusSocketServer_Prefix-faluiirdhrjijedhuytkivcspkvo\/OculusSocketServer_Prefix.pch.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/build\/SharedPrecompiledHeaders\/OculusSocketServer_Prefix-faluiirdhrjijedhuytkivcspkvo\/OculusSocketServer_Prefix.pch.data",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/build\/SharedPrecompiledHeaders\/OculusSocketServer_Prefix-faluiirdhrjijedhuytkivcspkvo\/OculusSocketServer_Prefix.pch.dia": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/build\/SharedPrecompiledHeaders\/OculusSocketServer_Prefix-faluiirdhrjijedhuytkivcspkvo\/OculusSocketServer_Prefix.pch.dia",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/build\/SharedPrecompiledHeaders\/OculusSocketServer_Prefix-faluiirdhrjijedhuytkivcspkvo\/OculusSocketServer_Prefix.pch.pch.hash-criteria": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/build\/SharedPrecompiledHeaders\/OculusSocketServer_Prefix-faluiirdhrjijedhuytkivcspkvo\/OculusSocketServer_Prefix.pch.pch.hash-criteria",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/Info.plist": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/Info.plist",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/project.pbxproj": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/project.pbxproj",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/project.xcworkspace\/contents.xcworkspacedata": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/project.xcworkspace\/contents.xcworkspacedata",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/project.xcworkspace\/xcuserdata\/alexturin.xcuserdatad\/UserInterfaceState.xcuserstate": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/project.xcworkspace\/xcuserdata\/alexturin.xcuserdatad\/UserInterfaceState.xcuserstate",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/project.xcworkspace\/xcuserdata\/alexturin.xcuserdatad\/WorkspaceSettings.xcsettings": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/project.xcworkspace\/xcuserdata\/alexturin.xcuserdatad\/WorkspaceSettings.xcsettings",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/xcuserdata\/alexturin.xcuserdatad\/xcschemes\/Oculus Bridge.xcscheme": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/xcuserdata\/alexturin.xcuserdatad\/xcschemes\/Oculus Bridge.xcscheme",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/xcuserdata\/alexturin.xcuserdatad\/xcschemes\/xcschememanagement.plist": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/xcuserdata\/alexturin.xcuserdatad\/xcschemes\/xcschememanagement.plist",
+		"oF": 0
+		},
+	"\/bridge\/app\/src\/xcode\/OculusSocketServer_Prefix.pch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/app\/src\/xcode\/OculusSocketServer_Prefix.pch",
+		"oF": 0
+		},
+	"\/bridge\/docs\/build_instructions.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/bridge\/docs\/build_instructions.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bridge\/docs\/first_person_movement.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/bridge\/docs\/first_person_movement.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bridge\/docs\/javascript_docs.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/bridge\/docs\/javascript_docs.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bridge\/examples\/connect.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/examples\/connect.html",
+		"oF": 0
+		},
+	"\/bridge\/examples\/css\/distort.vs": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/examples\/css\/distort.vs",
+		"oF": 0
+		},
+	"\/bridge\/examples\/css\/passthrough.fs": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/examples\/css\/passthrough.fs",
+		"oF": 0
+		},
+	"\/bridge\/examples\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/bridge\/examples\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bridge\/examples\/css_shaders.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/examples\/css_shaders.html",
+		"oF": 0
+		},
+	"\/bridge\/examples\/first_person.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/examples\/first_person.html",
+		"oF": 0
+		},
+	"\/bridge\/examples\/img\/grid.jpg": {
+		"ft": 16384,
+		"iS": 22972,
+		"oA": 0,
+		"oAP": "\/bridge\/examples\/img\/grid.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bridge\/examples\/img\/oculus_bridge.png": {
+		"ft": 32768,
+		"iS": 3050,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/bridge\/examples\/img\/oculus_bridge.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bridge\/examples\/img\/oculus_bridge_offline.png": {
+		"ft": 32768,
+		"iS": 2477,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/bridge\/examples\/img\/oculus_bridge_offline.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bridge\/examples\/js\/connect.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/bridge\/examples\/js\/connect-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bridge\/examples\/js\/first_person.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/bridge\/examples\/js\/first_person-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bridge\/examples\/lib\/OrbitControls.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/bridge\/examples\/lib\/OrbitControls-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bridge\/examples\/lib\/RiftCamera.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/bridge\/examples\/lib\/RiftCamera-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bridge\/examples\/lib\/three.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/bridge\/examples\/lib\/three.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bridge\/examples\/textures\/blue_blue.jpg": {
+		"ft": 16384,
+		"iS": 9503,
+		"oA": 0,
+		"oAP": "\/bridge\/examples\/textures\/blue_blue.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bridge\/examples\/textures\/purple_blue.jpg": {
+		"ft": 16384,
+		"iS": 46020,
+		"oA": 0,
+		"oAP": "\/bridge\/examples\/textures\/purple_blue.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bridge\/examples\/textures\/tile.jpg": {
+		"ft": 16384,
+		"iS": 4526,
+		"oA": 0,
+		"oAP": "\/bridge\/examples\/textures\/tile.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bridge\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/LICENSE",
+		"oF": 0
+		},
+	"\/bridge\/Oculus Bridge.app\/Contents\/Info.plist": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/Oculus Bridge.app\/Contents\/Info.plist",
+		"oF": 0
+		},
+	"\/bridge\/Oculus Bridge.app\/Contents\/MacOS\/Oculus Bridge": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/Oculus Bridge.app\/Contents\/MacOS\/Oculus Bridge",
+		"oF": 0
+		},
+	"\/bridge\/Oculus Bridge.app\/Contents\/PkgInfo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/Oculus Bridge.app\/Contents\/PkgInfo",
+		"oF": 0
+		},
+	"\/bridge\/Oculus Bridge.app\/Contents\/Resources\/oculus_bridge.icns": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bridge\/Oculus Bridge.app\/Contents\/Resources\/oculus_bridge.icns",
+		"oF": 0
+		},
+	"\/bridge\/Oculus Bridge.app\/Contents\/Resources\/status.jpg": {
+		"ft": 16384,
+		"iS": 35532,
+		"oA": 0,
+		"oAP": "\/bridge\/Oculus Bridge.app\/Contents\/Resources\/status.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bridge\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/bridge\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bridge\/web\/build\/OculusBridge.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/bridge\/web\/build\/OculusBridge.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bridge\/web\/GruntFile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/bridge\/web\/GruntFile-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bridge\/web\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/bridge\/web\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bridge\/web\/src\/OculusBridge.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/bridge\/web\/src\/OculusBridge-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/colortracker.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/colortracker.html",
+		"oF": 0
+		},
+	"\/fluid\/boxeditor.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/fluid\/boxeditor-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/fluid\/camera.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/fluid\/camera-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/fluid\/flip.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fluid\/flip-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/fluid\/fluidparticles.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/fluid\/fluidparticles-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/fluid\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/index.html",
+		"oF": 0
+		},
+	"\/fluid\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/LICENSE",
+		"oF": 0
+		},
+	"\/fluid\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/fluid\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/fluid\/renderer.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/fluid\/renderer-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/fluid\/shaders\/addforce.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/addforce.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/advect.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/advect.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/background.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/background.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/background.vert": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/background.vert",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/box.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/box.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/box.vert": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/box.vert",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/boxwireframe.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/boxwireframe.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/boxwireframe.vert": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/boxwireframe.vert",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/common.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/common.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/composite.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/composite.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/copy.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/copy.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/divergence.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/divergence.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/enforceboundaries.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/enforceboundaries.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/extendvelocity.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/extendvelocity.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/fullscreen.vert": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/fullscreen.vert",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/fxaa.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/fxaa.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/grid.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/grid.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/grid.vert": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/grid.vert",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/jacobi.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/jacobi.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/mark.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/mark.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/mark.vert": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/mark.vert",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/normalizegrid.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/normalizegrid.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/particle.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/particle.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/particle.vert": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/particle.vert",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/point.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/point.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/point.vert": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/point.vert",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/sphere.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/sphere.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/sphere.vert": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/sphere.vert",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/sphereao.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/sphereao.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/sphereao.vert": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/sphereao.vert",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/spheredepth.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/spheredepth.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/spheredepth.vert": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/spheredepth.vert",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/subtract.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/subtract.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/transfertogrid.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/transfertogrid.frag",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/transfertogrid.vert": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/transfertogrid.vert",
+		"oF": 0
+		},
+	"\/fluid\/shaders\/transfertoparticles.frag": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fluid\/shaders\/transfertoparticles.frag",
+		"oF": 0
+		},
+	"\/fluid\/simulator.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/fluid\/simulator-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/fluid\/simulatorrenderer.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/fluid\/simulatorrenderer-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/fluid\/slider.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/fluid\/slider-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/fluid\/utilities.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/fluid\/utilities-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/fluid\/wrappedgl.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/fluid\/wrappedgl-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/glass.stl": {
 		"ft": 8192,
 		"oA": 2,
@@ -35,11 +1489,320 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/index-clm.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index-clm.html",
+		"oF": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
+		},
+	"\/index0.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index0.html",
+		"oF": 0
+		},
+	"\/js\/bezier-spline.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/bezier-spline-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/BRF\/BRFv4_JS_trial.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/BRF\/BRFv4_JS_trial-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/BRF\/Tracker-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/BRF\/Tracker-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/BRF\/Tracker.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/BRF\/Tracker-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/clm\/clmtrackr.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/clm\/clmtrackr-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/clm\/entire_face_filter.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/clm\/entire_face_filter-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/clm\/frontalface.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/clm\/frontalface-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/clm\/model_pca_10_svm.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/clm\/model_pca_10_svm-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/clm\/model_pca_20_svm.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/clm\/model_pca_20_svm-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/clm\/model_spca_10_svm.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/clm\/model_spca_10_svm-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/clm\/model_spca_20_svm.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/clm\/model_spca_20_svm-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/clm\/nose_filter.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/clm\/nose_filter-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/clm\/svmfilter_fft.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/clm\/svmfilter_fft-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/clm\/svmfilter_webgl.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/clm\/svmfilter_webgl-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/clm\/tracker.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/clm\/tracker-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/clm\/utils.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/clm\/utils-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/color_camera_gui-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/color_camera_gui-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/color_camera_gui.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/color_camera_gui-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/DAT.GUI.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/DAT.GUI.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/libs\/brf\/BRFv4_JS_trial.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/libs\/brf\/BRFv4_JS_trial-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/libs\/brf\/BRFv4_JS_trial.js.mem": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/js\/libs\/brf\/BRFv4_JS_trial.js.mem",
+		"oF": 0
+		},
+	"\/js\/libs\/createjs\/BitmapData.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/libs\/createjs\/BitmapData-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/libs\/createjs\/easeljs-0.8.2.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/libs\/createjs\/easeljs-0.8.2.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/libs\/createjs\/preloadjs-0.6.2.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/libs\/createjs\/preloadjs-0.6.2.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/libs\/highlight\/highlight.pack.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/libs\/highlight\/highlight.pack-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/libs\/highlight\/highlight_tomorrow.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/libs\/highlight\/highlight_tomorrow-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/js\/libs\/quicksettings\/quicksettings.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/libs\/quicksettings\/quicksettings-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/libs\/quicksettings\/quicksettings.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/libs\/quicksettings\/quicksettings.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/js\/libs\/quicksettings\/quicksettings.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/libs\/quicksettings\/quicksettings.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/libs\/quicksettings\/quicksettings_tiny.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/libs\/quicksettings\/quicksettings_tiny.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/js\/libs\/threejs\/Detector.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/libs\/threejs\/Detector-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/libs\/threejs\/three.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/libs\/threejs\/three-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/stats.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/stats-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/js\/STLLoader.js": {
 		"ft": 64,
@@ -55,6 +1818,223 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/three.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/track-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/track-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/track.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/track-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/tracker-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/tracker-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/trackers\/ColorTracker.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/trackers\/ColorTracker-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/trackers\/face.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/trackers\/face-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/trackers\/ObjectTracker.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/trackers\/ObjectTracker-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/trackers\/Tracker.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/trackers\/Tracker-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/trackers\/TrackerTask.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/trackers\/TrackerTask-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/tracking-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/tracking-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/tracking.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/tracking-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/visageTracker-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/visageTracker-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/visageTracker.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/visageTracker-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/lib\/background.png": {
+		"ft": 32768,
+		"iS": 424,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/lib\/background.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/lib\/Face Detector.cfg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/Face Detector.cfg",
+		"oF": 0
+		},
+	"\/lib\/Facial Features Tracker - High.cfg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/Facial Features Tracker - High.cfg",
+		"oF": 0
+		},
+	"\/lib\/Facial Features Tracker - Low.cfg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/Facial Features Tracker - Low.cfg",
+		"oF": 0
+		},
+	"\/lib\/Head Tracker.cfg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/Head Tracker.cfg",
+		"oF": 0
+		},
+	"\/lib\/load_splash.gif": {
+		"ft": 4194304,
+		"iS": 36122,
+		"oA": 0,
+		"oAP": "\/lib\/load_splash.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/lib\/logotype.png": {
+		"ft": 32768,
+		"iS": 13890,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/lib\/logotype.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/lib\/three.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/lib\/three.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/lib\/visageAnalysisData.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/visageAnalysisData.data",
+		"oF": 0
+		},
+	"\/lib\/visageAnalysisData.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/lib\/visageAnalysisData-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/lib\/visageAR.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/lib\/visageAR-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/lib\/visageRecognitionData.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/visageRecognitionData.data",
+		"oF": 0
+		},
+	"\/lib\/visageRecognitionData.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/lib\/visageRecognitionData-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/lib\/visageSDK.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/lib\/visageSDK-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -177,10 +2157,271 @@
 		"oAP": "\/reflector.stl",
 		"oF": 0
 		},
+	"\/sampleTracker.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sampleTracker.html",
+		"oF": 0
+		},
+	"\/styles-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/styles-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/styles-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/test.stl": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/test.stl",
+		"oF": 0
+		},
+	"\/tryon\/cc_glare.png": {
+		"ft": 32768,
+		"iS": 336548,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/tryon\/cc_glare.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/tryon\/cc_paper.png": {
+		"ft": 32768,
+		"iS": 63772,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/tryon\/cc_paper.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/tryon\/cc_scaled.png": {
+		"ft": 32768,
+		"iS": 570572,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/tryon\/cc_scaled.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/tryon\/css\/eyewear.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/tryon\/css\/eyewear-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/tryon\/eyewear.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tryon\/eyewear.html",
+		"oF": 0
+		},
+	"\/tryon\/icons\/glasses1-icon_new.png": {
+		"ft": 32768,
+		"iS": 10197,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/tryon\/icons\/glasses1-icon_new.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/tryon\/icons\/glasses2-icon_new.png": {
+		"ft": 32768,
+		"iS": 20471,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/tryon\/icons\/glasses2-icon_new.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/tryon\/icons\/glasses3-icon_new.png": {
+		"ft": 32768,
+		"iS": 17403,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/tryon\/icons\/glasses3-icon_new.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/tryon\/icons\/glasses4-icon.png": {
+		"ft": 32768,
+		"iS": 28158,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/tryon\/icons\/glasses4-icon.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/tryon\/icons\/glasses5-icon_new.png": {
+		"ft": 32768,
+		"iS": 12877,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/tryon\/icons\/glasses5-icon_new.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/tryon\/instructions.jpg": {
+		"ft": 16384,
+		"iS": 98030,
+		"oA": 0,
+		"oAP": "\/tryon\/instructions.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/tryon\/models\/glass_gradient.png": {
+		"ft": 32768,
+		"iS": 11084,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/tryon\/models\/glass_gradient.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/tryon\/models\/glasses.mtl": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tryon\/models\/glasses.mtl",
+		"oF": 0
+		},
+	"\/tryon\/models\/glasses.obj": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tryon\/models\/glasses.obj",
+		"oF": 0
+		},
+	"\/tryon\/models\/glasses8.mtl": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tryon\/models\/glasses8.mtl",
+		"oF": 0
+		},
+	"\/tryon\/models\/glasses8.obj": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tryon\/models\/glasses8.obj",
+		"oF": 0
+		},
+	"\/tryon\/models\/MauiJim_SunCoconuts.mtl": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tryon\/models\/MauiJim_SunCoconuts.mtl",
+		"oF": 0
+		},
+	"\/tryon\/models\/MauiJim_SunCoconuts.obj": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tryon\/models\/MauiJim_SunCoconuts.obj",
+		"oF": 0
+		},
+	"\/tryon\/models\/MauiJimLogo.jpg": {
+		"ft": 16384,
+		"iS": 12817,
+		"oA": 0,
+		"oAP": "\/tryon\/models\/MauiJimLogo.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/tryon\/models\/occlusion_mask.mtl": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tryon\/models\/occlusion_mask.mtl",
+		"oF": 0
+		},
+	"\/tryon\/models\/occlusion_mask.obj": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tryon\/models\/occlusion_mask.obj",
+		"oF": 0
+		},
+	"\/tryon\/models\/trada.mtl": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tryon\/models\/trada.mtl",
+		"oF": 0
+		},
+	"\/tryon\/models\/trada.obj": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tryon\/models\/trada.obj",
+		"oF": 0
+		},
+	"\/tryon\/models\/Vogue_2715_GRP.mtl": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tryon\/models\/Vogue_2715_GRP.mtl",
+		"oF": 0
+		},
+	"\/tryon\/models\/Vogue_2715_GRP.obj": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tryon\/models\/Vogue_2715_GRP.obj",
+		"oF": 0
+		},
+	"\/tryon\/models\/Vogue_2715_Texture.jpg": {
+		"ft": 16384,
+		"iS": 161350,
+		"oA": 0,
+		"oAP": "\/tryon\/models\/Vogue_2715_Texture.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/tryon\/MTLLoader.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/tryon\/MTLLoader-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/tryon\/OBJMTLLoader.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/tryon\/OBJMTLLoader-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/tryon\/visageSDK.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tryon\/visageSDK.data",
+		"oF": 0
+		},
+	"\/visageSDK.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/visageSDK.data",
 		"oF": 0
 		}
 	},
