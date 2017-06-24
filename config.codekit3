@@ -7,7 +7,7 @@
 		"uuidString": "CB90F47A-EBC2-4BF6-8A79-44E2FC217E46"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25849",
 "files": {
 	"\/bridge\/.gitignore": {
 		"ft": 8192,
@@ -635,6 +635,7 @@
 		"oA": 0,
 		"oAP": "\/bridge\/app\/src\/resources\/status.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -686,105 +687,6 @@
 		"oAP": "\/bridge\/app\/src\/vc11\/Resources.rc",
 		"oF": 0
 		},
-	"\/bridge\/app\/src\/xcode\/build\/Debug\/Oculus Bridge.app\/Contents\/Info.plist": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/build\/Debug\/Oculus Bridge.app\/Contents\/Info.plist",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/build\/Debug\/Oculus Bridge.app\/Contents\/PkgInfo": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/build\/Debug\/Oculus Bridge.app\/Contents\/PkgInfo",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/build\/Debug\/Oculus Bridge.app\/Contents\/Resources\/oculus_bridge.icns": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/build\/Debug\/Oculus Bridge.app\/Contents\/Resources\/oculus_bridge.icns",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/build\/Debug\/Oculus Bridge.app\/Contents\/Resources\/status.jpg": {
-		"ft": 16384,
-		"iS": 35532,
-		"oA": 0,
-		"oAP": "\/bridge\/app\/src\/xcode\/build\/Debug\/Oculus Bridge.app\/Contents\/Resources\/status.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/dgph": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/dgph",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/dgph~": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/dgph~",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Objects-normal\/x86_64\/Oculus Bridge.LinkFileList": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Objects-normal\/x86_64\/Oculus Bridge.LinkFileList",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge-all-non-framework-target-headers.hmap": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge-all-non-framework-target-headers.hmap",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge-all-target-headers.hmap": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge-all-target-headers.hmap",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge-generated-files.hmap": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge-generated-files.hmap",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge-own-target-headers.hmap": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge-own-target-headers.hmap",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge-project-headers.hmap": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge-project-headers.hmap",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge.hmap": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/build\/OculusSocketServer.build\/Debug\/Oculus Bridge.build\/Oculus Bridge.hmap",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/build\/SharedPrecompiledHeaders\/OculusSocketServer_Prefix-faluiirdhrjijedhuytkivcspkvo\/OculusSocketServer_Prefix.pch.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/build\/SharedPrecompiledHeaders\/OculusSocketServer_Prefix-faluiirdhrjijedhuytkivcspkvo\/OculusSocketServer_Prefix.pch.data",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/build\/SharedPrecompiledHeaders\/OculusSocketServer_Prefix-faluiirdhrjijedhuytkivcspkvo\/OculusSocketServer_Prefix.pch.dia": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/build\/SharedPrecompiledHeaders\/OculusSocketServer_Prefix-faluiirdhrjijedhuytkivcspkvo\/OculusSocketServer_Prefix.pch.dia",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/build\/SharedPrecompiledHeaders\/OculusSocketServer_Prefix-faluiirdhrjijedhuytkivcspkvo\/OculusSocketServer_Prefix.pch.pch.hash-criteria": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/build\/SharedPrecompiledHeaders\/OculusSocketServer_Prefix-faluiirdhrjijedhuytkivcspkvo\/OculusSocketServer_Prefix.pch.pch.hash-criteria",
-		"oF": 0
-		},
 	"\/bridge\/app\/src\/xcode\/Info.plist": {
 		"ft": 8192,
 		"oA": 2,
@@ -795,36 +697,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/project.pbxproj",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/project.xcworkspace\/contents.xcworkspacedata": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/project.xcworkspace\/contents.xcworkspacedata",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/project.xcworkspace\/xcuserdata\/alexturin.xcuserdatad\/UserInterfaceState.xcuserstate": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/project.xcworkspace\/xcuserdata\/alexturin.xcuserdatad\/UserInterfaceState.xcuserstate",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/project.xcworkspace\/xcuserdata\/alexturin.xcuserdatad\/WorkspaceSettings.xcsettings": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/project.xcworkspace\/xcuserdata\/alexturin.xcuserdatad\/WorkspaceSettings.xcsettings",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/xcuserdata\/alexturin.xcuserdatad\/xcschemes\/Oculus Bridge.xcscheme": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/xcuserdata\/alexturin.xcuserdatad\/xcschemes\/Oculus Bridge.xcscheme",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/xcuserdata\/alexturin.xcuserdatad\/xcschemes\/xcschememanagement.plist": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/xcuserdata\/alexturin.xcuserdatad\/xcschemes\/xcschememanagement.plist",
 		"oF": 0
 		},
 	"\/bridge\/app\/src\/xcode\/OculusSocketServer_Prefix.pch": {
@@ -933,27 +805,30 @@
 		"oA": 0,
 		"oAP": "\/bridge\/examples\/img\/grid.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"\/bridge\/examples\/img\/oculus_bridge.png": {
 		"ft": 32768,
 		"iS": 3050,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/bridge\/examples\/img\/oculus_bridge.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/bridge\/examples\/img\/oculus_bridge_offline.png": {
 		"ft": 32768,
 		"iS": 2477,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/bridge\/examples\/img\/oculus_bridge_offline.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/bridge\/examples\/js\/connect.js": {
@@ -1007,6 +882,7 @@
 		"oA": 0,
 		"oAP": "\/bridge\/examples\/textures\/blue_blue.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -1016,6 +892,7 @@
 		"oA": 0,
 		"oAP": "\/bridge\/examples\/textures\/purple_blue.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -1025,6 +902,7 @@
 		"oA": 0,
 		"oAP": "\/bridge\/examples\/textures\/tile.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -1064,6 +942,7 @@
 		"oA": 0,
 		"oAP": "\/bridge\/Oculus Bridge.app\/Contents\/Resources\/status.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -1124,6 +1003,36 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/colortracker.html",
+		"oF": 0
+		},
+	"\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/Info.plist": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/Info.plist",
+		"oF": 0
+		},
+	"\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/MacOS\/app_mode_loader": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/MacOS\/app_mode_loader",
+		"oF": 0
+		},
+	"\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/PkgInfo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/PkgInfo",
+		"oF": 0
+		},
+	"\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/Resources\/app.icns": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/Resources\/app.icns",
+		"oF": 0
+		},
+	"\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/Resources\/en-US.lproj\/InfoPlist.strings": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/Resources\/en-US.lproj\/InfoPlist.strings",
 		"oF": 0
 		},
 	"\/fluid\/boxeditor.js": {
@@ -1472,11 +1381,12 @@
 	"\/img\/box.png": {
 		"ft": 32768,
 		"iS": 6757,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/box.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/logo.svg": {
@@ -1678,6 +1588,24 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/facetracker-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/facetracker-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/facetracker.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/facetracker-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/libs\/brf\/BRFv4_JS_trial.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1791,6 +1719,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/libs\/threejs\/three-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/loadModule.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/loadModule-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1933,11 +1870,12 @@
 	"\/lib\/background.png": {
 		"ft": 32768,
 		"iS": 424,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/lib\/background.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/lib\/Face Detector.cfg": {
@@ -1975,11 +1913,12 @@
 	"\/lib\/logotype.png": {
 		"ft": 32768,
 		"iS": 13890,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/lib\/logotype.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/lib\/three.min.js": {
@@ -2026,6 +1965,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/lib\/visageRecognitionData-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/lib\/visageSDK-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/lib\/visageSDK-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2084,71 +2032,78 @@
 	"\/Plugins\/AddInSample\/resources\/16x16-dark.png": {
 		"ft": 32768,
 		"iS": 726,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/Plugins\/AddInSample\/resources\/16x16-dark.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/Plugins\/AddInSample\/resources\/16x16-disabled.png": {
 		"ft": 32768,
 		"iS": 726,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/Plugins\/AddInSample\/resources\/16x16-disabled.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/Plugins\/AddInSample\/resources\/16x16-pressed.png": {
 		"ft": 32768,
 		"iS": 842,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/Plugins\/AddInSample\/resources\/16x16-pressed.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/Plugins\/AddInSample\/resources\/16x16.png": {
 		"ft": 32768,
 		"iS": 708,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/Plugins\/AddInSample\/resources\/16x16.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/Plugins\/AddInSample\/resources\/32x32-dark.png": {
 		"ft": 32768,
 		"iS": 1300,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/Plugins\/AddInSample\/resources\/32x32-dark.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/Plugins\/AddInSample\/resources\/32x32-disabled.png": {
 		"ft": 32768,
 		"iS": 1300,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/Plugins\/AddInSample\/resources\/32x32-disabled.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/Plugins\/AddInSample\/resources\/32x32.png": {
 		"ft": 32768,
 		"iS": 1234,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/Plugins\/AddInSample\/resources\/32x32.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/reflector.stl": {
@@ -2192,31 +2147,34 @@
 	"\/tryon\/cc_glare.png": {
 		"ft": 32768,
 		"iS": 336548,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/tryon\/cc_glare.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/tryon\/cc_paper.png": {
 		"ft": 32768,
 		"iS": 63772,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/tryon\/cc_paper.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/tryon\/cc_scaled.png": {
 		"ft": 32768,
 		"iS": 570572,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/tryon\/cc_scaled.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/tryon\/css\/eyewear.css": {
@@ -2238,51 +2196,56 @@
 	"\/tryon\/icons\/glasses1-icon_new.png": {
 		"ft": 32768,
 		"iS": 10197,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/tryon\/icons\/glasses1-icon_new.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/tryon\/icons\/glasses2-icon_new.png": {
 		"ft": 32768,
 		"iS": 20471,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/tryon\/icons\/glasses2-icon_new.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/tryon\/icons\/glasses3-icon_new.png": {
 		"ft": 32768,
 		"iS": 17403,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/tryon\/icons\/glasses3-icon_new.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/tryon\/icons\/glasses4-icon.png": {
 		"ft": 32768,
 		"iS": 28158,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/tryon\/icons\/glasses4-icon.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/tryon\/icons\/glasses5-icon_new.png": {
 		"ft": 32768,
 		"iS": 12877,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/tryon\/icons\/glasses5-icon_new.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/tryon\/instructions.jpg": {
@@ -2291,17 +2254,19 @@
 		"oA": 0,
 		"oAP": "\/tryon\/instructions.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"\/tryon\/models\/glass_gradient.png": {
 		"ft": 32768,
 		"iS": 11084,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/tryon\/models\/glass_gradient.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/tryon\/models\/glasses.mtl": {
@@ -2346,6 +2311,7 @@
 		"oA": 0,
 		"oAP": "\/tryon\/models\/MauiJimLogo.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -2391,6 +2357,7 @@
 		"oA": 0,
 		"oAP": "\/tryon\/models\/Vogue_2715_Texture.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -3393,6 +3360,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -4217,14 +4188,6 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
@@ -4287,7 +4250,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"enableLossy": 1,
+		"optimizerType": 1,
 		"quality": 100
 		},
 	"languageDefaultsPUG": {
@@ -4373,6 +4336,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",

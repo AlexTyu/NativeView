@@ -935,6 +935,19 @@ function onModuleInitialized()
 	var trackerReturnState = new Module.VectorFloat();
 	trackerReturnState = trackerStates[0];
 
+
+
+
+
+	function getMetrics(){
+		streamFaceData(faceDataArray);
+		console.log('sdjhfsdfkjsdhfk')
+		// console.log(faceData);
+		requestAnimationFrame(getMetrics)
+	}
+
+	requestAnimationFrame(getMetrics)
+	
 	//Use request animation frame mechanism - slower but with smoother animation
 	processFrame();
 }

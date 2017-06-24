@@ -1,16 +1,21 @@
+html {
+  background: black;
+  -webkit-font-smoothing: antialiased; }
+
 body {
-  margin: 0; }
+  margin: 0;
+  background: black; }
 
 .logo {
   position: fixed;
-  top: 20px;
   left: 20px;
   width: 100px;
   height: 20px;
   background: url("/img/logo.svg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  bottom: 20px; }
 
 .logo::after {
   content: 'Viewer';
@@ -66,7 +71,7 @@ tracker {
   bottom: 0px;
   left: 0px;
   z-index: 0;
-  opacity: 0.2; }
+  opacity: 1; }
 
 #container {
   position: absolute;
@@ -83,49 +88,44 @@ tracker {
           justify-content: center; }
 
 #canvas {
-  height: 100%;
+  width: 100%;
   position: absolute;
   bottom: 0;
   left: 0;
   z-index: -1; }
 
-/*#overlay {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    -o-transform : scaleX(-1);
-    -webkit-transform : scaleX(-1);
-    transform : scaleX(-1);
-/*}
-#videoel {
-    -o-transform : scaleX(-1);
-    -webkit-transform : scaleX(-1);
-    transform : scaleX(-1);
-=}
+#toolbar {
+  width: 240px;
+  right: 0;
+  height: 100%;
+  background: #1a1a1d;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12); }
 
-.tracker{
-    position : fixed;
-    bottom: 0;
-    right: 0;
-    width : 240px;
-    height: 180;
+.dg.main .close-button {
+  display: none; }
+
+.dg li.title {
+  /*background: transparent;*/
+  background: #232323 url(data:image/gif;base64,R0lGODlhBQAFAJEAAP////Pz8////////yH5BAEAAAIALAAAAAAFAAUAAAIIlI+hKgFxoCgAOw==) 6px 10px no-repeat;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06); }
+
+/*.dg.main ul{
+  display: flex;
 }
 
-.btn{
-    position: absolute;
-    bottom: 0;
-    right: 0;
+.dg li.folder{
+  width: 140px;
+  flex-shrink: 0;
 }
 
-#trackcontainer{
-    width: 100%;
-    height: 100%;
-    position: relative;
+.dg li.folder .dg ul{
+  flex-direction: column;
 }
 
-#content {
-    margin-top : 70px;
-    margin-left : 100px;
-    margin-right : 100px;
-    max-width: 950px;
+.dg.main .close-button{
+  display: none;
 }*/
