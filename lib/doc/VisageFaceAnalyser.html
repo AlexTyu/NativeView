@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Class: VisageFaceAnalyser</title>
+    
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+    
+    <h1 class="page-title">Class: VisageFaceAnalyser</h1>
+    
+    
+
+
+
+<section>
+    
+<header>
+    <h2>
+    VisageFaceAnalyser
+    </h2>
+    
+</header>  
+
+<article>
+    <div class="container-overview">
+    
+    
+    
+        
+<dt>
+    <h4 class="name" id="VisageFaceAnalyser"><span class="type-signature"></span>new VisageFaceAnalyser<span class="signature">()</span><span class="type-signature"></span></h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        VisageFaceAnalyser contains face analysis algorithms capable of estimating gender and emotion from frontal facial images (yaw between -20 and 20 degrees).<br/><br/>Following types of analysis can be used:<br/><br/><table><tr><td width="250"><b>ANALYSIS TYPE</b></td><td width="200"><b>FUNCTION</b></td></tr><tr><td>age estimation</td><td>estimateAge()</td></tr><tr><td>gender estimation</td><td>estimateGender()</td></tr><tr><td>emotion estimation</td><td>estimateEmotion()</td></tr></table><br/><br/>VisageFaceAnalyser class requires, by default, data files bundled in visageFaceAnalyser.data file and a loader script visageFaceAnalyser.js located in www/lib/ folder. Files for VisageFaceAnalyser are bundled and loaded separately from files bundled for VisageTracker class.<br/><br/><b>For every application using VisageFaceAnalyser API, visageFaceAnalyser.data file and visageFaceAnalyser.js loading script must be copied to the same folder where the application's main html file is located</b> (e.g. Samples/ShowcaseDemo folder).<br/><b>Additionally, visageFaceAnalyser.js script must be loaded before the main visageSDK.js script is loaded.</b><br/><br/>For example - loading visageFaceAnalyser.data file:<pre class="prettyprint source"><code>&lt;script src="visageFaceAnalyser.js">&lt;/script>&lt;script src="../../lib/visageSDK.js">&lt;/script></code></pre><br/><br/><br/><b>Changing the location of the .data file</b><br/>Location of the .data file can be changed by overriding the <i>locateFile</i> attribute of the Module object to return the URL where the data file is currently stored. Note that the new location applies to all visage|SDK data files (visageSDK.data, visageRecognitionData.data and visageAnalyser.data).This additional code needs to be added to the application's main html file and the Module' attribute must be specified in a script element before the one that loads the data file (in this case visageFaceAnalyser.js). <br/><br/>Sample usage - changing .data file location:<br/><pre class="prettyprint source"><code>&lt;script>var Module = { 'locateFile':  function(dataFileName) {var fullPath = "http://localhost/www.visagetechnologies.com/Samples/" + dataFileName; return fullPath}};&lt;/script>&lt;script src="../../lib/visageFaceAnalyser.js">&lt;/script></code></pre><br/><br/><br/><b>Download complete callback</b><br/>visage|SDK calls a method when all the data has been downloaded from the server and when the tracker is ready to start tracking. To take specific action at that time a method named "callbackDownload" must be implemented in the global scope (e.g in the main application's html file).<br/><br/>Sample usage - enabling buttons:<br/><pre class="prettyprint source"><code>function callbackDownload(){	var btnStart = document.getElementById('buttonStart');	var btnDraw = document.getElementById('buttonTDraw');	btnStart.disabled = false;	btnDraw.disabled = false;}</code></pre><br/><br/>
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <h3 class="subsection-title">Methods</h3>
+        
+        <dl>
+            
+<dt>
+    <h4 class="name" id="estimateGender"><span class="type-signature"></span>estimateGender<span class="signature">(frameWidth, frameHeight, p_imageData, faceData)</span><span class="type-signature"> &rarr; {number}</span></h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Estimates gender from a facial image.<br/><br/>The function returns 1 if estimated gender is male and 0 if it is a female. Prior to using this function, it is necessary to process the facial image or video frame using VisageTracker or VisageDetector. This function estimates gender for last image processed by <a href="VisageTracker.html#track">VisageTracker.track()</a> or <a href="VisageDetector.html#detectFeatures">VisageDetector.detectFeatures()</a> function.
+    </div>
+    
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>frameWidth</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            
+            
+            <td class="description last">Width of the frame</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>frameHeight</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            
+            
+            <td class="description last">Height of the frame</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>p_imageData</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            
+            
+            <td class="description last">Pointer to image pixel data, size of the array must correspond to frameWidth and frameHeight</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>faceData</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            
+            
+            <td class="description last">FaceData object filled with tracking results from a previous call of the <a href="VisageTracker.html#track">VisageTracker.track()</a> or <a href="VisageDetector.html#detectFeatures">VisageDetector.detectFeatures()</a> function.</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <h5>Returns:</h5>
+    
+            
+<div class="param-desc">
+    returns 0 if estimated gender is female, 1 if it is a male and -1 if it failed.
+</div>
+
+
+
+<dl>
+	<dt>
+		Type
+	</dt>
+	<dd>
+		
+<span class="param-type">number</span>
+
+
+	</dd>
+</dl>
+
+        
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <h4 class="name" id="estimateEmotion"><span class="type-signature"></span>estimateEmotion<span class="signature">(frameWidth, frameHeight, p_imageData, faceData, emotion_probabilites)</span><span class="type-signature"> &rarr; {number}</span></h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Estimates emotion from a facial image.<br/><br/>The function returns estimated probabilities for basic emotions. Prior to using this function, it is necessary to process the facial image or video frame using VisageTracker or VisageDetector. This function estimates emotions for last image processed by <a href="VisageTracker.html#track">VisageTracker.track()</a> or <a href="VisageDetector.html#detectFeatures">VisageDetector.detectFeatures()</a> function.
+    </div>
+    
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>frameWidth</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            
+            
+            <td class="description last">Width of the frame</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>frameHeight</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            
+            
+            <td class="description last">Height of the frame</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>p_imageData</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            
+            
+            <td class="description last">Pointer to image pixel data, size of the array must correspond to frameWidth and frameHeight</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>faceData</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            
+            
+            <td class="description last">FaceData object filled with tracking results from a previous call of the <a href="VisageTracker.html#track">VisageTracker.track()</a> or <a href="VisageDetector.html#detectFeatures">VisageDetector.detectFeatures()</a> function.</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>emotion_probabilites</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type"><a href="VectorFloat.html">VectorFloat</a></span>
+
+
+            
+            </td>
+            
+            
+            
+            
+            
+            <td class="description last">array of 7 floats. If successful, the function will fill this array with estimated probabilities for emotions in this order: anger, disgust, fear, happiness, sadness, surprise and neutral. Each probability will have a value between 0 and 1. Sum of probabilities does not have to be 1.</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dt class="tag-see">See:</dt>
+    <dd class="tag-see">
+        <ul>
+            <li><a href="VectorFloat.html">VectorFloat</a></li>
+        </ul>
+    </dd>
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <h5>Returns:</h5>
+    
+            
+<div class="param-desc">
+    returns 1 if estimation was successful or 0 if estimation was unsuccessful.
+</div>
+
+
+
+<dl>
+	<dt>
+		Type
+	</dt>
+	<dd>
+		
+<span class="param-type">number</span>
+
+
+	</dd>
+</dl>
+
+        
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <h4 class="name" id="estimateAge"><span class="type-signature"></span>estimateAge<span class="signature">(frameWidth, frameHeight, p_imageData, faceData)</span><span class="type-signature"> &rarr; {number}</span></h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Estimates age from a facial image.<br/><br/>The function returns estimated age. Prior to using this function, it is necessary to process the facial image or video frame using VisageTracker. This function estimates age for for last image processed by <a href="VisageTracker.html#track">VisageTracker.track()</a> or <a href="VisageDetector.html#detectFeatures">VisageDetector.detectFeatures()</a> function.
+    </div>
+    
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>frameWidth</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            
+            
+            <td class="description last">Width of the frame</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>frameHeight</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            
+            
+            <td class="description last">Height of the frame</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>p_imageData</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            
+            
+            <td class="description last">Pointer to image pixel data, size of the array must correspond to frameWidth and frameHeight</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>faceData</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            
+            
+            <td class="description last">FaceData object filled with tracking results from a previous call of the <a href="VisageTracker.html#track">VisageTracker.track()</a> or <a href="VisageDetector.html#detectFeatures">VisageDetector.detectFeatures()</a> function.</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <h5>Returns:</h5>
+    
+            
+<div class="param-desc">
+    returns estimated age if estimation was successful or -1 if it failed.
+</div>
+
+
+
+<dl>
+	<dt>
+		Type
+	</dt>
+	<dd>
+		
+<span class="param-type">number</span>
+
+
+	</dd>
+</dl>
+
+        
+    
+    
+</dd>
+
+        </dl>
+    
+    
+    
+    
+    
+</article>
+
+</section>  
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Index</a></h2><h3>Classes</h3><ul><li><a href="FaceData.html">FaceData</a></li><li><a href="ScreenSpaceGazeData.html">ScreenSpaceGazeData</a></li><li><a href="VectorFloat.html">VectorFloat</a></li><li><a href="VectorInt.html">VectorInt</a></li><li><a href="VectorShort.html">VectorShort</a></li><li><a href="VectorString.html">VectorString</a></li><li><a href="VisageFaceAnalyser.html">VisageFaceAnalyser</a></li><li><a href="FeaturePoint.html">FeaturePoint</a></li><li><a href="FDP.html">FDP</a></li><li><a href="VisageDetector.html">VisageDetector</a></li><li><a href="FaceDataVector.html">FaceDataVector</a></li><li><a href="VSRectVector.html">VSRectVector</a></li><li><a href="VSRect.html">VSRect</a></li><li><a href="VisageGazeTracker.html">VisageGazeTracker</a></li><li><a href="VisageFaceRecognition.html">VisageFaceRecognition</a></li><li><a href="VisageTracker.html">VisageTracker</a></li><li><a href="VisageAR.html">VisageAR</a></li></ul><h3>Global</h3><ul><li><a href="global.html#FP_START_GROUP_INDEX">FP_START_GROUP_INDEX</a></li><li><a href="global.html#FP_END_GROUP_INDEX">FP_END_GROUP_INDEX</a></li><li><a href="global.html#FP_NUMBER_OF_GROUPS">FP_NUMBER_OF_GROUPS</a></li><li><a href="global.html#initializeLicenseManager">initializeLicenseManager</a></li><li><a href="global.html#VisageTrackerStatus">VisageTrackerStatus</a></li><li><a href="global.html#VisageTrackerImageFormat">VisageTrackerImageFormat</a></li></ul>
+</nav>
+
+<br clear="both">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.2.0</a> on Wed Apr 05 2017 16:09:11 GMT+0200 (CEST)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

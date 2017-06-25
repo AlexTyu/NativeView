@@ -1878,6 +1878,736 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/lib\/doc\/css\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/css\/main-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/lib\/doc\/doc.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/doc.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/doc\/Candide3VerticesAndTriangles.png": {
+		"ft": 32768,
+		"iS": 140860,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/doc\/Candide3VerticesAndTriangles.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/lib\/doc\/doc\/modeling_guide.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/doc\/modeling_guide.pdf",
+		"oF": 0
+		},
+	"\/lib\/doc\/doc\/MPEG-4 FBA Overview.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/doc\/MPEG-4 FBA Overview.pdf",
+		"oF": 0
+		},
+	"\/lib\/doc\/doc\/VisageTracker Configuration Manual.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/doc\/VisageTracker Configuration Manual.pdf",
+		"oF": 0
+		},
+	"\/lib\/doc\/eyewear.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/eyewear.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/eyewear_model_guide.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/eyewear_model_guide.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/FaceData.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/FaceData.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/FaceData.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/FaceData.js.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/FaceDataVector.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/FaceDataVector.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/facedetector.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/facedetector.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/facetracker.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/facetracker.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/FDP.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/FDP.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/FDP.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/FDP.js.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/FeaturePoint.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/FeaturePoint.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/gazetracker.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/gazetracker.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/global.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/global.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/header.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/header.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/images\/barb_facetrack.png": {
+		"ft": 32768,
+		"iS": 489794,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/barb_facetrack.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/beat_facedetect.png": {
+		"ft": 32768,
+		"iS": 574824,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/beat_facedetect.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/Candide3VerticesAndTriangles.png": {
+		"ft": 32768,
+		"iS": 956129,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/Candide3VerticesAndTriangles.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/coord-camera.png": {
+		"ft": 32768,
+		"iS": 84064,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/coord-camera.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/coord-rotation-eye.png": {
+		"ft": 32768,
+		"iS": 63200,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/coord-rotation-eye.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/coord-rotation.png": {
+		"ft": 32768,
+		"iS": 63311,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/coord-rotation.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/coord2.png": {
+		"ft": 32768,
+		"iS": 59557,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/coord2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/coord3.png": {
+		"ft": 32768,
+		"iS": 147367,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/coord3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/folder-closed.jpg": {
+		"ft": 16384,
+		"iS": 634,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/folder-closed.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/folder-open.jpg": {
+		"ft": 16384,
+		"iS": 622,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/folder-open.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/glass_no_oclussion.jpg": {
+		"ft": 16384,
+		"iS": 50006,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/glass_no_oclussion.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/half_profile_physical_2d.png": {
+		"ft": 32768,
+		"iS": 98661,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/half_profile_physical_2d.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/html5.png": {
+		"ft": 32768,
+		"iS": 2107,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/html5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/logo.png": {
+		"ft": 32768,
+		"iS": 7382,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/mpeg-4_fba.png": {
+		"ft": 32768,
+		"iS": 113699,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/mpeg-4_fba.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/occlude_ears_correct.jpg": {
+		"ft": 16384,
+		"iS": 42144,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/occlude_ears_correct.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/occlude_ears_wrong.jpg": {
+		"ft": 16384,
+		"iS": 40191,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/occlude_ears_wrong.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/occlude_head_correct.jpg": {
+		"ft": 16384,
+		"iS": 68375,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/occlude_head_correct.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/occlude_head_narrow.jpg": {
+		"ft": 16384,
+		"iS": 71066,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/occlude_head_narrow.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/occlude_head_wide.jpg": {
+		"ft": 16384,
+		"iS": 70642,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/occlude_head_wide.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/occlude_nose_correct.jpg": {
+		"ft": 16384,
+		"iS": 71561,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/occlude_nose_correct.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/occlude_nose_narrow.jpg": {
+		"ft": 16384,
+		"iS": 70796,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/occlude_nose_narrow.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/occlude_nose_wide.jpg": {
+		"ft": 16384,
+		"iS": 70016,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/occlude_nose_wide.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/occluder_final.jpg": {
+		"ft": 16384,
+		"iS": 55416,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/occluder_final.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/occluder_wireframe.jpg": {
+		"ft": 16384,
+		"iS": 61632,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/occluder_wireframe.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/open_folder.png": {
+		"ft": 32768,
+		"iS": 4219,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/open_folder.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/open_project_folder.png": {
+		"ft": 32768,
+		"iS": 1341,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/open_project_folder.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/open_source_folder.png": {
+		"ft": 32768,
+		"iS": 1381,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/open_source_folder.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/run_sample.png": {
+		"ft": 32768,
+		"iS": 2339,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/run_sample.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/user_manual.png": {
+		"ft": 32768,
+		"iS": 2119,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/user_manual.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/using_app.jpg": {
+		"ft": 16384,
+		"iS": 52629,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/using_app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/using_app_facedetect.png": {
+		"ft": 32768,
+		"iS": 253589,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/using_app_facedetect.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/using_app_facetrack.jpg": {
+		"ft": 16384,
+		"iS": 48610,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/using_app_facetrack.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/lib\/doc\/images\/vet-geometry.jpg": {
+		"ft": 16384,
+		"iS": 25856,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/images\/vet-geometry.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/lib\/doc\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/index.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/index_api.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/index_api.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/license.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/license.txt",
+		"oF": 0
+		},
+	"\/lib\/doc\/licensing.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/licensing.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/migration.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/migration.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/navi.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/navi.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/references.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/references.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/samples.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/samples.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/ScreenSpaceGazeData.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/ScreenSpaceGazeData.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/scripts\/linenumber.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/scripts\/linenumber-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/lib\/doc\/scripts\/prettify\/Apache-License-2.0.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/scripts\/prettify\/Apache-License-2.0.txt",
+		"oF": 0
+		},
+	"\/lib\/doc\/scripts\/prettify\/lang-css.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/scripts\/prettify\/lang-css-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/lib\/doc\/scripts\/prettify\/prettify.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/scripts\/prettify\/prettify-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/lib\/doc\/showcase.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/showcase.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/styles\/jsdoc-default.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/styles\/jsdoc-default-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/lib\/doc\/styles\/prettify-jsdoc.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/styles\/prettify-jsdoc-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/lib\/doc\/styles\/prettify-tomorrow.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/lib\/doc\/styles\/prettify-tomorrow-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/lib\/doc\/usingsdk.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/usingsdk.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/VectorFloat.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/VectorFloat.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/VectorInt.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/VectorInt.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/VectorShort.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/VectorShort.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/VectorString.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/VectorString.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/VisageAR.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/VisageAR.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/visageAR.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/visageAR.js.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/VisageDetector.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/VisageDetector.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/VisageFaceAnalyser.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/VisageFaceAnalyser.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/VisageFaceAnalyser.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/VisageFaceAnalyser.js.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/VisageFaceRecognition.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/VisageFaceRecognition.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/VisageFaceRecognition.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/VisageFaceRecognition.js.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/VisageFeaturesDetector.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/VisageFeaturesDetector.js.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/VisageGazeTracker.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/VisageGazeTracker.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/VisageGazeTracker.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/VisageGazeTracker.js.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/VisageTracker Configuration Manual.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/VisageTracker Configuration Manual.pdf",
+		"oF": 0
+		},
+	"\/lib\/doc\/VisageTracker.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/VisageTracker.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/VisageTracker.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/VisageTracker.js.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/visar_api.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/visar_api.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/VSRect.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/VSRect.html",
+		"oF": 0
+		},
+	"\/lib\/doc\/VSRectVector.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/doc\/VSRectVector.html",
+		"oF": 0
+		},
 	"\/lib\/Face Detector.cfg": {
 		"ft": 8192,
 		"oA": 2,

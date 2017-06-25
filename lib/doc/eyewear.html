@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Introduction</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1>Virtual Eyewear Try-on sample project</h1>
+<p>
+Virtual Eyewear Try-on sample uses the <a href="visar_api.html"><em>VisageAR</em></a> API to implement a simple augmented reality application for virtual try-on of eyeglasses.
+</p>
+
+<h2>Installing and running the project</h2>
+
+<p>
+The project must be installed on a web server in order to run (it can not run from a local disk). For a quick trial from Visage Technologies web server, click 
+<a href="https://visagetechnologies-com.loopiasecure.com/HTML5/beta/Samples/VirtualEyewearTryOn/eyewear.html" target="_blank">here</a>.
+</p>
+<p>
+To install the application on your own web server, upload folders lib and Samples to your web server. To run the application access the Samples/FaceTracker/sampleTracker.html page via a web browser.
+</p>
+<p>
+Application will give licensing warning and will be limited to one minute. To remove this limitation:  
+<ol>
+<li>Contact your Visage Technologies contact person in order to obtain a license key.</li>
+<li>Copy the obtained license key file into your application folder (e.g. samples/VirtualEyewearTryOn).</li>
+<li>Edit lib/visageAR.js. Uncomment the line Module.initializeLicenseManager("...") and replace the "xxx...xxx.vlc" with the name of your license key file.
+</ol> 
+</p>
+<p>
+For further information please read <a href="licensing.html" target="_blank">licensing</a> section of the documentation.
+</p>
+
+<h2>Using the sample application</h2>
+<ul>
+<li>Running the sample requires a recent browser (tested on Firefox 52 and Chrome 57).</li>
+<li>The SDK needs to download its data files before using the application.</li>
+<li>Allow the site to access your camera by choosing "Allow" in the browser's pop-up bar.</li>
+<li>Look straight at the camera and glasses will appear.</li>
+<p><img src="images/using_app.jpg" alt="Using the application" width="640"></p>
+<li>Other glasses models are chosen using the choice bar.</li>
+<li>Enter inter-pupillary distance in millimetres and press "Change IPD" to influence the tracker z axis translation and 
+calibrate the size of the glasses, so they appear in real-life size with respect 
+to your face.</li>
+</ul> 
+
+<h2>Implementation overview</h2>
+<p>
+Virtual Eyewear Try-on is implemented in HTML and JavaScript using the 
+<a class="el" href="VisageAR.html" title="VisageAR...">VisageAR API</a> for rendering and face tracking. 
+For information on preparing models for use with VisageAR see the <a href="doc/modeling_guide.pdf">AR modelling guide</a>.
+</p>
+</body>
+</html>

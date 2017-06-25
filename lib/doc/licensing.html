@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1>Licensing</h1>
+<p>By having any Visage Technologies Program, or part of it, installed or copied on your computer, you agree to the terms of the <a href="license.txt">Visage Technologies AB Software License Agreement</a>. If you do not agree with these terms, please entirely remove any Visage Technologies Programs from your computer.</p>
+
+<p>This page focuses on technical issues such as obtaining and using the license key files. For detailed commercial conditions please <a href="http://www.visagetechnologies.com/contact/" target="New">contact Visage Technologies</a>.</p>
+
+<p>Applications developed using visage|SDK must be licensed in order to function. Licensing is based on License Key Files. A single License Key File is valid for one or more installations on one or more platforms (operating systems). The License Key File can be opened in a text editor (e.g. Windows Notepad or similar) in order to read the licensing information, but it is important not to change the file in any way as it would become invalid.</p>
+
+<p>Note that you need to obtain a Licence Key File when you want to run any application using visage|SDK for HTML5 on your web server. 
+Without a license key, visage|SDK will display licensing warnings and have limited functionality; specifically, face tracking will 
+stop after one minute and face detection will display results visually but will not return numerical results.
+</p>
+
+
+<h2>Obtaining the License Key File</h2>
+
+<p>For 30-day evaluation, simply send an email request to your Visage Technologies contact person and you will receive a License Key File by email.</p>
+
+<p>If you are purchasing a license, your Visage Technologies
+contact person will deliver your License Key File by email based on your purchase order.</p>
+
+<h2><a class="anchor" id="include_license"></a>Including the License Key File in your application</h2>
+
+<p>Add License Key File to the folder on the server where HTML file is located (for example <em>www\Samples\VirtualEyewearTryOn</em> folder). In your application, you need to call the initialization
+function in order to let the Application read the License Key File. Example how this is done is as follows in your application code:
+<br/>
+
+<pre>
+
+Module.initializeLicenseManager("name-of-the-license-file.vlc");
+
+tracker = new Module.VisageTracker("../../lib/Head_Tracker.cfg");
+
+faceData = new Module.FaceData();
+
+</pre>
+
+<br/>
+where "name-of-the-license-file.vlc" is the name of your License Key File located in the same folder as the main HTML file of application.
+Examples can be found in onModuleInitialized() function in samples for Face Detector (sampleDetector.html ), Face Tracker (sampleTracker.html) and Gaze Tracker (gazeTracker.html) or in VisageAR.initialize(container, video) function for the Virtual Eyewear Try-On sample. 
+
+</p>
+
+
+
+
+
+</body>
+</html>

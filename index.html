@@ -41,21 +41,19 @@
 					load_js();
 
 
-			function timedRefresh(timeoutPeriod) {
-				setTimeout("location.reload();",timeoutPeriod);
-			}
-
-
 			</script>
-			<script id='loadmodule'></script>
-			<script id='facetracker'></script>
+
 
 
 </head>
 <body>
 
 	<div id="toolbar">
+		<span c> Autodesk Fusion: </span>
 		<div class="logo"></div>
+	</div>
+
+	<div id="tools">
 	</div>
 
 	<tracker>
@@ -86,11 +84,10 @@
 
 	<script id="sdk" src="../../lib/visageSDK.js"></script>
 
-	<script id="tracker">
-	</script>
+	<script id='loadmodule'></script>
+	<script id='facetracker'></script>
 
 	<script>
-
 
 	var container, neck, camera, scene, renderer
 
@@ -136,7 +133,7 @@
 	    mesh.material.needsUpdate = true;
 
 			//MODEL HERE
-	    // scene.add(mesh);
+	    scene.add(mesh);
 
 	    }
 
@@ -147,7 +144,7 @@
 	var object = scene.getObjectByName("model");
 
 	// renderer
-	renderer=new THREE.WebGLRenderer({ antialias: true });
+	renderer=new THREE.WebGLRenderer({ alpha: true });
 	renderer.setSize(window.innerWidth, window.innerHeight);
 
 	//appliyng to canvas
@@ -202,13 +199,14 @@
 			// var headPosition = faceData.getFaceTranslation();
 			// var headRoration = faceData.getFaceRotation();
 	    if (camera.flighAround){
-	        // object.rotation.y=r*Math.sin(timer);
+	        object.rotation.y=r*Math.sin(timer);
 	        // camera.position.x=r*Math.cos(timer);
 	        // camera.position.z=r*Math.sin(timer);
 	    }
 	    camera.lookAt(scene.position);
 	    renderer.render(scene, camera);
-	    renderer.setClearColor(0x000000, 1);
+			renderer.setClearColor( 0x000000, 0 ); // the default
+
 
 		// camera.position.x=100 - headPosition[2]*300;
 		// object.rotation.x =  -headRotation[0];
@@ -245,56 +243,124 @@
 	// }
 
 	function streamData(Data){
-		var text = document.getElementById('gaze');
-		var pointer = document.getElementById('pointer');
-		var faceData = Data;
-		var screenGazeData = faceData.gazeData;
-		var gaze = faceData.getGazeDirectionGlobal();
-		var gazeX = window.innerWidth / 2;
-		var gazeY = window.innerHeight / 2;
-		var transformY = (gaze[0]*3) * gazeY;
-		var transformX = (gaze[1]*2) * gazeX;
-		text.innerHTML = gaze[0] + '<br>' + gaze[1] + '<br>' + gaze[2];
-		pointer.style.transform = 'translate3d('+ -transformX + 'px,' + transformY + 'px,0)'
+
+		if (settings.gazetracking){
+			var text = document.getElementById('metrics');
+			var pointer = document.getElementById('pointer');
+			var faceData = Data;
+			var screenGazeData = faceData.gazeData;
+			var gaze = faceData.getGazeDirectionGlobal();
+			var gazeX = window.innerWidth / 2;
+			var gazeY = window.innerHeight / 2;
+			var transformY = (gaze[0]*3) * gazeY;
+			var transformX = (gaze[1]*2) * gazeX;
+			text.innerHTML = gaze[0] + '<br>' + gaze[1] + '<br>' + gaze[2];
+			pointer.style.transform = 'translate3d('+ -transformX + 'px,' + transformY + 'px,0)';
+			}
 	}
 
+
 	var settings = function() {
-		this.autoreload = true;
+		this.autoreload = false;
+		this.facetracking = false;
+		this.gazetracking = false;
+		this.webcamera = false;
+		this.webcamera.fullscreen = false;
+		this.webcamera.opacity = 0.5;
+	};
+
+	var webcamera = function() {
+		this.status = true;
+		this.fullscreen = false;
+		this.opacity = 0.5;
 	};
 
 	var settings = new settings();
 
-	pageautoRefresh();
-	function pageautoRefresh(){
-		if (settings.autoreload){
-				window.onload = timedRefresh(60000);
-				console.log('da')
-		} else {
-				window.onload = timedRefresh(6000000);
-				console.log('ne')
-		}
-	}
 
 
-	var reloader = { add:function(){ console.log("clicked") }};
+
+	var reloader = { reload:function(){ location.reload(); }};
+
 
 	var gui = new dat.GUI({autoPlace: false});
-	var guiContainer = document.getElementById('toolbar');
+	var guiContainer = document.getElementById('tools');
 	guiContainer.appendChild(gui.domElement);
 
 
+	///SETTINGS
 	var firstTab = gui.addFolder("Settings");
-	firstTab.add(reloader,'add');
+	firstTab.add(reloader,'reload');
 
 	var autoreloadController = firstTab.add(settings, 'autoreload');
 	autoreloadController.onChange(function(value) {
 		pageautoRefresh()
 	});
 
+	function pageautoRefresh(){
+		if (settings.autoreload){
+				setTimeout("location.reload();",60000);
+				console.log('autoreload is on')
+		} else {
+				setTimeout("location.reload();",6000000);
+				console.log('autoreload is off')
+		}
+	}
+	pageautoRefresh();
+
+
 	firstTab.open();
+
+
+
+
+ ///COMPUTER VISION
+	var visionFolder = gui.addFolder("Computer Vision");
+
+	var headTrackingController = visionFolder.add(settings, 'facetracking');
+	headTrackingController.onChange(function(value) {
+		useHeadTrackig()
+	});
+
+	var gazeTrackingController = visionFolder.add(settings, 'gazetracking');
+	gazeTrackingController.onChange(function(value) {
+		useGazeTrackig()
+	});
+
+	// var webCameraController = visionFolder.add(webcamera, 'status');
+	// webCameraController.onChange(function(value) {
+	// 	useWebCamera()
+	// });
+
+	function useHeadTrackig(){
+		if (settings.facetracking){
+			console.log('facetracking is on');
+			StartTracker();
+		} else {
+			console.log('facetracking is off');
+			StopTracker();
+		}
+	}
+	useHeadTrackig();
+
+	function useGazeTrackig(){
+		if (settings.gazetracking){
+			console.log('Gazetracking is on');
+			// StartTracker();
+		} else {
+			console.log('Gazetracking is off');
+			// StopTracker();
+		}
+	}
+	useGazeTrackig();
+
+
+	visionFolder.open();
+
 
 	// var headRotation = faceData.getFaceRotation();
 	// console.log(headRotation)
+
 
 	var cameraFolder = gui.addFolder("Camera");
 	    cameraFolder.add(camera.position, "x", 0, 150);
@@ -305,7 +371,6 @@
 			cameraFolder.add(camera.rotation, "y", 0, 6.27);
 			cameraFolder.add(camera.rotation, "z", 0, 6.27);
 
-	var appearanceFolder = gui.addFolder("Headtracking");
 	var objectBehaviour = gui.addFolder("Object Behavior");
 
 	var EnvironmentFolder = gui.addFolder("Environment");
@@ -321,7 +386,7 @@
 
 	</script>
 
-	<div id="gaze" style="position: absolute; top: 0; left: 0; color: white">lol</div>
+	<div id="metrics">No metrics selected</div>
 	<div id="pointer" style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; margin: auto; width: 30px; height: 30px; border-radius: 100px; background: red; z-index: 100;"></div>
 
 </body>

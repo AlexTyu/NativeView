@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: doc/HTML5/embind/VisageTracker.js</title>
+    
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+    
+    <h1 class="page-title">Source: doc/HTML5/embind/VisageTracker.js</h1>
+    
+    
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source"><code>
+/** VisageTracker is a face tracker capable of tracking the head pose, facial features and gaze for multiple faces in video coming from a video file, camera or other sources.
+* &lt;br/>&lt;br/>
+* The tracker is fully configurable through comprehensive tracker configuration files. visage|SDK contains optimal configurations for common uses such as head tracking and facial features tracking.
+* Please refer to the &lt;a href="doc/VisageTracker Configuration Manual.pdf">VisageTracker Configuration Manual&lt;/a> for the list of available configurations.
+* &lt;br/>&lt;br/>
+* The &lt;a href="doc/VisageTracker Configuration Manual.pdf">VisageTracker Configuration Manual&lt;/a> provides full detail
+* on all available configuration options, allowing to customize the tracker in terms of performance, quality, tracked features, range
+* of tracked facial actions and other options and produce in effect a variety of different trackers suited for specific applications.
+* &lt;br/>&lt;br/>
+* The tracker offers the following outputs, available through {@link FaceData}:
+* &lt;ul>
+* &lt;li>3D head pose&lt;/li>
+* &lt;li>facial expression&lt;/li>
+* &lt;li>gaze information&lt;/li>
+* &lt;li>eye closure&lt;/li>
+* &lt;li>facial feature points&lt;/li>
+* &lt;li>full 3D face model, textured&lt;/li>
+* &lt;/ul>
+* &lt;br/>
+* The tracker can apply a smoothing filter to tracking results to reduce the inevitable tracking noise. Smoothing factors 
+* are adjusted separately for different parts of the face. The smoothing settings 
+* in the supplied tracker configurations are adjusted conservatively to avoid delay in tracking response, yet provide 
+* reasonable smoothing. For further details please see the smoothing_factors parameter array in the 
+* &lt;a href="doc/VisageTracker Configuration Manual.pdf">VisageTracker Configuration Manual&lt;/a>.
+* &lt;br/>&lt;br/>
+* Frames (images) need to be passed sequentially to the {@link VisageTracker#track|track()} method, which immediately returns results for the given frame.
+* &lt;br/>&lt;br/>
+* The tracker requires, by default, data and configuration files bundled in visageSDK.data file located in www/Samples/FaceTracker folder. 
+* &lt;b>For every application, visageSDK.data file must be copied to the same folder
+* where the application's main html file is located&lt;/b> (e.g. Samples/VirtualEyewearTryOn folder).
+* &lt;br/>&lt;br/>
+* &lt;b>Changing the location of the .data file&lt;/b>
+* &lt;br/>
+* Location of the .data file can be changed by overriding the &lt;i>locateFile&lt;/i> attribute of the Module object to return the URL where the data file is currently stored.
+* This additional code needs to be added to the application's main html file and the Module' attribute must be specified in a script element before the one that loads the data file (in this case visageSDK.js). 
+* &lt;br/>&lt;br/>
+* Sample usage - changing .data file location:
+* &lt;br/>
+* &lt;pre class="prettyprint source">&lt;code>
+* 
+* &lt;script>
+* var Module = {
+*  'locateFile':  function(dataFileName) {var fullPath = "http://localhost/www.visagetechnologies.com/Samples/" + dataFileName; return fullPath}
+* };
+* &lt;/script>
+* &lt;script src="../../lib/visageSDK.js">&lt;/script>
+*
+* &lt;/code>&lt;/pre>
+* &lt;br/>
+* &lt;br/>&lt;br/>
+
+* &lt;b>Download complete callback&lt;/b>
+* &lt;br/>
+* visage|SDK calls a method when all the data has been downloaded from the server and when the tracker is ready to start tracking. 
+* To take specific action at that time a method named "callbackDownload" must be implemented in 
+* the global scope (e.g in the main application's html file).
+* &lt;br/>&lt;br/>
+* Sample usage - enabling buttons:
+* &lt;br/>
+* &lt;pre class="prettyprint source">&lt;code>
+* 
+* function callbackDownload(){
+*	var btnStart = document.getElementById('buttonStart');
+*	var btnDraw = document.getElementById('buttonTDraw');
+*	btnStart.disabled = false;
+*	btnDraw.disabled = false;
+* }
+*
+* &lt;/code>&lt;/pre>
+* &lt;br/>
+* @constructor
+* @param {string} configurationName - the name of the tracker configuration file (.cfg; default configuration files are provided in lib folder; 
+* for further details see &lt;a href="doc/VisageTracker Configuration Manual.pdf">VisageTracker Configuration Manual&lt;/a>). 
+*/
+function VisageTracker()
+{
+	/**
+	* Performs face tracking in the given image and returns tracking results and status.
+	* This function should be called repeatedly on a series of images in order to perform continuous tracking.
+	* &lt;br/>&lt;br/>
+	* If the tracker needs to be initialized, this will be done automatically before tracking is performed on the given image. 
+	* Initialization means loading the tracker configuration file, required data files and allocating various data buffers to the given image size. 
+	* This operation may take several seconds.
+	* This happens in the following cases:
+	* &lt;br/>&lt;br/>
+	* &lt;ul>
+	* &lt;li>In the first frame (first call to {@link VisageTracker#track|VisageTracker.track()} function).&lt;br/>
+	* &lt;/li>&lt;br/>
+	* &lt;li>When frameWidth or frameHeight are changed, i.e. when they are different from the ones used in the last call 
+	* to {@link VisageTracker#track|VisageTracker.track()} function.&lt;br/>
+	* &lt;/li>&lt;br/>
+	* &lt;li>If {@link VisageTracker#setTrackerConfigurationFile|setTrackerConfigurationFile()} function was called after the last call
+	* to {@link VisageTracker#track|VisageTracker.track()} function.&lt;br/>
+	* &lt;/li>&lt;br/>
+	* &lt;li>When maxFaces is changed, i.e. when it its different from the one used in the last call to {@link VisageTracker#track|track()} function.&lt;br/>
+	* &lt;/li>&lt;br/>
+	* &lt;/ul>
+	* &lt;br/>
+	* Sample usage:
+	* &lt;br/>
+	* &lt;pre class="prettyprint source">&lt;code>
+	* var m_Tracker,
+	*     faceData,
+	*     faceDataArray,
+	*     frameWidth,
+	*     frameHeight;
+	*
+	* function initialize(){
+	*     //Initialize licensing with the obtained license key file
+	*     //It is imperative that initializeLicenseManager method is called before the constructor is called in order for licensing to work
+	*     Module.initializeLicenseManager("xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx.vlc");
+	*     //Instantiate the tracker object
+	*     m_Tracker = new Module.Tracker("../../lib/Facial Features Tracker - High.cfg");
+	*     //Instantiate the face data object
+	*     faceDataArray = new Module.FaceDataVector();
+	*     faceData = new Module.FaceData();
+	*     faceDataArray.push_back(faceData);
+	*     
+	*     frameWidth = canvas.width;
+	*     frameHeight = canvas.height;
+	*
+	*     //Allocate memory for image data
+	*     ppixels = Module._malloc(mWidth*mHeight*4);
+	*     //Create a view to the memory
+	*     pixels = new Uint8ClampedArray(Module.HEAPU8.buffer, ppixels, mWidth*mHeight*4);
+	*     
+	* }
+	* function onEveryFrame(){
+	*     //Obtain the image pixel data
+	*     var imageData = canvas.getContext('2d').getImageData(0,0, mWidth, mHeight).data;
+	*     //...Fill pixels with image data
+	*     //Call the tracking method of the tracker object with 4 parameters: image width, image height, image pixel data and face data object instance
+	*     var trackerStatus = new Module.VectorFloat();
+	*     trackerStatus = m_Tracker.track(
+	*           frameWidth, frameHeight, ppixels, faceDataArray,
+	*           Module.VisageTrackerImageFormat.VISAGE_FRAMEGRABBER_FMT_RGBA.value,
+	*           Module.VisageTrackerOrigin.VISAGE_FRAMEGRABBER_ORIGIN_TL.value
+	*           );
+	*     //Based on the tracker return value do some action with the return values located in face data object instance
+	*     if (trackerStatus.get(0) === Module.VisageTrackerStatus.TRACK_STAT_OK.value){
+	*          drawSomething(faceDataArray.get(0));
+	*     }    
+	* }
+	* 
+	* &lt;/code>&lt;/pre>
+	* &lt;br/>&lt;br/>
+	* The tracker results are returned in faceDataArray.
+	* &lt;br/>
+	* @param {number} frameWidth - Width of the frame.
+	* @param {number} frameHeight - Height of the frame.
+	* @param {number} p_imageData - Pointer to image pixel data, size of the array must correspond to frameWidth and frameHeight.
+	* @param {FaceDataVector} faceDataArray - Array of {@link FaceData|FaceData} objects that will receive the tracking results. The size of the faceDataArray is equal to maxFaces parameter.
+	* @param {number} [format=Module.VISAGE_FRAMEGRABBER_FMT_RGB] - Format of input images passed in p_imageData. It can not change during tracking. Format can be one of the following:&lt;br/>
+	* - Module.VISAGE_FRAMEGRABBER_FMT_RGB: each pixel of the image is represented by three bytes representing red, green and blue channels, respectively.&lt;br/>
+	* - Module.VISAGE_FRAMEGRABBER_FMT_BGR: each pixel of the image is represented by three bytes representing blue, green and red channels, respectively.&lt;br/>
+	* - Module.VISAGE_FRAMEGRABBER_FMT_RGBA: each pixel of the image is represented by four bytes representing red, green, blue and alpha (ignored) channels, respectively.&lt;br/>
+	* - Module.VISAGE_FRAMEGRABBER_FMT_BGRA: each pixel of the image is represented by four bytes representing blue, green, red and alpha (ignored) channels, respectively.&lt;br/>
+	* - Module.VISAGE_FRAMEGRABBER_FMT_LUMINANCE: each pixel of the image is represented by one byte representing the luminance (gray level) of the image.
+	* @param {number} [origin=Module.VISAGE_FRAMEGRABBER_ORIGIN_TL] - Origin of input images that will be passed in p_imageData. It can not change during tracking. Format can be one of the following:&lt;br/>
+	* - VISAGE_FRAMEGRABBER_ORIGIN_TL: Origin is the top left pixel of the image. Pixels are ordered row-by-row starting from top left.&lt;br/>
+	* - VISAGE_FRAMEGRABBER_ORIGIN_BL: Origin is the bottom left pixel of the image. Pixels are ordered row-by-row starting from bottom left.
+	* @param {number} [widthStep=0] - Width of the image data buffer, in bytes.
+	* @param {number} [timeStamp=-1] - The timestamp of the the input frame. The passed value will be returned with the tracking data for that frame ({@link FaceData#timeStamp|FaceData.timeStamp}). 
+	* Alternatively, the value of -1 can be passed, in which case the tracker will return time, in milliseconds, measured from the moment when tracking started.
+	* @param {number} [maxFaces=1] - Maximum number of faces that will be tracked. Increasing this parameter will reduce tracking speed.
+	* @returns {VectorInt} array of tracking statuses for each of the tracked faces - see {@link FaceData} for more details
+	* @defaultvalue
+	*/
+	this.track = function(frameWidth, frameHeight, p_imageData, faceDataVector, format, origin, widthStep, timeStamp, maxFaces){};
+
+
+	/** 
+	* Set configuration file name.
+	* &lt;br/>&lt;br/>
+	* TThe tracker configuration file name and other configuration parameters are set and will be used for the next tracking session (i.e. when {@link VisageTracker#track|track()}) is called). Default configuration files 
+	* (.cfg) are provided in the /lib folder.
+	* Please refer to the  &lt;a href="doc/VisageTracker Configuration Manual.pdf">VisageTracker Configuration Manual&lt;/a> for further details on using the configuration files and all configurable options.
+	* @param {string} trackerConfigFile - Name of the tracker configuration file.
+	* @param {boolean} [au_fitting_disabled=false] - Disables the use of the 3D model used to estimate action units (au_fitting_model configuration parameter).
+	* @param {boolean} [mesh_fitting_disabled=false] - Disables the use of the fine 3D mesh (mesh_fitting_model configuration parameter).
+	* &lt;br/>&lt;br/>
+	*/
+	this.setTrackerConfigurationFile = function(trackerConfigFile, au_fitting_disabled, mesh_fitting_disabled){};
+
+
+	/** 
+	* Sets the inter pupillary distance
+	* &lt;br/>&lt;br/>
+	* Inter pupillary distance (IPD) is used by the tracker to estimate the distance of the face from the camera. 
+	* By default, IPD is set to 0.065 (65 millimetres) which is considered average. If the actual IPD of the tracked person is known, this function can be used to set the IPD. 
+	* As a result, the calculated distance from the camera will be accurate (as long as the camera focal length is also set correctly).
+	* This is important for applications that require accurate distance. For example, in Augmented Reality applications 
+	* objects such as virtual eyeglasses can be rendered at appropriate distance and will thus appear in the image with real-life scale.
+	* &lt;br/>&lt;br/>
+	* @param {number} IPD - The inter pupillary distance (IPD) in meters.
+	* &lt;br/>&lt;br/>
+	* @see {@link VisageTracker#getIPD|getIPD()}
+	*/
+	this.setIPD = function(IPD){};
+
+
+	/** 
+	* Returns the current inter pupillary distance (IPD) setting.
+	* &lt;br/>&lt;br/>
+	* IPD setting is used by the tracker to estimate the distance of the face from the camera. See setIPD() for further details.
+	* @returns {number} current setting of inter pupillary distance (IPD) in meters.
+	* &lt;br/>&lt;br/>
+	* @see {@link VisageTracker#setIPD|setIPD()}
+	*/
+	this.getIPD = function(){};
+
+
+	/** 
+	* Reset tracking
+	* &lt;br/>&lt;br/>
+	* Resets the tracker. Tracker will reinitialise with the next call of {@link VisageTracker#track|track()} function.
+	* &lt;br/>&lt;br/>
+	*/
+	this.reset = function(){};
+
+
+	/** 
+	* Stops the tracking
+	* &lt;br/>&lt;br/>
+	*/
+	this.stop = function(){};
+}
+
+/**
+* Initializes licensing manager.
+* &lt;br/>&lt;br/>
+* Must be called before the constructor of either {@link VisageTracker}, {@link VisageDetector}, {@link VisageGazeTracker}, {@link VisageFaceAnalyser} or {@link VisageFaceRecognition}. Provided license key will be loaded via HTTP request.
+* &lt;br/>&lt;br/>
+* In case of multiple licenses call the function multiple times providing different license keys.
+* &lt;br/>&lt;br/>
+* Relative paths are also supported. Working folder being the folder where the main application html file is located.
+* &lt;br/>&lt;br/>
+* Sample usage:
+* &lt;br/>
+* &lt;pre class="prettyprint source">&lt;code>
+*
+*   //set up tracker and licensing, valid license needs to be provided
+*   Module.initializeLicenseManager("xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx.vlc");
+*   m_Tracker = new Module.VisageTracker("../../lib/Facial Features Tracker - High.cfg");
+*   m_Detector = new Module.VisageDetector();
+*   faceData = new Module.FaceData();
+*
+* &lt;/code>&lt;/pre>
+* &lt;br/>
+* @param {string} licenseKeyFileName - Name of the licensing file.
+*/
+this.initializeLicenseManager = function(licenseKeyFileName){};
+
+/**
+ * Helper class for visage tracker status.
+ * &lt;br/>&lt;br/>
+ * Sample usage:
+ * &lt;br/>
+ * &lt;pre class="prettyprint source">&lt;code>
+ *
+ * if (trackerReturnState===Module.VisageTrackerStatus.TRACK_STAT_OK.value)
+ * {
+ *   // Draw feature points
+ * }
+ *
+ * &lt;/code>&lt;/pre>
+ * &lt;br/>
+ * @enum {number}
+ * @see {@link VisageTracker#track|track()}
+ */
+var VisageTrackerStatus = {
+	TRACK_STAT_OFF: 0,
+	TRACK_STAT_OK: 1,
+	TRACK_STAT_RECOVERING: 2,
+	TRACK_STAT_INIT: 3
+};
+
+/**
+ * Helper class for visage tracker image format passed as a parameter to {@link VisageTracker#track|track()} function.
+ * &lt;br/>&lt;br/>
+ * Sample usage:
+ * &lt;br/>
+ * &lt;pre class="prettyprint source">&lt;code>
+ *
+ * trackerReturnState = m_Tracker.track(
+ *      mWidth, mHeight, ppixels, faceData,
+ *      Module.VisageTrackerImageFormat.VISAGE_FRAMEGRABBER_FMT_RGBA.value,
+ *      Module.VisageTrackerOrigin.VISAGE_FRAMEGRABBER_ORIGIN_TL.value
+ *      );
+ *
+ * &lt;/code>&lt;/pre>
+ * &lt;br/>
+ * @enum {number}
+ * @see {@link VisageTracker#track|track()}
+ */
+var VisageTrackerImageFormat = {
+	VISAGE_FRAMEGRABBER_FMT_RGB: 0,
+	VISAGE_FRAMEGRABBER_FMT_BGR: 1,
+	VISAGE_FRAMEGRABBER_FMT_LUMINANCE: 2,
+	VISAGE_FRAMEGRABBER_FMT_RGBA: 3,
+	VISAGE_FRAMEGRABBER_FMT_BGRA: 4
+};
+
+/**
+ * Helper class for visage tracker origin passed as a parameter to {@link VisageTracker#track|track()} function.
+ * &lt;br/>&lt;br/>
+ * Sample usage:
+ * &lt;br/>
+ * &lt;pre class="prettyprint source">&lt;code>
+ *
+ * trackerReturnState = m_Tracker.track(
+ *      mWidth, mHeight, ppixels, faceData,
+ *      Module.VisageTrackerImageFormat.VISAGE_FRAMEGRABBER_FMT_RGBA.value,
+ *      Module.VisageTrackerOrigin.VISAGE_FRAMEGRABBER_ORIGIN_TL.value
+ *      );
+ *
+ * &lt;/code>&lt;/pre>
+ * &lt;br/>
+ * @enum {number}
+ * @see {@link VisageTracker#track|track()}
+ */
+var VisageTrackerImageFormat = {
+	VISAGE_FRAMEGRABBER_ORIGIN_TL: 0,
+	VISAGE_FRAMEGRABBER_ORIGIN_BL: 1
+};</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Index</a></h2><h3>Classes</h3><ul><li><a href="FaceData.html">FaceData</a></li><li><a href="ScreenSpaceGazeData.html">ScreenSpaceGazeData</a></li><li><a href="VectorFloat.html">VectorFloat</a></li><li><a href="VectorInt.html">VectorInt</a></li><li><a href="VectorShort.html">VectorShort</a></li><li><a href="VectorString.html">VectorString</a></li><li><a href="VisageFaceAnalyser.html">VisageFaceAnalyser</a></li><li><a href="FeaturePoint.html">FeaturePoint</a></li><li><a href="FDP.html">FDP</a></li><li><a href="VisageDetector.html">VisageDetector</a></li><li><a href="FaceDataVector.html">FaceDataVector</a></li><li><a href="VSRectVector.html">VSRectVector</a></li><li><a href="VSRect.html">VSRect</a></li><li><a href="VisageGazeTracker.html">VisageGazeTracker</a></li><li><a href="VisageFaceRecognition.html">VisageFaceRecognition</a></li><li><a href="VisageTracker.html">VisageTracker</a></li><li><a href="VisageAR.html">VisageAR</a></li></ul><h3>Global</h3><ul><li><a href="global.html#FP_START_GROUP_INDEX">FP_START_GROUP_INDEX</a></li><li><a href="global.html#FP_END_GROUP_INDEX">FP_END_GROUP_INDEX</a></li><li><a href="global.html#FP_NUMBER_OF_GROUPS">FP_NUMBER_OF_GROUPS</a></li><li><a href="global.html#initializeLicenseManager">initializeLicenseManager</a></li><li><a href="global.html#VisageTrackerStatus">VisageTrackerStatus</a></li><li><a href="global.html#VisageTrackerImageFormat">VisageTrackerImageFormat</a></li></ul>
+</nav>
+
+<br clear="both">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.2.0</a> on Wed Apr 05 2017 16:09:11 GMT+0200 (CEST)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

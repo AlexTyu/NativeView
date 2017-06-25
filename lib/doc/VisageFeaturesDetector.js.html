@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: doc/HTML5/embind/VisageFeaturesDetector.js</title>
+    
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+    
+    <h1 class="page-title">Source: doc/HTML5/embind/VisageFeaturesDetector.js</h1>
+    
+    
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source"><code>
+/**
+* Faces and facial features detector implementation.
+* &lt;br/>&lt;br/>
+* This class detects one or more faces and their facial features in an image. The input is image data and image descriptors (image width, image height, ...). 
+* The results are, for each detected face, the 3D head pose, the coordinates of facial feature points, e.g. chin tip, nose tip, lip corners etc. and 3D face model fitted to the face.
+* The results are returned in one or more FaceData objects, one for each detected face. Please refer to the FaceData documentation for detailed description of returned data.
+* &lt;br/>&lt;br/>
+* VisageDetector uses Face Detector.cfg configuration file located in /lib folder.
+* &lt;br/>&lt;br/>
+* Detector requires data and configuration files bundled in visageSDK.data file located in www/Samples/FaceTracker folder. &lt;b>For every application, visageSDK.data file must be copied to the same folder
+* where the application's main html file is located&lt;/b> (e.g. Samples/VirtualEyewearTryOn folder).
+* &lt;br/>&lt;br/>
+* &lt;b>Download complete callback&lt;/b>
+* &lt;br/>
+* visage|SDK calls a method when all the data has been downloaded from the server and when it is ready to start operation. To take specific action at that time a method named "callbackDownload" must be implemented in 
+* the global scope (e.g in the main application's html file).
+* &lt;br/>&lt;br/>
+* &lt;b>Changing the location of the .data file&lt;/b>
+* &lt;br/>
+* Location of the .data file can be changed by overriding the &lt;i>locateFile&lt;/i> attribute of the Module object to return the URL where the data file is currently stored.
+* This additional code needs to be added to the application's main html file and the Module' attribute must be specified in a script element before the one that loads the data file (in this case visageSDK.js). 
+* &lt;br/>&lt;br/>
+* Sample usage - changing .data file location:
+* &lt;br/>
+* &lt;pre class="prettyprint source">&lt;code>
+* 
+* &lt;script>
+* var Module = {
+*  'locateFile':  function(dataFileName) {var fullPath = "http://localhost/www.visagetechnologies.com/Samples/" + dataFileName; return fullPath}
+* };
+* &lt;/script>
+* &lt;script src="../../lib/visageSDK.js">&lt;/script>
+*
+* &lt;/code>&lt;/pre>
+* &lt;br/>
+* &lt;br/>&lt;br/>
+
+* Sample usage:
+* &lt;br/>
+* &lt;pre class="prettyprint source">&lt;code>
+* 
+* function callbackDownload()
+* {
+*	//initialize detector
+* }
+*
+* &lt;/code>&lt;/pre>
+* &lt;br/>
+* @constructor
+*/
+function VisageDetector()
+{
+/**
+	* Performs faces and facial features detection in a still image.
+	* &lt;br/>&lt;br/>
+	* The algorithm detects one or more faces and their features. The results are, for each detected face, the 3D head pose, gaze direction, eye closure, 
+	* coordinates of facial feature points (e.g. chin tip, nose tip, lip corners etc.) and 3D face model fitted to the face.
+	* &lt;br/>&lt;br/>
+	* Note that when using unlicensed version of the detector this method will return the facial feature coordinates with a 2 second delay. 
+	* &lt;br/>&lt;br/>
+	* The results are returned in form of FaceData objects. An array of FaceData objects passed to this method as output parameter should be allocated to maxFaces size. 
+	* &lt;br/>&lt;br/>
+	* Sample usage:
+	* &lt;br/>
+	* &lt;pre class="prettyprint source">&lt;code>
+	* var m_Detector,
+	*     faceData,
+	*     maxFaces,
+	*     frameWidth,
+	*     frameHeight;
+	*
+	* function onInitializeDetector(){
+	*     //Initialize licensing with the obtained license key file
+	*     Module.initializeLicenseManager("xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx.vlc");
+	*     //Instantiate detector object
+	*     m_Detector = new Module.VisageDetector();
+	*     //Instantiate an FaceDataVector instance where tracking results will be stored
+	*     faceDataArray = new Module.FaceDataVector();
+	*     //Specify the maximum number of faces that will be detected in the image
+	*     maxFaces = 10;
+	*     for (var i = 0; i &lt; maxFaces; ++i)
+	*     {
+	*           faceData = new Module.FaceData();
+	*           faceDataArray.push_back(faceData);
+	*     }
+	*     frameWidth = canvas.width;
+	*     frameHeight = canvas.height;
+	*     
+	*     //Allocate memory for image data
+	*     ppixels = Module._malloc(mWidth*mHeight*4);
+	*     //Create a view to the memory
+	*     pixels = new Uint8ClampedArray(Module.HEAPU8.buffer, ppixels, mWidth*mHeight*4);
+	* }
+	* function onDetectInImage(){
+	*     //Obtain the image pixel data
+	*     var imageData = canvas.getContext('2d').getImageData(0,0, mWidth, mHeight).data;
+	*     //Fill pixels with imageData
+	*     pixels.set(imageData);
+	*     //Call the detection method
+	*     var numberOfFaces = m_Detector.detectFeatures(frameWidth, frameHeight, ppixels, faceDataArray, maxFaces);
+	*     //Based on the number of detected faces do some action with the return values located in face data array
+	*     if (numberOfFaces > 0)
+	*     {
+	*          for (var i = 0; i &lt; maxFaces; ++i)
+	*          {
+	*               drawSomething(faceDataArray.get(i));
+	*          }
+	*     }    
+	* }
+	* function onCleanUp(){
+	*     //Clean up Detector memory
+	*     m_Detector.delete();
+	*     //Clean up FaceData objects
+	*     for (var i = 0; i &lt; maxFaces; ++i)
+	*     {
+	*           var f_data = faceDataArray.get(i);
+	*           f_data.delete();
+	*     }
+	*     //Clean up FaceDataArray object
+	*     faceDataArray.delete();
+	* }
+	* &lt;/code>&lt;/pre>
+	* &lt;br/>&lt;br/>
+	* After this call, n contains the number of faces actually detected. The first n members of the data array are filled with resulting data for each detected face.
+	* Please refer to the FaceData documentation for detailed description of returned parameters. If maxFaces is smaller than the number of faces actually present in the image, 
+	* the function will return only first maxFaces detected faces.
+	* &lt;br/>&lt;br/>
+	* Following image formats are supported: 
+	* &lt;br/>
+	* - Module.VISAGE_FRAMEGRABBER_FMT_RGB: each pixel of the image is represented by three bytes representing red, green and blue channels, respectively.&lt;br/>
+	* - Module.VISAGE_FRAMEGRABBER_FMT_RGBA: each pixel of the image is represented by four bytes representing red, green, blue and alpha (ignored) channels, respectively.&lt;br/>
+	* - Module.VISAGE_FRAMEGRABBER_FMT_LUMINANCE: each pixel of the image is represented by one byte representing the luminance (gray level) of the image.
+	* Origin must be:&lt;br/>
+	* - Module.VISAGE_FRAMEGRABBER_ORIGIN_TL: Origin is the top left pixel of the image. Pixels are ordered row-by-row starting from top left.
+	* &lt;br/>&lt;br/>
+	* Note that the input image is internally converted to grayscale.
+	* &lt;br/>
+	* @param {number} frameWidth - Width of the frame.
+	* @param {number} frameHeight - Height of the frame.
+	* @param {number} p_imageData - Pointer to image pixel data, size of the array must correspond to frameWidth and frameHeight.
+	* @param {FaceDataVector} faceDataArray - Array of {@link FaceData|FaceData} objects  that will receive the tracking results. The size of the faceDataArray is equal to maxFaces parameter.
+	* @param {number} [maxFaces=1] - Maximum number of faces to be detected.
+	* @param {number} [minFaceScale=0.1] - Scale of smallest face to be searched for, defined as decimal fraction [0.0 - 1.0] of input image size (min(width, height)).
+	* @param {number} [maxFaceScale=1.0] - Scale of largest face to be searched for, defined as decimal fraction [0.0 - 1.0] of input image size (min(width, height))
+	* @param {boolean} [outputOnly2DFeatures=false] - If set, detection time will be reduced and only featurePoints2D will be returned.
+	* @returns {number} numberOfFaces - Number of detected faces (0 or more), -1 if error occurred
+	* @see {@link FaceDataVector}
+	*/
+	this.detectFeatures = function(frameWidth, frameHeight, p_imageData, faceDataVector, maxFaces, minFaceScale, maxFaceScale, outputOnly2DFeatures){};
+
+
+/**
+	* Performs face detection in a still image.
+	* &lt;br/>&lt;br/>
+	* The algorithm detects one or more faces. For each detected face a square facial bounding box is returned.
+	* &lt;br/>&lt;br/>
+	* Note that when using unlicensed version of the detector this method will return the facial feature coordinates with a 2 second delay. 
+	* &lt;br/>&lt;br/>
+	* The results are returned in form of VSRect objects. An array of VSRect objects passed to this method as output parameter should be allocated to maxFaces size. 
+	* &lt;br/>&lt;br/>
+	* Sample usage:
+	* &lt;br/>
+	* &lt;pre class="prettyprint source">&lt;code>
+	* var m_Detector,
+	*     faceData,
+	*     maxFaces,
+	*     frameWidth,
+	*     frameHeight;
+	*
+	* function onInitializeDetector(){
+	*     //Initialize licensing with the obtained license key file
+	*     Module.initializeLicenseManager("xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx.vlc");
+	*     //Instantiate detector object
+	*     m_Detector = new Module.VisageDetector();
+	*     //Instantiate an VSRectVector instance where tracking results will be stored
+	*     boundingBoxArray = new Module.VSRectVector();
+	*     //Specify the maximum number of faces that will be detected in the image
+	*     maxFaces = 10;
+	*     for (var i = 0; i &lt; maxFaces; ++i)
+	*     {
+	*           boundingBox = new Module.VSRect();
+	*           boundingBoxArray.push_back(boundingBox);
+	*     }
+	*     frameWidth = canvas.width;
+	*     frameHeight = canvas.height;
+	*     
+	*     //Allocate memory for image data
+	*     ppixels = Module._malloc(mWidth*mHeight*4);
+	*     //Create a view to the memory
+	*     pixels = new Uint8ClampedArray(Module.HEAPU8.buffer, ppixels, mWidth*mHeight*4);
+	* }
+	* function onDetectInImage(){
+	*     //Obtain the image pixel data
+	*     var imageData = canvas.getContext('2d').getImageData(0,0, mWidth, mHeight).data;
+	*     //Fill pixels with imageData
+	*     pixels.set(imageData);
+	*     //Call the detection method
+	*     var numberOfFaces = m_Detector.detectFaces(frameWidth, frameHeight, ppixels, boundingBoxArray, maxFaces);
+	*     //Based on the number of detected faces do some action with the return values located in VSRect array
+	*     if (numberOfFaces > 0)
+	*     {
+	*          for (var i = 0; i &lt; maxFaces; ++i)
+	*          {
+	*               drawSomething(boundingBoxArray.get(i));
+	*          }
+	*     }    
+	* }
+	* function onCleanUp(){
+	*     //Clean up Detector memory
+	*     m_Detector.delete();
+	*     //Clean up VSRect objects
+	*     for (var i = 0; i &lt; maxFaces; ++i)
+	*     {
+	*           var boundingBox = boundingBoxArray.get(i);
+	*           boundingBox.delete();
+	*     }
+	*     //Clean up VSRectVector object
+	*     boundingBoxArray.delete();
+	* }
+	* &lt;/code>&lt;/pre>
+	* &lt;br/>&lt;br/>
+	* After this call, n contains the number of detected faces. The first n members of the faces array are filled with resulting bounding boxes for each detected face.
+	* If maxFaces is smaller than the number of faces actually detected in the image, the function will return only first maxFaces detected faces.
+	* &lt;br/>&lt;br/>
+	* Following image formats are supported:
+	* &lt;br/>
+	* - Module.VISAGE_FRAMEGRABBER_FMT_RGB: each pixel of the image is represented by three bytes representing red, green and blue channels, respectively.&lt;br/>
+	* - Module.VISAGE_FRAMEGRABBER_FMT_RGBA: each pixel of the image is represented by four bytes representing red, green, blue and alpha (ignored) channels, respectively.&lt;br/>
+	* - Module.VISAGE_FRAMEGRABBER_FMT_LUMINANCE: each pixel of the image is represented by one byte representing the luminance (gray level) of the image.
+	* Origin must be:&lt;br/>
+	* - Module.VISAGE_FRAMEGRABBER_ORIGIN_TL: Origin is the top left pixel of the image. Pixels are ordered row-by-row starting from top left.
+	* &lt;br/>&lt;br/>
+	* Note that the input image is internally converted to grayscale.
+	* &lt;br/>
+	* @param {number} frameWidth - Width of the frame
+	* @param {number} frameHeight - Height of the frame
+	* @param {number} p_imageData - Pointer to image pixel data, size of the array must correspond to frameWidth and frameHeight
+	* @param {VSRectVector} - Provide an empty array. It will be filled with {@link VSRect|VSRect} instances.
+	* @param {number} [maxFaces=1] - Maximum number of faces to be detected
+	* @param {number} [minFaceScale=0.1] - Scale of smallest face to be searched for, defined as decimal fraction [0.0 - 1.0] of input image size (min(width, height)).
+	* @param {number} [maxFaceScale=1.0] - Scale of largest face to be searched for, defined as decimal fraction [0.0 - 1.0] of input image size (min(width, height))
+	* @param {boolean} [useRefinementStep=true] - If set to true, additional refinement algorithm will be used resulting with more precise facial bounding boxes and lower FPR, but higher detection time.
+	* @returns {number} numberOfFaces - Number of detected faces (0 or more), -1 if error occurred
+	* @see {@link VSRectVector}
+	*/
+	this.detectFaces = function(frameWidth, frameHeight, p_imageData, VSRectVector, maxFaces, minFaceScale, maxFaceScale, useRefinementStep){};
+}
+
+/**
+* Custom container class for {@link FaceData|FaceData} objects.
+* &lt;br/>&lt;br/>
+* Used in conjunction with {@link VisageDetector#detectFeatures|VisageDetector.detectFeatures} function.
+* &lt;br/>&lt;br/>
+* Sample usage:
+* &lt;br/>
+* &lt;pre class="prettyprint source">&lt;code>
+* 
+* function onDetect()
+* {
+*    //Instantiate an FaceDataVector instance where tracking results will be stored
+*    faceDataArray = new Module.FaceDataVector();
+*    //Specify the maximum number of faces that will be detected in the image
+*    maxFaces = 10;
+*    for (var i = 0; i &lt; maxFaces; ++i)
+*    {
+*        faceData = new Module.FaceData();
+*        faceDataArray.push_back(faceData);
+*    }
+*    //Detect face and facial features in an image
+*    var numberOfFaces = m_Detector.detectFeatures(frameWidth, frameHeight, ppixels, faceDataArray, maxFaces);
+*    //Fetch and draw something on the first returned face
+*    if (numberOfFaces > 0)
+*    {
+*        drawSomething(faceDataArray.get(0));
+*    }
+* }
+*
+* &lt;/code>&lt;/pre>
+* &lt;br/>
+* @constructor
+*/
+function FaceDataVector()
+{
+	/**
+	* Add existing {@link FaceData|FaceData} object.
+	* &lt;br/>&lt;br/>
+	* @param {FaceData} faceData - FaceData object to be added.
+	*/
+	this.push_back = function(faceData){};
+
+
+	/**
+	* Get {@link FaceData|FaceData} object from the vector specified by index parameter.
+	* &lt;br/>&lt;br/>
+	* @param {number} index - position of the FaceData object to be fetched.
+	* @returns {FaceData} FaceData object located on the location specified by index parameter
+	*/
+	this.get = function(index){};
+
+
+	/**
+	* Release the memory allocated to the FaceDataVector object.
+	* &lt;br/>&lt;br/>
+	*/
+	this.delete = function(){};
+}
+
+/**
+* Custom container class for {@link VSRect|VSRect} objects.
+* &lt;br/>&lt;br/>
+* Used in conjunction with {@link VisageDetector#detectFaces|VisageDetector.detectFaces} function.
+* &lt;br/>&lt;br/>
+* Sample usage:
+* &lt;br/>
+* &lt;pre class="prettyprint source">&lt;code>
+* 
+* function onDetect()
+* {
+*    //Instantiate an VSRectVector instance where tracking results will be stored
+*    boundingBoxArray = new Module.VSRectVector();
+*    //Specify the maximum number of faces that will be detected in the image
+*    maxFaces = 10;
+*    for (var i = 0; i &lt; maxFaces; ++i)
+*    {
+*        boundingBox = new Module.VSRect();
+*        boundingBoxArray.push_back(boundingBox);
+*    }
+*    //Detect face and facial features in an image
+*    var numberOfFaces = m_Detector.detectFaces(frameWidth, frameHeight, ppixels, boundingBoxArray, maxFaces);
+*    //Fetch and draw bounding box on the first returned face
+*    if (numberOfFaces > 0)
+*    {
+*        drawBoundingBox(boundingBoxArray.get(0));
+*    }
+* }
+*
+* &lt;/code>&lt;/pre>
+* &lt;br/>
+* @constructor
+*/
+function VSRectVector()
+{
+	/**
+	* Add existing {@link VSRect|VSRect} object.
+	* &lt;br/>&lt;br/>
+	* @param {VSRect} vsrect - VSRect object to be added.
+	*/
+	this.push_back = function(vsrect){};
+
+
+	/**
+	* Get {@link VSRect|VSRect} object from the vector specified by index parameter.
+	* &lt;br/>&lt;br/>
+	* @param {number} index - position of the VSRect object to be fetched.
+	* @returns {VSRect} VSRect object located on the location specified by index parameter
+	*/
+	this.get = function(index){};
+
+
+	/**
+	* Release the memory allocated to the VSRectVector object.
+	* &lt;br/>&lt;br/>
+	*/
+	this.delete = function(){};
+}
+
+
+/**
+* Custom class used for storing bounding box information.
+* &lt;br/>&lt;br/>
+* Used in conjunction with {@link VisageDetector#detectFaces|VisageDetector.detectFaces} function.
+* &lt;br/>&lt;br/>
+* &lt;br/>
+* @constructor
+*/
+function VSRect()
+{
+	/**
+	* X coordinate of the top left corner of the rectangle.
+	* @type {number}
+	*/
+	this.x;
+
+
+	/**
+	* Y coordinate of the top left corner of the rectangle.
+	* @type {number}
+	*/
+	this.y;
+
+
+	/**
+	* Rectangle width.
+	* @type {number}
+	*/
+	this.width;
+
+
+	/**
+	* Rectangle height.
+	* @type {number}
+	*/
+	this.height;
+}</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Index</a></h2><h3>Classes</h3><ul><li><a href="FaceData.html">FaceData</a></li><li><a href="ScreenSpaceGazeData.html">ScreenSpaceGazeData</a></li><li><a href="VectorFloat.html">VectorFloat</a></li><li><a href="VectorInt.html">VectorInt</a></li><li><a href="VectorShort.html">VectorShort</a></li><li><a href="VectorString.html">VectorString</a></li><li><a href="VisageFaceAnalyser.html">VisageFaceAnalyser</a></li><li><a href="FeaturePoint.html">FeaturePoint</a></li><li><a href="FDP.html">FDP</a></li><li><a href="VisageDetector.html">VisageDetector</a></li><li><a href="FaceDataVector.html">FaceDataVector</a></li><li><a href="VSRectVector.html">VSRectVector</a></li><li><a href="VSRect.html">VSRect</a></li><li><a href="VisageGazeTracker.html">VisageGazeTracker</a></li><li><a href="VisageFaceRecognition.html">VisageFaceRecognition</a></li><li><a href="VisageTracker.html">VisageTracker</a></li><li><a href="VisageAR.html">VisageAR</a></li></ul><h3>Global</h3><ul><li><a href="global.html#FP_START_GROUP_INDEX">FP_START_GROUP_INDEX</a></li><li><a href="global.html#FP_END_GROUP_INDEX">FP_END_GROUP_INDEX</a></li><li><a href="global.html#FP_NUMBER_OF_GROUPS">FP_NUMBER_OF_GROUPS</a></li><li><a href="global.html#initializeLicenseManager">initializeLicenseManager</a></li><li><a href="global.html#VisageTrackerStatus">VisageTrackerStatus</a></li><li><a href="global.html#VisageTrackerImageFormat">VisageTrackerImageFormat</a></li></ul>
+</nav>
+
+<br clear="both">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.2.0</a> on Wed Apr 05 2017 16:09:11 GMT+0200 (CEST)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>
