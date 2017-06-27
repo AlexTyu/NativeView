@@ -84,6 +84,10 @@ input::before{
     left: 0;
 }
 
+#pointer{
+  /*transition: 0.1s ease;*/
+}
+
 tracker{
     position: fixed;
     height: 100%;

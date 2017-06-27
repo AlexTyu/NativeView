@@ -1,0 +1,129 @@
+script.
+    var container, neck, camera, scene, renderer
+
+    container=document.createElement('div');
+    document.body.appendChild(container);
+
+    function degInRad(deg) {
+        return deg * Math.PI / 180;
+    }
+
+    scene=new THREE.Scene();
+
+    camera = new THREE.PerspectiveCamera(20, window.innerWidth / window.innerHeight, 1, 10000);
+
+    neck = new THREE.Object3D();
+    neck.up = new THREE.Vector3(0, 0, 1);
+    neck.position.z = 1;
+    neck.position.y = 0;
+
+    neck.add(camera);
+    scene.add(neck);
+
+    // object
+    var loader = new THREE.STLLoader();
+
+    loader.addEventListener('load', function (event){
+        var geometry=event.content;
+        var material=new THREE.MeshNormalMaterial({
+            linewidth: 0.01,
+            wireframe: true,
+            ambient: 0xFBB917,
+            transparent: true,
+            opacity: 0.3,
+        });
+
+        var mesh=new THREE.Mesh(geometry, material);
+            mesh.name="model"
+            mesh.scale.set(0.2, 0.2, 0.2);
+            mesh.translateY(0)
+            mesh.translateX(0)
+            mesh.translateZ(0)
+
+            mesh.rotateX(0.1)
+            mesh.rotateY(-1.6)
+
+        mesh.material.needsUpdate = true;
+
+            //MODEL HERE
+        scene.add(mesh);
+
+        }
+
+    );
+
+    // STL file to be loaded
+    loader.load('test.stl');
+    var object = scene.getObjectByName("model");
+    console.log(object)
+
+    // renderer
+    renderer=new THREE.WebGLRenderer({ alpha: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+
+    //appliyng to canvas
+    container.appendChild(renderer.domElement);
+
+    window.addEventListener('resize', onWindowResize, false);
+
+    var boxWidth = 90;
+    var skyloader = new THREE.TextureLoader();
+    skyloader.load('img/box.png', onTextureLoaded);
+
+    function onTextureLoaded(texture) {
+      texture.wrapS = THREE.RepeatWrapping;
+      texture.wrapT = THREE.RepeatWrapping;
+      texture.repeat.set(boxWidth, boxWidth);
+
+      var geometry = new THREE.BoxGeometry(boxWidth, boxWidth, boxWidth);
+      var material = new THREE.MeshBasicMaterial({
+        map: texture,
+        transparent: true,
+        opacity: 0.4,
+        color: 0x01BE00,
+        side: THREE.BackSide
+      });
+
+      var skybox = new THREE.Mesh(geometry, material);
+      scene.add(skybox);
+      skybox.scale.set(100, 100, 100);
+    }
+
+    neck = new THREE.Object3D();
+
+    camera.flighAround = true;
+
+
+    function onWindowResize(){
+        camera.aspect=window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+    }
+
+
+    animate();
+
+    function render(){
+            var timer=Date.now() * 0.000001;
+            r=150;
+            var faceData = faceData;
+            var object = scene.getObjectByName("model");
+        if (camera.flighAround){
+            //- object.rotation.y=r*Math.sin(timer);
+        }
+
+        if (camera.lookatamodel){
+            camera.lookAt(scene.position);
+        } else {
+            camera.lookAt(new THREE.Vector3(0,0,0));
+        }
+
+        renderer.render(scene, camera);
+        renderer.setClearColor( 0x000000, 0 ); // the default
+    }
+
+
+    function animate(){
+        requestAnimationFrame(animate);
+        render();
+    }

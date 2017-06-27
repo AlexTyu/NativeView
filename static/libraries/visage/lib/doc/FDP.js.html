@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: doc/HTML5/embind/FDP.js</title>
+    
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+    
+    <h1 class="page-title">Source: doc/HTML5/embind/FDP.js</h1>
+    
+    
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source"><code>
+/**
+* Feature point.
+* &lt;br/>&lt;br/>
+* This struct represents a feature point definition. If the feature points are defined on a 3D model, each feature point maps to a vertex of the model.
+* The following information is specified per each feature point:
+* - vertex position (an array of 3 floats)
+* - vertex identifier (mesh identifier and vertex index), if the feature point is defined on a 3D model
+* - normalization factors (useful for algorithms that normalize the face, such as facial motion cloning)
+* &lt;br/>&lt;br/>
+* @see {@link FDP|FDP}
+* @constructor
+*/
+function FeaturePoint(){
+	/**
+	* Indicator whether the feature point is defined. 0 means it is not defined and its values should not be used. 1 means it is defined.
+	* @type {number}
+	*/
+	this.defined = 0;
+
+	/**
+	* Quality is returned as a value from 0 to 1, where 0 is the worst and 1 is the best quality. If -1 is returned, quality is not estimated. 
+	*/
+	this.quality = -1;
+	
+	/**
+	* Identifier of the polygon mesh (surface) to which the vertex corresponding to the feature point belongs. If
+	* the feature points are not defined on a 3D model (e.g. if they represent points in a 2D image), this is not used.
+	* @type {string}
+	*/
+	this.surf = "";
+	
+	/**
+	* Identifier of the vertex to which the vertex corresponding to the feature point belongs. This is the
+	* vertex index within the polygon mesh (surface) identified by {@link FeaturePoint#surf|surf}. If
+	* the feature points are not defined on a 3D model (e.g. if they represent points in a 2D image), this is not used.
+	* @type {number}
+	*/
+	this.vert = -1;
+	
+	/**
+	* Get one of the feature point positions (x,y,z).
+	* &lt;br/>&lt;br/>
+	* x, y, z coordinates of the feature point. If the feature point is 2-dimensional (e.g. feature points in an image)
+	* the z coordinate is ignored.
+	* @param {number} position - specifies desired position to get of the pos array, 0 for x, 1 fox y or 2 for z coordinate.
+	* @returns {number}
+	*/
+	this.getPos = function(position){};
+	
+	/**
+	* Set one of the feature point positions (x,y,z).
+	* &lt;br/>&lt;br/>
+	* x, y, z coordinates of the feature point. If the feature point is 2-dimensional (e.g. feature points in an image)
+	* the z coordinate is ignored.
+	* @param {number} position - specifies desired position to set of the pos array, 0 for x, 1 fox y or 2 for z coordinate.
+	* @param {number} value - coordinate value.
+	*/
+	this.setPos = function(position, value){};
+}
+
+/**
+* Feature points of a face.
+* &lt;br/>&lt;br/>
+* This class is a container for facial feature points as defined by &lt;a href="doc/MPEG-4 FBA Overview.pdf">MPEG-4 FBA standard&lt;/a>, as well as
+* some additional feature points. Feature points are identified by their group (for example, feature points of
+* the nose constitute their own group) and index. So, for example, the tip of the chin belongs to group 2 and has
+* index 1, so it is identified as point 2.1. The identification of all MPEG-4 feature points is
+* illustrated in the image below:
+* &lt;br/>&lt;br/>
+* &lt;img src="images/mpeg-4_fba.png">
+* &lt;img src="images/half_profile_physical_2d.png">
+* &lt;br/>&lt;br/>
+* Groups 2 - 11 contain feature points defined according to the MPEG-4 FBA standard,
+* and group 12 and 14 contain additional feature points that are not part of the MPEG-4 standard (12.1, 12.5, 12.6, 12.7, 12.8, 12.9, 12.10, 12.11, 12.12), (14.1, 14.2, 14.3, 14.4).&lt;br/>
+* Face contour - group 13 and group 15. Face contour is available in two versions: the visible contour (points 13.1 - 13.17) and the physical contour (points 15.1 - 15.17). 
+* For more details regarding face contour please refer to the documentation of {@link FaceData#getFeaturePoints3D|featurePoints3D}.
+* &lt;br/>&lt;br/>
+* FDP class stores feature point information. It also provides functions for reading and writing the feature point data as files,
+* as well as certain auxiliary members that deal with normalisation of feature points and their classification according to
+* facial region.
+* &lt;br/>&lt;br/>
+* The actual data for each feature point is stored in the structure FeaturePoint. One such structure is allocated for each feature point. To
+* access a feature point, use one of the functions getFP() that access a feature point by its group and index expressed either as integer values, or as a string (e.g. "2.1").
+* Functions getFPPos() are available as a convenience, to access the feature point coordinates directly, without first accessing the FeaturePoint structure.
+* &lt;br/>&lt;br/>
+* The feature points may relate to a particular 3D model. In such a case it is interesting to know, for each feature point, to 
+* which vertex it belongs. For this purpose, the FeaturePoint structure contains the mesh identifier
+* and vertex index that correspond to the feature point and the FDP class provides functions to access this data.
+* &lt;br/>&lt;br/>
+* &lt;b>&lt;i>Left-right convention&lt;/i>&lt;/b>
+* &lt;br/>&lt;br/>
+* References to left and right in feature point definitions are given from the perspective of the face itself so "right eye" 
+* can be imagined as "my right eye". When referring to feature points in an image, it is assumed that image is taken by camera and 
+* not mirrored so "right eye" is on the left in the image, as shown in feature points illustration above.
+* &lt;br/>&lt;br/>
+* @see {@link FeaturePoint|FeaturePoint}
+* @see {@link FP_START_GROUP_INDEX}, {@link FP_END_GROUP_INDEX}, {@link FP_NUMBER_OF_GROUPS}
+* @constructor
+*/
+function FDP()
+{
+	/**
+	* Get a feature point by its group and index.
+	* &lt;br/>&lt;br/>
+	* @param {number} group Feature point group. Valid range is from 2 to 15.
+	* @param {number} n Feature point index. Valid range is from 1 to the size of particular group. Group sizes can be obtained using groupSize().
+	* &lt;br/>&lt;br/>
+	* @returns {FeaturePoint} Feature point object corresponding to the group and index
+	*/
+	this.getFP = function(group, n){};
+
+
+	/**
+	* Set a feature specified by its group and index.
+	* &lt;br/>&lt;br/>
+	* @param {number} group Feature point group. Valid range is from 2 to 15.
+	* @param {number} n Feature point index. Valid range is from 1 to the size of particular group. Group sizes can be obtained using groupSize().
+	* @param {FeaturePoint} featurePoint The feature point object to set.
+	* &lt;br/>&lt;br/>
+	*/
+	this.setFP = function(group, n, featurePoint){};
+
+
+	/**
+	* Set a feature specified by its name.
+	* &lt;br/>&lt;br/>
+	* @param {string} name Feature point name (e.g. "7.1").
+	* @param {FeaturePoint} featurePoint The feature point object to set.
+	*/
+	this.setFP = function(name, featurePoint){};
+
+
+	/**
+	* Get the position of a feature point specified by its group and index.
+	* &lt;br/>&lt;br/>
+	* @param {number} group Feature point group. Valid range is from 2 to 15.
+	* @param {number} n Feature point index. Valid range is from 1 to the size of particular group. Group sizes can be obtained using groupSize().	
+	* &lt;br/>&lt;br/>
+	* @returns {Array} Vertex position (array of 3 numbers).
+	*/
+	this.getFPPos = function(group, n){};
+
+
+	/**
+	* Set the position of a feature point specified by its group and index.
+	* &lt;br/>&lt;br/>
+	* @param {number} group Feature point group. Valid range is from 2 to 15.
+	* @param {number} n Feature point index. Valid range is from 1 to the size of particular group. Group sizes can be obtained using groupSize().
+	* @param {number} x Vertex x position.
+	* @param {number} y Vertex y position.
+	* @param {number} z Vertex z position.
+	* &lt;br/>&lt;br/>
+	*/
+	this.setFPPos = function(group, n, x, y, z){};
+
+
+	/**
+	* Get the quality of a feature point specified by its group and index.
+	* &lt;br/>&lt;br/>
+	* @param {number} group Feature point group. Valid range is from 2 to 15.
+	* @param {number} n Feature point index. Valid range is from 1 to the size of particular group. Group sizes can be obtained using groupSize().
+	* &lt;br/>&lt;br/>
+	*/
+	this.getFPQuality = function(group, n){};
+
+
+	/**
+	* Set the quality of a feature point specified by its group and index.
+	* &lt;br/>&lt;br/>
+	* @param {number} group Feature point group. Valid range is from 2 to 15.
+	* @param {number} n Feature point index. Valid range is from 1 to the size of particular group. Group sizes can be obtained using groupSize().
+	* @param {number} quality quality value.
+	* &lt;br/>&lt;br/>
+	*/
+	this.setFPQuality = function(group, n, quality){};
+
+
+	/**
+	* Set the position of a feature point specified by its name.
+	* &lt;br/>&lt;br/>
+	* @param {string} name Feature point name (e.g. "7.1").
+	* @param {number} x Vertex x position.
+	* @param {number} y Vertex y position.
+	* @param {number} z Vertex z position.
+	* &lt;br/>&lt;br/>
+	*/
+	this.setFPPos = function(name, x, y, z){};
+
+
+	/**
+	* Resets all feature points.
+	* &lt;br/>&lt;br/>
+	* The value of all feature points is set to "undefined".
+	* &lt;br/>&lt;br/>
+	*/
+	this.reset = function(){};
+
+
+	/**
+	* Returns true if the feature point is defined.
+	* &lt;br/>&lt;br/>
+	* @param {number} group Feature point group. Valid range is from 2 to 15.
+	* @param {number} n Feature point index. Valid range is from 1 to the size of particular group. Group sizes can be obtained using groupSize().
+	* &lt;br/>&lt;br/>
+	* @returns {boolean} True if the feature point is defined, false otherwise.
+	*/
+	this.FPIsDefined = function(group, n){};
+
+
+	/**
+	* Returns true if specified feature point identifier is valid.
+	* &lt;br/>&lt;br/>
+	* @param {number} group Feature point group. Valid range is from 2 to 15.
+	* @param {number} n Feature point index. Valid range is from 1 to the size of particular group. Group sizes can be obtained using groupSize().
+	* &lt;br/>&lt;br/>
+	* @returns {boolean} True if specified feature point identifier is valid, false otherwise.
+	*/
+	this.FPIsValid = function(group, n){};
+
+
+	/**
+	* Returns true if specified feature point identifier is valid.
+	* &lt;br/>&lt;br/>
+	* @param {string} name Feature point name (e.g. "7.1").
+	* &lt;br/>&lt;br/>
+	* @returns {boolean} True if specified feature point identifier is valid, false otherwise.
+	*/
+	this.FPIsValid = function(name){};
+
+
+	/**
+	* Get feature point name from group and index.
+	* &lt;br/>&lt;br/>
+	* @param {number} group Feature point group. Valid range is from 2 to 15.
+	* @param {number} n Feature point index. Valid range is from 1 to the size of particular group. Group sizes can be obtained using groupSize().
+	* &lt;br/>&lt;br/>
+	* @returns {string} Feature point name.
+	*/
+	this.getFPName = function(group, n){};
+
+
+	/**
+	* Get the size of the specified feature point group.
+	* Valid range for group is from 2 to 15.
+	* &lt;br/>&lt;br/>
+	* @param {number} group Feature point group. Valid range is from 2 to 15.
+	* &lt;br/>&lt;br/>
+	* @returns {number} Size of the specified feature point group.
+	* @static
+	*/
+	this.groupSize(group) = function(){};
+
+
+	/**
+	* Get the mirror point index for the point defined by given group and index.
+	* &lt;br/>&lt;br/>
+	* @param {number} group Feature point group. Valid range is from 2 to 15.
+	* @param {number} index Feature point index. Valid range is from 1 to the size of particular group. Group sizes can be obtained using groupSize().
+	* &lt;br/>&lt;br/>
+	* @returns {number} Index of the mirror point (group is the same).
+	* @static
+	*/
+	this.getMirrorPointIndex = function(group, index){};
+}
+
+
+/** @constant
+*   @type {number}
+*   @default
+*/
+const FP_START_GROUP_INDEX = 2;
+
+
+/** @constant
+*   @type {number}
+*   @default
+*/
+const FP_END_GROUP_INDEX = 15;
+
+
+/** @constant
+*   @type {number}
+*   @default
+*/
+const FP_NUMBER_OF_GROUPS = 14;</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Index</a></h2><h3>Classes</h3><ul><li><a href="FaceData.html">FaceData</a></li><li><a href="ScreenSpaceGazeData.html">ScreenSpaceGazeData</a></li><li><a href="VectorFloat.html">VectorFloat</a></li><li><a href="VectorInt.html">VectorInt</a></li><li><a href="VectorShort.html">VectorShort</a></li><li><a href="VectorString.html">VectorString</a></li><li><a href="VisageFaceAnalyser.html">VisageFaceAnalyser</a></li><li><a href="FeaturePoint.html">FeaturePoint</a></li><li><a href="FDP.html">FDP</a></li><li><a href="VisageDetector.html">VisageDetector</a></li><li><a href="FaceDataVector.html">FaceDataVector</a></li><li><a href="VSRectVector.html">VSRectVector</a></li><li><a href="VSRect.html">VSRect</a></li><li><a href="VisageGazeTracker.html">VisageGazeTracker</a></li><li><a href="VisageFaceRecognition.html">VisageFaceRecognition</a></li><li><a href="VisageTracker.html">VisageTracker</a></li><li><a href="VisageAR.html">VisageAR</a></li></ul><h3>Global</h3><ul><li><a href="global.html#FP_START_GROUP_INDEX">FP_START_GROUP_INDEX</a></li><li><a href="global.html#FP_END_GROUP_INDEX">FP_END_GROUP_INDEX</a></li><li><a href="global.html#FP_NUMBER_OF_GROUPS">FP_NUMBER_OF_GROUPS</a></li><li><a href="global.html#initializeLicenseManager">initializeLicenseManager</a></li><li><a href="global.html#VisageTrackerStatus">VisageTrackerStatus</a></li><li><a href="global.html#VisageTrackerImageFormat">VisageTrackerImageFormat</a></li></ul>
+</nav>
+
+<br clear="both">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.2.0</a> on Wed Apr 05 2017 16:09:11 GMT+0200 (CEST)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

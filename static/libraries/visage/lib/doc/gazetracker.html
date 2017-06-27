@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Introduction</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1>Gaze Tracker sample project</h1>
+<p>
+Gaze Tracker sample uses the <a href="index_api.html#visageVision-t"><em>VisageSDK</em></a> API to implement a simple application which demonstrates screen space gaze tracking.
+</p>
+
+<h2>Installing and running the project</h2>
+
+<p>
+The project must be installed on a web server in order to run (it can not run from a local disk). For a quick trial from Visage Technologies web server, click 
+<a href="https://visagetechnologies-com.loopiasecure.com/HTML5/beta/Samples/GazeTracker/gazeTracker.html" target="_blank">here</a>.
+</p>
+<p>
+To install the application on your own web server, upload folders lib and Samples to your web server. To run the application access the Samples/GazeTracker/gazeTracker.html page via a web browser.
+</p>
+<p>
+Application will give licensing warning and will be limited to one minute. To remove this limitation:  
+<ol>
+<li>Contact your Visage Technologies contact person in order to obtain a license key.</li>
+<li>Copy the obtained license key file into your application folder (e.g. Samples/GazeTracker).</li>
+<li>Edit GazeTracker/GazeTracker.html. Uncomment the line Module.initializeLicenseManager("...") and replace the "xxx...xxx.vlc" with the name of your license key file.
+</ol> 
+</p>
+<p>
+For further information please read <a href="licensing.html" target="_blank">licensing</a> section of the documentation.
+</p>
+
+<h2>Using the sample application</h2>
+<ul>
+<li>Running the sample requires a recent browser (tested on Firefox 52 and Chrome 57).</li>
+<li>The SDK needs to download its data files before using the application.</li>
+<li>Allow the application to access your camera by choosing "Allow" in the browser's pop-up bar.</li>
+<li>Look straight at the camera. Tracking will start.</li>
+<li>Once the tracker has initialized you can start calibration phase of screen space gaze estimation.</li>
+<li>In the calibration phase, application displays a calibration point as the red dot. By clicking on the dot, position of the dot will change.</li>
+<li>After all calibration points are clicked, the gaze tracking system is calibrated and the estimation phase starts.</li>
+<li>In the estimation phase, the application draws the estimated gaze location as a blue dot on screen.</li>
+</li>
+</ul> 
+
+<h2>Implementation overview</h2>
+<p>
+Gaze Tracker is implemented in HTML and JavaScript using the VisageSDK API for face tracking and screen space gaze estimation, and native canvas methods for rendering. 
+</p>
+</body>
+</html>

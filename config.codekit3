@@ -7,705 +7,63 @@
 		"uuidString": "CB90F47A-EBC2-4BF6-8A79-44E2FC217E46"
 		}
 	],
-"creatorBuild": "25849",
+"creatorBuild": "25504",
 "files": {
-	"\/bridge\/.gitignore": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/.gitignore",
-		"oF": 0
-		},
-	"\/bridge\/app\/build\/oculus-bridge-osx.zip": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/build\/oculus-bridge-osx.zip",
-		"oF": 0
-		},
-	"\/bridge\/app\/build\/oculus-bridge-windows.zip": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/build\/oculus-bridge-windows.zip",
-		"oF": 0
-		},
-	"\/bridge\/app\/package-lock.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/bridge\/app\/package-lock-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/macosx\/libboost_random.a": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/macosx\/libboost_random.a",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/macosx\/libboost_regex.a": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/macosx\/libboost_regex.a",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/msw\/libboost_random-vc110-mt-s-1_53.lib": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/msw\/libboost_random-vc110-mt-s-1_53.lib",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/msw\/libboost_random-vc110-mt-sgd-1_53.lib": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/msw\/libboost_random-vc110-mt-sgd-1_53.lib",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketClient.cpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketClient.cpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketClient.h": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketClient.h",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketConnection.cpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketConnection.cpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketConnection.h": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketConnection.h",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/base64\/base64.cpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/base64\/base64.cpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/base64\/base64.h": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/base64\/base64.h",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/base64\/base64.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/base64\/base64.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/client.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/client.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/close.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/close.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/chrono.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/chrono.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/connection_hdl.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/connection_hdl.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/cpp11.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/cpp11.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/functional.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/functional.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/md5.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/md5.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/memory.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/memory.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/network.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/network.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/platforms.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/platforms.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/random.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/random.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/regex.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/regex.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/stdint.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/stdint.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/system_error.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/system_error.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/thread.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/thread.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/concurrency\/basic.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/concurrency\/basic.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/concurrency\/none.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/concurrency\/none.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio_client.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio_client.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio_no_tls.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio_no_tls.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio_no_tls_client.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio_no_tls_client.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/boost_config.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/boost_config.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/core.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/core.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/core_client.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/core_client.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/debug.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/debug.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/debug_asio.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/debug_asio.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/debug_asio_no_tls.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/debug_asio_no_tls.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/connection.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/connection.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/connection_base.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/connection_base.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/COPYING": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/COPYING",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/endpoint.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/endpoint.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/endpoint_base.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/endpoint_base.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/error.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/error.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/error_container.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/error_container.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/extensions\/extension.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/extensions\/extension.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/extensions\/permessage_deflate\/disabled.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/extensions\/permessage_deflate\/disabled.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/extensions\/permessage_deflate\/enabled.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/extensions\/permessage_deflate\/enabled.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/frame.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/frame.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/constants.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/constants.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/impl\/parser.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/impl\/parser.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/impl\/request.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/impl\/request.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/impl\/response.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/impl\/response.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/parser.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/parser.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/request.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/request.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/response.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/response.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/impl\/connection_impl.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/impl\/connection_impl.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/impl\/endpoint_impl.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/impl\/endpoint_impl.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/impl\/utilities_impl.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/impl\/utilities_impl.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/logger\/basic.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/logger\/basic.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/logger\/levels.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/logger\/levels.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/logger\/stub.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/logger\/stub.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/message_buffer\/alloc.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/message_buffer\/alloc.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/message_buffer\/message.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/message_buffer\/message.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/message_buffer\/pool.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/message_buffer\/pool.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/base.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/base.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi00.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi00.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi07.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi07.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi08.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi08.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi13.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi13.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/processor.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/processor.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/random\/none.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/random\/none.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/random\/random_device.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/random\/random_device.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/roles\/client_endpoint.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/roles\/client_endpoint.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/roles\/server_endpoint.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/roles\/server_endpoint.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/server.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/server.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/sha1\/license.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/sha1\/license.txt",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/sha1\/sha1.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/sha1\/sha1.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/base.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/base.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/connection.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/connection.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/endpoint.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/endpoint.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/security\/base.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/security\/base.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/security\/none.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/security\/none.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/security\/tls.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/security\/tls.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/base\/connection.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/base\/connection.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/base\/endpoint.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/base\/endpoint.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/iostream\/base.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/iostream\/base.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/iostream\/connection.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/iostream\/connection.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/iostream\/endpoint.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/iostream\/endpoint.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/uri.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/uri.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/utf8_validator.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/utf8_validator.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/utilities.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/utilities.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/version.hpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/version.hpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketServer.cpp": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketServer.cpp",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketServer.h": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketServer.h",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/include\/Resources.h": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/include\/Resources.h",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/resources\/cinder_app_icon.ico": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/resources\/cinder_app_icon.ico",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/resources\/oculus_bridge.icns": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/resources\/oculus_bridge.icns",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/resources\/oculus_bridge.ico": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/resources\/oculus_bridge.ico",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/resources\/status.jpg": {
-		"ft": 16384,
-		"iS": 35532,
+	"\/app.js": {
+		"ft": 64,
+		"mi": 1,
 		"oA": 0,
-		"oAP": "\/bridge\/app\/src\/resources\/status.jpg",
+		"oAP": "\/app-min.js",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"sC": 1,
+		"tS": 0
 		},
-	"\/bridge\/app\/src\/src\/Oculus.cpp": {
+	"\/gruntfile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/gruntfile-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/.editorconfig": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/src\/Oculus.cpp",
+		"oAP": "\/light-viz\/.editorconfig",
 		"oF": 0
 		},
-	"\/bridge\/app\/src\/src\/Oculus.h": {
+	"\/light-viz\/.eslintrc.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/.eslintrc-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/src\/Oculus.h",
+		"oAP": "\/light-viz\/.gitignore",
 		"oF": 0
 		},
-	"\/bridge\/app\/src\/src\/OculusSocketServerApp.cpp": {
+	"\/light-viz\/.travis.yml": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/src\/OculusSocketServerApp.cpp",
+		"oAP": "\/light-viz\/.travis.yml",
 		"oF": 0
 		},
-	"\/bridge\/app\/src\/vc11\/OculusSocketServer.sln": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/vc11\/OculusSocketServer.sln",
-		"oF": 0
+	"\/light-viz\/bin\/light-viz-cli.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/bin\/light-viz-cli-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
-	"\/bridge\/app\/src\/vc11\/OculusSocketServer.vcxproj": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/vc11\/OculusSocketServer.vcxproj",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/vc11\/OculusSocketServer.vcxproj.filters": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/vc11\/OculusSocketServer.vcxproj.filters",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/vc11\/OculusSocketServer.vcxproj.user": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/vc11\/OculusSocketServer.vcxproj.user",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/vc11\/Resources.rc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/vc11\/Resources.rc",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/Info.plist": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/Info.plist",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/project.pbxproj": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/project.pbxproj",
-		"oF": 0
-		},
-	"\/bridge\/app\/src\/xcode\/OculusSocketServer_Prefix.pch": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/app\/src\/xcode\/OculusSocketServer_Prefix.pch",
-		"oF": 0
-		},
-	"\/bridge\/docs\/build_instructions.md": {
+	"\/light-viz\/DependencyStatus.md": {
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
@@ -714,7 +72,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/bridge\/docs\/build_instructions.html",
+		"oAP": "\/light-viz\/DependencyStatus.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -723,2140 +81,4054 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/bridge\/docs\/first_person_movement.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/bridge\/docs\/first_person_movement.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/bridge\/docs\/javascript_docs.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/bridge\/docs\/javascript_docs.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/bridge\/examples\/connect.html": {
+	"\/light-viz\/dist\/1dc35d25e61d819a9c357074014867ab.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/bridge\/examples\/connect.html",
+		"oAP": "\/light-viz\/dist\/1dc35d25e61d819a9c357074014867ab.ttf",
 		"oF": 0
 		},
-	"\/bridge\/examples\/css\/distort.vs": {
+	"\/light-viz\/dist\/25a32416abee198dd821b0b17a198a8f.eot": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/bridge\/examples\/css\/distort.vs",
+		"oAP": "\/light-viz\/dist\/25a32416abee198dd821b0b17a198a8f.eot",
 		"oF": 0
 		},
-	"\/bridge\/examples\/css\/passthrough.fs": {
+	"\/light-viz\/dist\/c8ddf1e5e5bf3682bc7bebf30f394148.woff": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/bridge\/examples\/css\/passthrough.fs",
+		"oAP": "\/light-viz\/dist\/c8ddf1e5e5bf3682bc7bebf30f394148.woff",
 		"oF": 0
 		},
-	"\/bridge\/examples\/css\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/bridge\/examples\/css\/style-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/bridge\/examples\/css_shaders.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/examples\/css_shaders.html",
-		"oF": 0
-		},
-	"\/bridge\/examples\/first_person.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/examples\/first_person.html",
-		"oF": 0
-		},
-	"\/bridge\/examples\/img\/grid.jpg": {
-		"ft": 16384,
-		"iS": 22972,
-		"oA": 0,
-		"oAP": "\/bridge\/examples\/img\/grid.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/bridge\/examples\/img\/oculus_bridge.png": {
-		"ft": 32768,
-		"iS": 3050,
-		"oA": 0,
-		"oAP": "\/bridge\/examples\/img\/oculus_bridge.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/bridge\/examples\/img\/oculus_bridge_offline.png": {
-		"ft": 32768,
-		"iS": 2477,
-		"oA": 0,
-		"oAP": "\/bridge\/examples\/img\/oculus_bridge_offline.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/bridge\/examples\/js\/connect.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/bridge\/examples\/js\/connect-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bridge\/examples\/js\/first_person.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/bridge\/examples\/js\/first_person-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bridge\/examples\/lib\/OrbitControls.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/bridge\/examples\/lib\/OrbitControls-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bridge\/examples\/lib\/RiftCamera.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/bridge\/examples\/lib\/RiftCamera-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bridge\/examples\/lib\/three.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/bridge\/examples\/lib\/three.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bridge\/examples\/textures\/blue_blue.jpg": {
-		"ft": 16384,
-		"iS": 9503,
-		"oA": 0,
-		"oAP": "\/bridge\/examples\/textures\/blue_blue.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/bridge\/examples\/textures\/purple_blue.jpg": {
-		"ft": 16384,
-		"iS": 46020,
-		"oA": 0,
-		"oAP": "\/bridge\/examples\/textures\/purple_blue.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/bridge\/examples\/textures\/tile.jpg": {
-		"ft": 16384,
-		"iS": 4526,
-		"oA": 0,
-		"oAP": "\/bridge\/examples\/textures\/tile.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/bridge\/LICENSE": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/LICENSE",
-		"oF": 0
-		},
-	"\/bridge\/Oculus Bridge.app\/Contents\/Info.plist": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/Oculus Bridge.app\/Contents\/Info.plist",
-		"oF": 0
-		},
-	"\/bridge\/Oculus Bridge.app\/Contents\/MacOS\/Oculus Bridge": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/Oculus Bridge.app\/Contents\/MacOS\/Oculus Bridge",
-		"oF": 0
-		},
-	"\/bridge\/Oculus Bridge.app\/Contents\/PkgInfo": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/Oculus Bridge.app\/Contents\/PkgInfo",
-		"oF": 0
-		},
-	"\/bridge\/Oculus Bridge.app\/Contents\/Resources\/oculus_bridge.icns": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bridge\/Oculus Bridge.app\/Contents\/Resources\/oculus_bridge.icns",
-		"oF": 0
-		},
-	"\/bridge\/Oculus Bridge.app\/Contents\/Resources\/status.jpg": {
-		"ft": 16384,
-		"iS": 35532,
-		"oA": 0,
-		"oAP": "\/bridge\/Oculus Bridge.app\/Contents\/Resources\/status.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/bridge\/README.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/bridge\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/bridge\/web\/build\/OculusBridge.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/bridge\/web\/build\/OculusBridge.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bridge\/web\/GruntFile.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/bridge\/web\/GruntFile-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bridge\/web\/package.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/bridge\/web\/package-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/bridge\/web\/src\/OculusBridge.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/bridge\/web\/src\/OculusBridge-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/colortracker.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/colortracker.html",
-		"oF": 0
-		},
-	"\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/Info.plist": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/Info.plist",
-		"oF": 0
-		},
-	"\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/MacOS\/app_mode_loader": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/MacOS\/app_mode_loader",
-		"oF": 0
-		},
-	"\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/PkgInfo": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/PkgInfo",
-		"oF": 0
-		},
-	"\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/Resources\/app.icns": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/Resources\/app.icns",
-		"oF": 0
-		},
-	"\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/Resources\/en-US.lproj\/InfoPlist.strings": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/Resources\/en-US.lproj\/InfoPlist.strings",
-		"oF": 0
-		},
-	"\/fluid\/boxeditor.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/fluid\/boxeditor-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/fluid\/camera.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/fluid\/camera-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/fluid\/flip.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/fluid\/flip-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/fluid\/fluidparticles.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/fluid\/fluidparticles-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/fluid\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/index.html",
-		"oF": 0
-		},
-	"\/fluid\/LICENSE": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/LICENSE",
-		"oF": 0
-		},
-	"\/fluid\/README.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/fluid\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/fluid\/renderer.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/fluid\/renderer-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/fluid\/shaders\/addforce.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/addforce.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/advect.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/advect.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/background.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/background.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/background.vert": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/background.vert",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/box.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/box.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/box.vert": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/box.vert",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/boxwireframe.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/boxwireframe.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/boxwireframe.vert": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/boxwireframe.vert",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/common.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/common.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/composite.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/composite.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/copy.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/copy.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/divergence.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/divergence.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/enforceboundaries.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/enforceboundaries.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/extendvelocity.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/extendvelocity.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/fullscreen.vert": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/fullscreen.vert",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/fxaa.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/fxaa.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/grid.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/grid.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/grid.vert": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/grid.vert",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/jacobi.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/jacobi.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/mark.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/mark.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/mark.vert": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/mark.vert",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/normalizegrid.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/normalizegrid.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/particle.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/particle.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/particle.vert": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/particle.vert",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/point.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/point.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/point.vert": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/point.vert",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/sphere.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/sphere.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/sphere.vert": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/sphere.vert",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/sphereao.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/sphereao.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/sphereao.vert": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/sphereao.vert",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/spheredepth.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/spheredepth.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/spheredepth.vert": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/spheredepth.vert",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/subtract.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/subtract.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/transfertogrid.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/transfertogrid.frag",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/transfertogrid.vert": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/transfertogrid.vert",
-		"oF": 0
-		},
-	"\/fluid\/shaders\/transfertoparticles.frag": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fluid\/shaders\/transfertoparticles.frag",
-		"oF": 0
-		},
-	"\/fluid\/simulator.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/fluid\/simulator-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/fluid\/simulatorrenderer.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/fluid\/simulatorrenderer-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/fluid\/slider.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/fluid\/slider-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/fluid\/utilities.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/fluid\/utilities-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/fluid\/wrappedgl.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/fluid\/wrappedgl-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/glass.stl": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/glass.stl",
-		"oF": 0
-		},
-	"\/img\/box.png": {
-		"ft": 32768,
-		"iS": 6757,
-		"oA": 0,
-		"oAP": "\/img\/box.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/logo.svg": {
+	"\/light-viz\/dist\/d7c639084f684d66a1bc66855d193ed8.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/img\/logo.svg",
+		"oAP": "\/light-viz\/dist\/d7c639084f684d66a1bc66855d193ed8.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/index-clm.html": {
+	"\/light-viz\/dist\/e6cf7c6ec7c2d6f670ae9d762604cb0b.woff2": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/index-clm.html",
+		"oAP": "\/light-viz\/dist\/e6cf7c6ec7c2d6f670ae9d762604cb0b.woff2",
 		"oF": 0
 		},
-	"\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index.html",
-		"oF": 0
-		},
-	"\/index0.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index0.html",
-		"oF": 0
-		},
-	"\/js\/bezier-spline.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/bezier-spline-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/BRF\/BRFv4_JS_trial.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/BRF\/BRFv4_JS_trial-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/BRF\/Tracker-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/BRF\/Tracker-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/BRF\/Tracker.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/BRF\/Tracker-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/clm\/clmtrackr.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/clm\/clmtrackr-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/clm\/entire_face_filter.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/clm\/entire_face_filter-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/clm\/frontalface.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/clm\/frontalface-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/clm\/model_pca_10_svm.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/clm\/model_pca_10_svm-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/clm\/model_pca_20_svm.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/clm\/model_pca_20_svm-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/clm\/model_spca_10_svm.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/clm\/model_spca_10_svm-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/clm\/model_spca_20_svm.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/clm\/model_spca_20_svm-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/clm\/nose_filter.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/clm\/nose_filter-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/clm\/svmfilter_fft.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/clm\/svmfilter_fft-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/clm\/svmfilter_webgl.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/clm\/svmfilter_webgl-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/clm\/tracker.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/clm\/tracker-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/clm\/utils.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/clm\/utils-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/color_camera_gui-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/color_camera_gui-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/color_camera_gui.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/color_camera_gui-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/DAT.GUI.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/DAT.GUI.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/facetracker-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/facetracker-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/facetracker.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/facetracker-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/libs\/brf\/BRFv4_JS_trial.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/libs\/brf\/BRFv4_JS_trial-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/libs\/brf\/BRFv4_JS_trial.js.mem": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/js\/libs\/brf\/BRFv4_JS_trial.js.mem",
-		"oF": 0
-		},
-	"\/js\/libs\/createjs\/BitmapData.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/libs\/createjs\/BitmapData-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/libs\/createjs\/easeljs-0.8.2.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/libs\/createjs\/easeljs-0.8.2.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/libs\/createjs\/preloadjs-0.6.2.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/libs\/createjs\/preloadjs-0.6.2.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/libs\/highlight\/highlight.pack.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/libs\/highlight\/highlight.pack-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/libs\/highlight\/highlight_tomorrow.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/js\/libs\/highlight\/highlight_tomorrow-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/js\/libs\/quicksettings\/quicksettings.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/libs\/quicksettings\/quicksettings-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/libs\/quicksettings\/quicksettings.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/js\/libs\/quicksettings\/quicksettings.min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/js\/libs\/quicksettings\/quicksettings.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/libs\/quicksettings\/quicksettings.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/libs\/quicksettings\/quicksettings_tiny.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/js\/libs\/quicksettings\/quicksettings_tiny.min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/js\/libs\/threejs\/Detector.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/libs\/threejs\/Detector-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/libs\/threejs\/three.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/libs\/threejs\/three-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/loadModule.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/loadModule-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/stats.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/stats-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/STLLoader.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/STLLoader-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/three.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/three.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/track-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/track-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/track.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/track-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/tracker-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/tracker-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/trackers\/ColorTracker.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/trackers\/ColorTracker-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/trackers\/face.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/trackers\/face-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/trackers\/ObjectTracker.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/trackers\/ObjectTracker-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/trackers\/Tracker.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/trackers\/Tracker-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/trackers\/TrackerTask.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/trackers\/TrackerTask-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/tracking-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/tracking-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/tracking.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/tracking-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/visageTracker-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/visageTracker-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/visageTracker.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/visageTracker-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/lib\/background.png": {
+	"\/light-viz\/dist\/favicon-16x16.png": {
 		"ft": 32768,
-		"iS": 424,
+		"iS": 386,
 		"oA": 0,
-		"oAP": "\/lib\/background.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/lib\/doc\/css\/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/css\/main-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/lib\/doc\/doc.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/doc.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/doc\/Candide3VerticesAndTriangles.png": {
-		"ft": 32768,
-		"iS": 140860,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/doc\/Candide3VerticesAndTriangles.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/lib\/doc\/doc\/modeling_guide.pdf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/doc\/modeling_guide.pdf",
-		"oF": 0
-		},
-	"\/lib\/doc\/doc\/MPEG-4 FBA Overview.pdf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/doc\/MPEG-4 FBA Overview.pdf",
-		"oF": 0
-		},
-	"\/lib\/doc\/doc\/VisageTracker Configuration Manual.pdf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/doc\/VisageTracker Configuration Manual.pdf",
-		"oF": 0
-		},
-	"\/lib\/doc\/eyewear.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/eyewear.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/eyewear_model_guide.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/eyewear_model_guide.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/FaceData.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/FaceData.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/FaceData.js.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/FaceData.js.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/FaceDataVector.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/FaceDataVector.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/facedetector.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/facedetector.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/facetracker.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/facetracker.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/FDP.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/FDP.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/FDP.js.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/FDP.js.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/FeaturePoint.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/FeaturePoint.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/gazetracker.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/gazetracker.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/global.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/global.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/header.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/header.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/images\/barb_facetrack.png": {
-		"ft": 32768,
-		"iS": 489794,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/barb_facetrack.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/beat_facedetect.png": {
-		"ft": 32768,
-		"iS": 574824,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/beat_facedetect.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/Candide3VerticesAndTriangles.png": {
-		"ft": 32768,
-		"iS": 956129,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/Candide3VerticesAndTriangles.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/coord-camera.png": {
-		"ft": 32768,
-		"iS": 84064,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/coord-camera.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/coord-rotation-eye.png": {
-		"ft": 32768,
-		"iS": 63200,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/coord-rotation-eye.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/coord-rotation.png": {
-		"ft": 32768,
-		"iS": 63311,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/coord-rotation.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/coord2.png": {
-		"ft": 32768,
-		"iS": 59557,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/coord2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/coord3.png": {
-		"ft": 32768,
-		"iS": 147367,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/coord3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/folder-closed.jpg": {
-		"ft": 16384,
-		"iS": 634,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/folder-closed.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/folder-open.jpg": {
-		"ft": 16384,
-		"iS": 622,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/folder-open.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/glass_no_oclussion.jpg": {
-		"ft": 16384,
-		"iS": 50006,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/glass_no_oclussion.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/half_profile_physical_2d.png": {
-		"ft": 32768,
-		"iS": 98661,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/half_profile_physical_2d.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/html5.png": {
-		"ft": 32768,
-		"iS": 2107,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/html5.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/logo.png": {
-		"ft": 32768,
-		"iS": 7382,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/mpeg-4_fba.png": {
-		"ft": 32768,
-		"iS": 113699,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/mpeg-4_fba.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/occlude_ears_correct.jpg": {
-		"ft": 16384,
-		"iS": 42144,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/occlude_ears_correct.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/occlude_ears_wrong.jpg": {
-		"ft": 16384,
-		"iS": 40191,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/occlude_ears_wrong.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/occlude_head_correct.jpg": {
-		"ft": 16384,
-		"iS": 68375,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/occlude_head_correct.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/occlude_head_narrow.jpg": {
-		"ft": 16384,
-		"iS": 71066,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/occlude_head_narrow.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/occlude_head_wide.jpg": {
-		"ft": 16384,
-		"iS": 70642,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/occlude_head_wide.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/occlude_nose_correct.jpg": {
-		"ft": 16384,
-		"iS": 71561,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/occlude_nose_correct.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/occlude_nose_narrow.jpg": {
-		"ft": 16384,
-		"iS": 70796,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/occlude_nose_narrow.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/occlude_nose_wide.jpg": {
-		"ft": 16384,
-		"iS": 70016,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/occlude_nose_wide.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/occluder_final.jpg": {
-		"ft": 16384,
-		"iS": 55416,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/occluder_final.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/occluder_wireframe.jpg": {
-		"ft": 16384,
-		"iS": 61632,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/occluder_wireframe.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/open_folder.png": {
-		"ft": 32768,
-		"iS": 4219,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/open_folder.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/open_project_folder.png": {
-		"ft": 32768,
-		"iS": 1341,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/open_project_folder.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/open_source_folder.png": {
-		"ft": 32768,
-		"iS": 1381,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/open_source_folder.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/run_sample.png": {
-		"ft": 32768,
-		"iS": 2339,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/run_sample.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/user_manual.png": {
-		"ft": 32768,
-		"iS": 2119,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/user_manual.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/using_app.jpg": {
-		"ft": 16384,
-		"iS": 52629,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/using_app.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/using_app_facedetect.png": {
-		"ft": 32768,
-		"iS": 253589,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/using_app_facedetect.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/using_app_facetrack.jpg": {
-		"ft": 16384,
-		"iS": 48610,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/using_app_facetrack.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/lib\/doc\/images\/vet-geometry.jpg": {
-		"ft": 16384,
-		"iS": 25856,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/images\/vet-geometry.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/lib\/doc\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/index.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/index_api.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/index_api.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/license.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/license.txt",
-		"oF": 0
-		},
-	"\/lib\/doc\/licensing.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/licensing.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/migration.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/migration.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/navi.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/navi.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/references.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/references.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/samples.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/samples.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/ScreenSpaceGazeData.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/ScreenSpaceGazeData.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/scripts\/linenumber.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/scripts\/linenumber-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/lib\/doc\/scripts\/prettify\/Apache-License-2.0.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/scripts\/prettify\/Apache-License-2.0.txt",
-		"oF": 0
-		},
-	"\/lib\/doc\/scripts\/prettify\/lang-css.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/scripts\/prettify\/lang-css-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/lib\/doc\/scripts\/prettify\/prettify.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/scripts\/prettify\/prettify-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/lib\/doc\/showcase.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/showcase.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/styles\/jsdoc-default.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/styles\/jsdoc-default-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/lib\/doc\/styles\/prettify-jsdoc.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/styles\/prettify-jsdoc-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/lib\/doc\/styles\/prettify-tomorrow.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/lib\/doc\/styles\/prettify-tomorrow-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/lib\/doc\/usingsdk.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/usingsdk.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/VectorFloat.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/VectorFloat.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/VectorInt.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/VectorInt.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/VectorShort.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/VectorShort.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/VectorString.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/VectorString.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/VisageAR.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/VisageAR.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/visageAR.js.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/visageAR.js.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/VisageDetector.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/VisageDetector.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/VisageFaceAnalyser.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/VisageFaceAnalyser.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/VisageFaceAnalyser.js.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/VisageFaceAnalyser.js.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/VisageFaceRecognition.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/VisageFaceRecognition.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/VisageFaceRecognition.js.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/VisageFaceRecognition.js.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/VisageFeaturesDetector.js.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/VisageFeaturesDetector.js.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/VisageGazeTracker.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/VisageGazeTracker.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/VisageGazeTracker.js.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/VisageGazeTracker.js.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/VisageTracker Configuration Manual.pdf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/VisageTracker Configuration Manual.pdf",
-		"oF": 0
-		},
-	"\/lib\/doc\/VisageTracker.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/VisageTracker.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/VisageTracker.js.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/VisageTracker.js.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/visar_api.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/visar_api.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/VSRect.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/VSRect.html",
-		"oF": 0
-		},
-	"\/lib\/doc\/VSRectVector.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/doc\/VSRectVector.html",
-		"oF": 0
-		},
-	"\/lib\/Face Detector.cfg": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/Face Detector.cfg",
-		"oF": 0
-		},
-	"\/lib\/Facial Features Tracker - High.cfg": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/Facial Features Tracker - High.cfg",
-		"oF": 0
-		},
-	"\/lib\/Facial Features Tracker - Low.cfg": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/Facial Features Tracker - Low.cfg",
-		"oF": 0
-		},
-	"\/lib\/Head Tracker.cfg": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/Head Tracker.cfg",
-		"oF": 0
-		},
-	"\/lib\/load_splash.gif": {
-		"ft": 4194304,
-		"iS": 36122,
-		"oA": 0,
-		"oAP": "\/lib\/load_splash.gif",
+		"oAP": "\/light-viz\/dist\/favicon-16x16.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/lib\/logotype.png": {
+	"\/light-viz\/dist\/favicon-32x32.png": {
 		"ft": 32768,
-		"iS": 13890,
+		"iS": 847,
 		"oA": 0,
-		"oAP": "\/lib\/logotype.png",
+		"oAP": "\/light-viz\/dist\/favicon-32x32.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"opt": 0
 		},
-	"\/lib\/three.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/lib\/three.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/lib\/visageAnalysisData.data": {
+	"\/light-viz\/dist\/index.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/lib\/visageAnalysisData.data",
+		"oAP": "\/light-viz\/dist\/index.html",
 		"oF": 0
 		},
-	"\/lib\/visageAnalysisData.js": {
+	"\/light-viz\/dist\/LightViz.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/lib\/visageAnalysisData-min.js",
+		"oAP": "\/light-viz\/dist\/LightViz-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/lib\/visageAR.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/lib\/visageAR-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/lib\/visageRecognitionData.data": {
+	"\/light-viz\/Documentation\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/lib\/visageRecognitionData.data",
+		"oAP": "\/light-viz\/Documentation\/.gitignore",
 		"oF": 0
 		},
-	"\/lib\/visageRecognitionData.js": {
+	"\/light-viz\/Documentation\/config.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/lib\/visageRecognitionData-min.js",
+		"oAP": "\/light-viz\/Documentation\/config-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/lib\/visageSDK-min.js": {
-		"ft": 64,
-		"mi": 1,
+	"\/light-viz\/Documentation\/content\/docs\/contributing.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/lib\/visageSDK-min-min.js",
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/contributing.html",
 		"oF": 0,
-		"sC": 1,
-		"tS": 0
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
-	"\/lib\/visageSDK.js": {
-		"ft": 64,
-		"mi": 1,
+	"\/light-viz\/Documentation\/content\/docs\/index.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/lib\/visageSDK-min.js",
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/index.html",
 		"oF": 0,
-		"sC": 1,
-		"tS": 0
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
-	"\/module.stl": {
+	"\/light-viz\/Documentation\/content\/docs\/lightviz.config": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/module.stl",
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz.config",
 		"oF": 0
 		},
-	"\/Plugins\/AddInSample\/AddInSample.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Plugins\/AddInSample\/AddInSample.html",
-		"oF": 0
-		},
-	"\/Plugins\/AddInSample\/AddInSample.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/Plugins\/AddInSample\/AddInSample-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/Plugins\/AddInSample\/AddInSample.manifest": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Plugins\/AddInSample\/AddInSample.manifest",
-		"oF": 0
-		},
-	"\/Plugins\/AddInSample\/help.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Plugins\/AddInSample\/help.html",
-		"oF": 0
-		},
-	"\/Plugins\/AddInSample\/resource.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/Plugins\/AddInSample\/resource-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/Plugins\/AddInSample\/resources\/16x16-dark.png": {
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/clip.png": {
 		"ft": 32768,
-		"iS": 726,
+		"iS": 20977,
 		"oA": 0,
-		"oAP": "\/Plugins\/AddInSample\/resources\/16x16-dark.png",
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/clip.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"opt": 0
 		},
-	"\/Plugins\/AddInSample\/resources\/16x16-disabled.png": {
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/colormap.png": {
 		"ft": 32768,
-		"iS": 726,
+		"iS": 34982,
 		"oA": 0,
-		"oAP": "\/Plugins\/AddInSample\/resources\/16x16-disabled.png",
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/colormap.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"opt": 0
 		},
-	"\/Plugins\/AddInSample\/resources\/16x16-pressed.png": {
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/colormap_default.png": {
 		"ft": 32768,
-		"iS": 842,
+		"iS": 15128,
 		"oA": 0,
-		"oAP": "\/Plugins\/AddInSample\/resources\/16x16-pressed.png",
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/colormap_default.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"opt": 0
 		},
-	"\/Plugins\/AddInSample\/resources\/16x16.png": {
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/colormap_preset.png": {
 		"ft": 32768,
-		"iS": 708,
+		"iS": 19739,
 		"oA": 0,
-		"oAP": "\/Plugins\/AddInSample\/resources\/16x16.png",
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/colormap_preset.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"opt": 0
 		},
-	"\/Plugins\/AddInSample\/resources\/32x32-dark.png": {
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/contour.png": {
+		"ft": 32768,
+		"iS": 19868,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/contour.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/dataset.png": {
+		"ft": 32768,
+		"iS": 40493,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/dataset.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/default.png": {
+		"ft": 32768,
+		"iS": 46156,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/default.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/main_controls.png": {
+		"ft": 32768,
+		"iS": 5779,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/main_controls.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/mslice.png": {
+		"ft": 32768,
+		"iS": 21396,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/mslice.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/slice.png": {
+		"ft": 32768,
+		"iS": 20634,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/slice.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/streamline.png": {
+		"ft": 32768,
+		"iS": 29121,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/streamline.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/threshold.png": {
+		"ft": 32768,
+		"iS": 19204,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/threshold.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/time.png": {
+		"ft": 32768,
+		"iS": 6859,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/time.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/volume.png": {
+		"ft": 32768,
+		"iS": 21863,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/volume.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/clip.png": {
+		"ft": 32768,
+		"iS": 13106,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/clip.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/colormap.png": {
+		"ft": 32768,
+		"iS": 21528,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/colormap.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/colormap_set_preset.png": {
+		"ft": 32768,
+		"iS": 10438,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/colormap_set_preset.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/contour.png": {
+		"ft": 32768,
+		"iS": 16226,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/contour.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/dataset.png": {
+		"ft": 32768,
+		"iS": 10806,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/dataset.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/dataset_blocks.png": {
+		"ft": 32768,
+		"iS": 34273,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/dataset_blocks.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/default.png": {
+		"ft": 32768,
+		"iS": 35664,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/default.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/expand_controls.png": {
+		"ft": 32768,
+		"iS": 62855,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/expand_controls.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/mslice.png": {
+		"ft": 32768,
+		"iS": 18671,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/mslice.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/select_dataset.png": {
+		"ft": 32768,
+		"iS": 166287,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/select_dataset.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/slice.png": {
+		"ft": 32768,
+		"iS": 14121,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/slice.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/streamline.png": {
+		"ft": 32768,
+		"iS": 22764,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/streamline.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/threshold.png": {
+		"ft": 32768,
+		"iS": 16461,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/threshold.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/time.png": {
+		"ft": 32768,
+		"iS": 9052,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/time.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/volume.png": {
+		"ft": 32768,
+		"iS": 19167,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/volume.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/setup.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/setup.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/tools.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/tools.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/troubleshooting.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/troubleshooting.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/userguide.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/userguide.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/light-viz\/Documentation\/content\/icon\/favicon-160x160.png": {
+		"ft": 32768,
+		"iS": 5537,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/icon\/favicon-160x160.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/icon\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 386,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/icon\/favicon-16x16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/icon\/favicon-196x196.png": {
+		"ft": 32768,
+		"iS": 7164,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/icon\/favicon-196x196.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/icon\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 847,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/icon\/favicon-32x32.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/icon\/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 3069,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/icon\/favicon-96x96.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/index.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/light-viz\/Documentation\/content\/logo-wide.png": {
+		"ft": 32768,
+		"iS": 7565,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/logo-wide.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/logo-wide.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/Documentation\/content\/logo-wide.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/Documentation\/content\/logo.png": {
+		"ft": 32768,
+		"iS": 7164,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/Documentation\/content\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/Documentation\/data\/menu.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/Documentation\/data\/menu.yml",
+		"oF": 0
+		},
+	"\/light-viz\/Documentation\/tpl\/__en__": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/light-viz\/Documentation\/tpl\/__en__",
+		"oF": 0
+		},
+	"\/light-viz\/Documentation\/tpl\/__sidebar__": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/light-viz\/Documentation\/tpl\/__sidebar__",
+		"oF": 0
+		},
+	"\/light-viz\/index.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/light-viz\/index-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/light-viz\/lib\/app.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/app-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/client.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/light-viz\/lib\/client-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/config.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/light-viz\/lib\/config-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/modules\/clip.png": {
+		"ft": 32768,
+		"iS": 5196,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/modules\/clip.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/modules\/contour.png": {
+		"ft": 32768,
+		"iS": 7158,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/modules\/contour.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/modules\/dataset.png": {
+		"ft": 32768,
+		"iS": 5057,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/modules\/dataset.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/modules\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/modules\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/modules\/oslice.png": {
+		"ft": 32768,
+		"iS": 5826,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/modules\/oslice.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/modules\/pslice.png": {
+		"ft": 32768,
+		"iS": 6373,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/modules\/pslice.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/modules\/streamline.png": {
+		"ft": 32768,
+		"iS": 1390,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/modules\/streamline.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/modules\/volume.png": {
+		"ft": 32768,
+		"iS": 856,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/modules\/volume.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/pages\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/pages\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/pages\/ListDatasets\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/pages\/ListDatasets\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/pages\/ListDatasets\/ThumbnailList.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/light-viz\/lib\/pages\/ListDatasets\/ThumbnailList-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/pages\/ViewDataset\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/pages\/ViewDataset\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/pages\/ViewDataset2\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/pages\/ViewDataset2\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/pages\/ViewSelector\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/pages\/ViewSelector\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/AbstractPanel\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/AbstractPanel\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/AbstractPanel\/not-clip.png": {
+		"ft": 32768,
+		"iS": 4282,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/AbstractPanel\/not-clip.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/panels\/Clip\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Clip\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/ColorControls\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/ColorControls\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/Contour\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Contour\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/Dataset\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Dataset\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/Module\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Module\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/MultiSlice\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/MultiSlice\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/Section\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Section\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/Slice\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Slice\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/Streamline\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Streamline\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/Threshold\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Threshold\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/Time\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Time\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/Volume\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Volume\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/Volume\/volume.png": {
+		"ft": 32768,
+		"iS": 856,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Volume\/volume.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/widgets\/ColorBy\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/ColorBy\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/widgets\/ColorMap\/blackbody.png": {
+		"ft": 32768,
+		"iS": 106,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/ColorMap\/blackbody.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/widgets\/ColorMap\/coolToWarm.png": {
+		"ft": 32768,
+		"iS": 258,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/ColorMap\/coolToWarm.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/widgets\/ColorMap\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/ColorMap\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/widgets\/ColorMap\/OpacityMapSyncer.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/ColorMap\/OpacityMapSyncer-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/widgets\/ColorMap\/viridis.png": {
+		"ft": 32768,
+		"iS": 245,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/ColorMap\/viridis.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/widgets\/ForegroundBackground\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/ForegroundBackground\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/widgets\/OpacityMap\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/OpacityMap\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/widgets\/Representation\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/Representation\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/widgets\/Representation\/surface-with-edge.png": {
+		"ft": 32768,
+		"iS": 1898,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/Representation\/surface-with-edge.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/widgets\/Representation\/surface.png": {
 		"ft": 32768,
 		"iS": 1300,
 		"oA": 0,
-		"oAP": "\/Plugins\/AddInSample\/resources\/32x32-dark.png",
+		"oAP": "\/light-viz\/lib\/widgets\/Representation\/surface.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"opt": 0
 		},
-	"\/Plugins\/AddInSample\/resources\/32x32-disabled.png": {
+	"\/light-viz\/lib\/widgets\/Representation\/wireframe.png": {
 		"ft": 32768,
-		"iS": 1300,
+		"iS": 1231,
 		"oA": 0,
-		"oAP": "\/Plugins\/AddInSample\/resources\/32x32-disabled.png",
+		"oAP": "\/light-viz\/lib\/widgets\/Representation\/wireframe.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"opt": 0
 		},
-	"\/Plugins\/AddInSample\/resources\/32x32.png": {
-		"ft": 32768,
-		"iS": 1234,
+	"\/light-viz\/lib\/widgets\/TogglePanel\/index.js": {
+		"ft": 64,
+		"mi": 1,
 		"oA": 0,
-		"oAP": "\/Plugins\/AddInSample\/resources\/32x32.png",
+		"oAP": "\/light-viz\/lib\/widgets\/TogglePanel\/index-min.js",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"sC": 1,
+		"tS": 0
 		},
-	"\/reflector.stl": {
+	"\/light-viz\/LICENSE": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/reflector.stl",
+		"oAP": "\/light-viz\/LICENSE",
 		"oF": 0
 		},
-	"\/sampleTracker.html": {
+	"\/light-viz\/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "\/build\/light-viz\/node_modules",
+		"oF": 0
+		},
+	"\/light-viz\/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/light-viz\/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/light-viz\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/light-viz\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/light-viz\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/light-viz\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/light-viz\/server\/add_dataset.py": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/sampleTracker.html",
+		"oAP": "\/light-viz\/server\/add_dataset.py",
 		"oF": 0
 		},
-	"\/styles-min.css": {
+	"\/light-viz\/server\/light_viz_protocols.py": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/server\/light_viz_protocols.py",
+		"oF": 0
+		},
+	"\/light-viz\/server\/pvw-light-viz.py": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/server\/pvw-light-viz.py",
+		"oF": 0
+		},
+	"\/light-viz\/style\/AbstractPanel.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/AbstractPanel.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/ClipPanel.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/ClipPanel.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/ColorControls.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/ColorControls.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/ColorMapWidget.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/ColorMapWidget.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/ContourPanel.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/ContourPanel.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/DatasetPanel.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/DatasetPanel.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/ForegroundBackgroundWidget.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/ForegroundBackgroundWidget.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/ListDatasets.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/ListDatasets.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/MultiSlicePanel.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/MultiSlicePanel.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/OpacityMapWidget.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/OpacityMapWidget.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/Section.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/Section.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/SlicePanel.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/SlicePanel.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/StreamlinePanel.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/StreamlinePanel.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/ThresholdPanel.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/ThresholdPanel.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/TimePanel.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/TimePanel.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/TogglePanel.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/TogglePanel.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/ViewDataset.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/ViewDataset.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/ViewDataset2.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/ViewDataset2.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/svg\/Clip.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/svg\/Clip.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/svg\/Contour.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/svg\/Contour.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/svg\/DataSet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/svg\/DataSet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/svg\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/svg\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/svg\/LightViz.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/svg\/LightViz.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/svg\/SliceOrthogonal.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/svg\/SliceOrthogonal.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/svg\/SliceParallel.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/svg\/SliceParallel.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/svg\/StreamLines.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/svg\/StreamLines.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/svg\/Threshold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/svg\/Threshold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/svg\/Volume.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/svg\/Volume.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/URLS.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/light-viz\/URLS.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/light-viz\/webpack.config.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/webpack.config-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/MISC\/bridge\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/.gitignore",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/build\/oculus-bridge-osx.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/build\/oculus-bridge-osx.zip",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/build\/oculus-bridge-windows.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/build\/oculus-bridge-windows.zip",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/MISC\/bridge\/app\/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/macosx\/libboost_random.a": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/macosx\/libboost_random.a",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/macosx\/libboost_regex.a": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/macosx\/libboost_regex.a",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/msw\/libboost_random-vc110-mt-s-1_53.lib": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/msw\/libboost_random-vc110-mt-s-1_53.lib",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/msw\/libboost_random-vc110-mt-sgd-1_53.lib": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/lib\/msw\/libboost_random-vc110-mt-sgd-1_53.lib",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketClient.cpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketClient.cpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketClient.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketClient.h",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketConnection.cpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketConnection.cpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketConnection.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketConnection.h",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/base64\/base64.cpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/base64\/base64.cpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/base64\/base64.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/base64\/base64.h",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/base64\/base64.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/base64\/base64.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/client.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/client.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/close.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/close.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/chrono.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/chrono.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/connection_hdl.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/connection_hdl.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/cpp11.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/cpp11.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/functional.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/functional.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/md5.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/md5.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/memory.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/memory.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/network.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/network.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/platforms.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/platforms.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/random.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/random.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/regex.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/regex.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/stdint.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/stdint.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/system_error.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/system_error.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/thread.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/common\/thread.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/concurrency\/basic.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/concurrency\/basic.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/concurrency\/none.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/concurrency\/none.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio_client.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio_client.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio_no_tls.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio_no_tls.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio_no_tls_client.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/asio_no_tls_client.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/boost_config.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/boost_config.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/core.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/core.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/core_client.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/core_client.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/debug.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/debug.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/debug_asio.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/debug_asio.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/debug_asio_no_tls.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/config\/debug_asio_no_tls.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/connection.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/connection.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/connection_base.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/connection_base.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/COPYING": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/COPYING",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/endpoint.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/endpoint.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/endpoint_base.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/endpoint_base.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/error.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/error.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/error_container.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/error_container.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/extensions\/extension.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/extensions\/extension.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/extensions\/permessage_deflate\/disabled.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/extensions\/permessage_deflate\/disabled.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/extensions\/permessage_deflate\/enabled.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/extensions\/permessage_deflate\/enabled.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/frame.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/frame.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/constants.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/constants.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/impl\/parser.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/impl\/parser.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/impl\/request.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/impl\/request.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/impl\/response.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/impl\/response.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/parser.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/parser.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/request.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/request.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/response.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/http\/response.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/impl\/connection_impl.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/impl\/connection_impl.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/impl\/endpoint_impl.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/impl\/endpoint_impl.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/impl\/utilities_impl.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/impl\/utilities_impl.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/logger\/basic.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/logger\/basic.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/logger\/levels.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/logger\/levels.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/logger\/stub.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/logger\/stub.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/message_buffer\/alloc.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/message_buffer\/alloc.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/message_buffer\/message.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/message_buffer\/message.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/message_buffer\/pool.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/message_buffer\/pool.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/base.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/base.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi00.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi00.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi07.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi07.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi08.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi08.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi13.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/hybi13.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/processor.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/processors\/processor.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/random\/none.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/random\/none.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/random\/random_device.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/random\/random_device.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/roles\/client_endpoint.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/roles\/client_endpoint.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/roles\/server_endpoint.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/roles\/server_endpoint.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/server.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/server.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/sha1\/license.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/sha1\/license.txt",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/sha1\/sha1.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/sha1\/sha1.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/base.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/base.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/connection.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/connection.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/endpoint.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/endpoint.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/security\/base.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/security\/base.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/security\/none.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/security\/none.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/security\/tls.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/asio\/security\/tls.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/base\/connection.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/base\/connection.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/base\/endpoint.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/base\/endpoint.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/iostream\/base.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/iostream\/base.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/iostream\/connection.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/iostream\/connection.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/iostream\/endpoint.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/transport\/iostream\/endpoint.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/uri.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/uri.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/utf8_validator.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/utf8_validator.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/utilities.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/utilities.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/version.hpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/websocketpp\/version.hpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketServer.cpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketServer.cpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketServer.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/blocks\/Cinder-WebSocketPP\/src\/WebSocketServer.h",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/include\/Resources.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/include\/Resources.h",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/resources\/cinder_app_icon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/resources\/cinder_app_icon.ico",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/resources\/oculus_bridge.icns": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/resources\/oculus_bridge.icns",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/resources\/oculus_bridge.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/resources\/oculus_bridge.ico",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/resources\/status.jpg": {
+		"ft": 16384,
+		"iS": 35532,
+		"oA": 0,
+		"oAP": "\/MISC\/bridge\/app\/src\/resources\/status.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/MISC\/bridge\/app\/src\/src\/Oculus.cpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/src\/Oculus.cpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/src\/Oculus.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/src\/Oculus.h",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/src\/OculusSocketServerApp.cpp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/src\/OculusSocketServerApp.cpp",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/vc11\/OculusSocketServer.sln": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/vc11\/OculusSocketServer.sln",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/vc11\/OculusSocketServer.vcxproj": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/vc11\/OculusSocketServer.vcxproj",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/vc11\/OculusSocketServer.vcxproj.filters": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/vc11\/OculusSocketServer.vcxproj.filters",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/vc11\/OculusSocketServer.vcxproj.user": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/vc11\/OculusSocketServer.vcxproj.user",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/vc11\/Resources.rc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/vc11\/Resources.rc",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/xcode\/Info.plist": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/xcode\/Info.plist",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/project.pbxproj": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/xcode\/OculusSocketServer.xcodeproj\/project.pbxproj",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/app\/src\/xcode\/OculusSocketServer_Prefix.pch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/app\/src\/xcode\/OculusSocketServer_Prefix.pch",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/docs\/build_instructions.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/MISC\/bridge\/docs\/build_instructions.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/MISC\/bridge\/docs\/first_person_movement.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/MISC\/bridge\/docs\/first_person_movement.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/MISC\/bridge\/docs\/javascript_docs.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/MISC\/bridge\/docs\/javascript_docs.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/MISC\/bridge\/examples\/connect.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/examples\/connect.html",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/examples\/css\/distort.vs": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/examples\/css\/distort.vs",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/examples\/css\/passthrough.fs": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/examples\/css\/passthrough.fs",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/examples\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/styles-min-min.css",
+		"oAP": "\/MISC\/bridge\/examples\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/MISC\/bridge\/examples\/css_shaders.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/examples\/css_shaders.html",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/examples\/first_person.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/examples\/first_person.html",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/examples\/img\/grid.jpg": {
+		"ft": 16384,
+		"iS": 22972,
+		"oA": 0,
+		"oAP": "\/MISC\/bridge\/examples\/img\/grid.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/MISC\/bridge\/examples\/img\/oculus_bridge.png": {
+		"ft": 32768,
+		"iS": 3050,
+		"oA": 0,
+		"oAP": "\/MISC\/bridge\/examples\/img\/oculus_bridge.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/MISC\/bridge\/examples\/img\/oculus_bridge_offline.png": {
+		"ft": 32768,
+		"iS": 2477,
+		"oA": 0,
+		"oAP": "\/MISC\/bridge\/examples\/img\/oculus_bridge_offline.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/MISC\/bridge\/examples\/js\/connect.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/MISC\/bridge\/examples\/js\/connect-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/MISC\/bridge\/examples\/js\/first_person.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/MISC\/bridge\/examples\/js\/first_person-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/MISC\/bridge\/examples\/lib\/OrbitControls.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/MISC\/bridge\/examples\/lib\/OrbitControls-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/MISC\/bridge\/examples\/lib\/RiftCamera.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/MISC\/bridge\/examples\/lib\/RiftCamera-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/MISC\/bridge\/examples\/lib\/three.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/MISC\/bridge\/examples\/lib\/three.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/MISC\/bridge\/examples\/textures\/blue_blue.jpg": {
+		"ft": 16384,
+		"iS": 9503,
+		"oA": 0,
+		"oAP": "\/MISC\/bridge\/examples\/textures\/blue_blue.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/MISC\/bridge\/examples\/textures\/purple_blue.jpg": {
+		"ft": 16384,
+		"iS": 46020,
+		"oA": 0,
+		"oAP": "\/MISC\/bridge\/examples\/textures\/purple_blue.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/MISC\/bridge\/examples\/textures\/tile.jpg": {
+		"ft": 16384,
+		"iS": 4526,
+		"oA": 0,
+		"oAP": "\/MISC\/bridge\/examples\/textures\/tile.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/MISC\/bridge\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/LICENSE",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/Oculus Bridge.app\/Contents\/Info.plist": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/Oculus Bridge.app\/Contents\/Info.plist",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/Oculus Bridge.app\/Contents\/MacOS\/Oculus Bridge": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/Oculus Bridge.app\/Contents\/MacOS\/Oculus Bridge",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/Oculus Bridge.app\/Contents\/PkgInfo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/Oculus Bridge.app\/Contents\/PkgInfo",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/Oculus Bridge.app\/Contents\/Resources\/oculus_bridge.icns": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/bridge\/Oculus Bridge.app\/Contents\/Resources\/oculus_bridge.icns",
+		"oF": 0
+		},
+	"\/MISC\/bridge\/Oculus Bridge.app\/Contents\/Resources\/status.jpg": {
+		"ft": 16384,
+		"iS": 35532,
+		"oA": 0,
+		"oAP": "\/MISC\/bridge\/Oculus Bridge.app\/Contents\/Resources\/status.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/MISC\/bridge\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/MISC\/bridge\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/MISC\/bridge\/web\/build\/OculusBridge.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/MISC\/bridge\/web\/build\/OculusBridge.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/MISC\/bridge\/web\/GruntFile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/MISC\/bridge\/web\/GruntFile-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/MISC\/bridge\/web\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/MISC\/bridge\/web\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/MISC\/bridge\/web\/src\/OculusBridge.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/MISC\/bridge\/web\/src\/OculusBridge-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/MISC\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/Info.plist": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/Info.plist",
+		"oF": 0
+		},
+	"\/MISC\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/MacOS\/app_mode_loader": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/MacOS\/app_mode_loader",
+		"oF": 0
+		},
+	"\/MISC\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/PkgInfo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/PkgInfo",
+		"oF": 0
+		},
+	"\/MISC\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/Resources\/app.icns": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/Resources\/app.icns",
+		"oF": 0
+		},
+	"\/MISC\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/Resources\/en-US.lproj\/InfoPlist.strings": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/Default cmjnmnkbblgdplpihcbamaaehaoapncj.app\/Contents\/Resources\/en-US.lproj\/InfoPlist.strings",
+		"oF": 0
+		},
+	"\/MISC\/Plugins\/AddInSample\/AddInSample.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/Plugins\/AddInSample\/AddInSample.html",
+		"oF": 0
+		},
+	"\/MISC\/Plugins\/AddInSample\/AddInSample.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/MISC\/Plugins\/AddInSample\/AddInSample-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/MISC\/Plugins\/AddInSample\/AddInSample.manifest": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/Plugins\/AddInSample\/AddInSample.manifest",
+		"oF": 0
+		},
+	"\/MISC\/Plugins\/AddInSample\/help.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/MISC\/Plugins\/AddInSample\/help.html",
+		"oF": 0
+		},
+	"\/MISC\/Plugins\/AddInSample\/resource.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/MISC\/Plugins\/AddInSample\/resource-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/MISC\/Plugins\/AddInSample\/resources\/16x16-dark.png": {
+		"ft": 32768,
+		"iS": 726,
+		"oA": 0,
+		"oAP": "\/MISC\/Plugins\/AddInSample\/resources\/16x16-dark.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/MISC\/Plugins\/AddInSample\/resources\/16x16-disabled.png": {
+		"ft": 32768,
+		"iS": 726,
+		"oA": 0,
+		"oAP": "\/MISC\/Plugins\/AddInSample\/resources\/16x16-disabled.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/MISC\/Plugins\/AddInSample\/resources\/16x16-pressed.png": {
+		"ft": 32768,
+		"iS": 842,
+		"oA": 0,
+		"oAP": "\/MISC\/Plugins\/AddInSample\/resources\/16x16-pressed.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/MISC\/Plugins\/AddInSample\/resources\/16x16.png": {
+		"ft": 32768,
+		"iS": 708,
+		"oA": 0,
+		"oAP": "\/MISC\/Plugins\/AddInSample\/resources\/16x16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/MISC\/Plugins\/AddInSample\/resources\/32x32-dark.png": {
+		"ft": 32768,
+		"iS": 1300,
+		"oA": 0,
+		"oAP": "\/MISC\/Plugins\/AddInSample\/resources\/32x32-dark.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/MISC\/Plugins\/AddInSample\/resources\/32x32-disabled.png": {
+		"ft": 32768,
+		"iS": 1300,
+		"oA": 0,
+		"oAP": "\/MISC\/Plugins\/AddInSample\/resources\/32x32-disabled.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/MISC\/Plugins\/AddInSample\/resources\/32x32.png": {
+		"ft": 32768,
+		"iS": 1234,
+		"oA": 0,
+		"oAP": "\/MISC\/Plugins\/AddInSample\/resources\/32x32.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "\/build\/node_modules",
+		"oF": 0
+		},
+	"\/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/run": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/run",
+		"oF": 0
+		},
+	"\/src\/less\/style.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/src\/less\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/src\/views\/index.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/src\/views\/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/src\/views\/scene.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/src\/views\/scene.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/static\/img\/box.png": {
+		"ft": 32768,
+		"iS": 6757,
+		"oA": 0,
+		"oAP": "\/static\/img\/box.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/img\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/static\/js\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/js\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/js\/ngStorage.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/js\/ngStorage-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/lib\/background.png": {
+		"ft": 32768,
+		"iS": 424,
+		"oA": 0,
+		"oAP": "\/static\/lib\/background.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/css\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/css\/main-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/static\/lib\/doc\/doc.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/doc.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/doc\/Candide3VerticesAndTriangles.png": {
+		"ft": 32768,
+		"iS": 140860,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/doc\/Candide3VerticesAndTriangles.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/doc\/modeling_guide.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/doc\/modeling_guide.pdf",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/doc\/MPEG-4 FBA Overview.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/doc\/MPEG-4 FBA Overview.pdf",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/doc\/VisageTracker Configuration Manual.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/doc\/VisageTracker Configuration Manual.pdf",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/eyewear.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/eyewear.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/eyewear_model_guide.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/eyewear_model_guide.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/FaceData.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/FaceData.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/FaceData.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/FaceData.js.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/FaceDataVector.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/FaceDataVector.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/facedetector.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/facedetector.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/facetracker.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/facetracker.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/FDP.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/FDP.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/FDP.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/FDP.js.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/FeaturePoint.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/FeaturePoint.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/gazetracker.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/gazetracker.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/global.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/global.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/header.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/header.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/images\/barb_facetrack.png": {
+		"ft": 32768,
+		"iS": 489794,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/barb_facetrack.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/beat_facedetect.png": {
+		"ft": 32768,
+		"iS": 574824,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/beat_facedetect.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/Candide3VerticesAndTriangles.png": {
+		"ft": 32768,
+		"iS": 956129,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/Candide3VerticesAndTriangles.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/coord-camera.png": {
+		"ft": 32768,
+		"iS": 84064,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/coord-camera.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/coord-rotation-eye.png": {
+		"ft": 32768,
+		"iS": 63200,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/coord-rotation-eye.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/coord-rotation.png": {
+		"ft": 32768,
+		"iS": 63311,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/coord-rotation.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/coord2.png": {
+		"ft": 32768,
+		"iS": 59557,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/coord2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/coord3.png": {
+		"ft": 32768,
+		"iS": 147367,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/coord3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/folder-closed.jpg": {
+		"ft": 16384,
+		"iS": 634,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/folder-closed.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/folder-open.jpg": {
+		"ft": 16384,
+		"iS": 622,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/folder-open.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/glass_no_oclussion.jpg": {
+		"ft": 16384,
+		"iS": 50006,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/glass_no_oclussion.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/half_profile_physical_2d.png": {
+		"ft": 32768,
+		"iS": 98661,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/half_profile_physical_2d.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/html5.png": {
+		"ft": 32768,
+		"iS": 2107,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/html5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/logo.png": {
+		"ft": 32768,
+		"iS": 7382,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/mpeg-4_fba.png": {
+		"ft": 32768,
+		"iS": 113699,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/mpeg-4_fba.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/occlude_ears_correct.jpg": {
+		"ft": 16384,
+		"iS": 42144,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/occlude_ears_correct.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/occlude_ears_wrong.jpg": {
+		"ft": 16384,
+		"iS": 40191,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/occlude_ears_wrong.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/occlude_head_correct.jpg": {
+		"ft": 16384,
+		"iS": 68375,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/occlude_head_correct.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/occlude_head_narrow.jpg": {
+		"ft": 16384,
+		"iS": 71066,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/occlude_head_narrow.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/occlude_head_wide.jpg": {
+		"ft": 16384,
+		"iS": 70642,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/occlude_head_wide.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/occlude_nose_correct.jpg": {
+		"ft": 16384,
+		"iS": 71561,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/occlude_nose_correct.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/occlude_nose_narrow.jpg": {
+		"ft": 16384,
+		"iS": 70796,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/occlude_nose_narrow.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/occlude_nose_wide.jpg": {
+		"ft": 16384,
+		"iS": 70016,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/occlude_nose_wide.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/occluder_final.jpg": {
+		"ft": 16384,
+		"iS": 55416,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/occluder_final.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/occluder_wireframe.jpg": {
+		"ft": 16384,
+		"iS": 61632,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/occluder_wireframe.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/open_folder.png": {
+		"ft": 32768,
+		"iS": 4219,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/open_folder.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/open_project_folder.png": {
+		"ft": 32768,
+		"iS": 1341,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/open_project_folder.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/open_source_folder.png": {
+		"ft": 32768,
+		"iS": 1381,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/open_source_folder.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/run_sample.png": {
+		"ft": 32768,
+		"iS": 2339,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/run_sample.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/user_manual.png": {
+		"ft": 32768,
+		"iS": 2119,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/user_manual.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/using_app.jpg": {
+		"ft": 16384,
+		"iS": 52629,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/using_app.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/using_app_facedetect.png": {
+		"ft": 32768,
+		"iS": 253589,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/using_app_facedetect.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/using_app_facetrack.jpg": {
+		"ft": 16384,
+		"iS": 48610,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/using_app_facetrack.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/images\/vet-geometry.jpg": {
+		"ft": 16384,
+		"iS": 25856,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/images\/vet-geometry.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/doc\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/index.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/index_api.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/index_api.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/license.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/license.txt",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/licensing.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/licensing.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/migration.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/migration.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/navi.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/navi.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/references.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/references.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/samples.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/samples.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/ScreenSpaceGazeData.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/ScreenSpaceGazeData.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/scripts\/linenumber.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/scripts\/linenumber-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/lib\/doc\/scripts\/prettify\/Apache-License-2.0.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/scripts\/prettify\/Apache-License-2.0.txt",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/scripts\/prettify\/lang-css.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/scripts\/prettify\/lang-css-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/lib\/doc\/scripts\/prettify\/prettify.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/scripts\/prettify\/prettify-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/lib\/doc\/showcase.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/showcase.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/styles\/jsdoc-default.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/styles\/jsdoc-default-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/static\/lib\/doc\/styles\/prettify-jsdoc.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/styles\/prettify-jsdoc-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/static\/lib\/doc\/styles\/prettify-tomorrow.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/static\/lib\/doc\/styles\/prettify-tomorrow-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/static\/lib\/doc\/usingsdk.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/usingsdk.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/VectorFloat.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/VectorFloat.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/VectorInt.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/VectorInt.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/VectorShort.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/VectorShort.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/VectorString.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/VectorString.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/VisageAR.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/VisageAR.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/visageAR.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/visageAR.js.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/VisageDetector.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/VisageDetector.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/VisageFaceAnalyser.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/VisageFaceAnalyser.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/VisageFaceAnalyser.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/VisageFaceAnalyser.js.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/VisageFaceRecognition.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/VisageFaceRecognition.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/VisageFaceRecognition.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/VisageFaceRecognition.js.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/VisageFeaturesDetector.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/VisageFeaturesDetector.js.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/VisageGazeTracker.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/VisageGazeTracker.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/VisageGazeTracker.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/VisageGazeTracker.js.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/VisageTracker Configuration Manual.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/VisageTracker Configuration Manual.pdf",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/VisageTracker.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/VisageTracker.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/VisageTracker.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/VisageTracker.js.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/visar_api.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/visar_api.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/VSRect.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/VSRect.html",
+		"oF": 0
+		},
+	"\/static\/lib\/doc\/VSRectVector.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/doc\/VSRectVector.html",
+		"oF": 0
+		},
+	"\/static\/lib\/Face Detector.cfg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/Face Detector.cfg",
+		"oF": 0
+		},
+	"\/static\/lib\/Facial Features Tracker - High.cfg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/Facial Features Tracker - High.cfg",
+		"oF": 0
+		},
+	"\/static\/lib\/Facial Features Tracker - Low.cfg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/Facial Features Tracker - Low.cfg",
+		"oF": 0
+		},
+	"\/static\/lib\/Head Tracker.cfg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/Head Tracker.cfg",
+		"oF": 0
+		},
+	"\/static\/lib\/load_splash.gif": {
+		"ft": 4194304,
+		"iS": 36122,
+		"oA": 0,
+		"oAP": "\/static\/lib\/load_splash.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/logotype.png": {
+		"ft": 32768,
+		"iS": 13890,
+		"oA": 0,
+		"oAP": "\/static\/lib\/logotype.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/lib\/three.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/lib\/three.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/lib\/visageAnalysisData.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/visageAnalysisData.data",
+		"oF": 0
+		},
+	"\/static\/lib\/visageAnalysisData.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/lib\/visageAnalysisData-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/lib\/visageAR.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/lib\/visageAR-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/lib\/visageRecognitionData.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/lib\/visageRecognitionData.data",
+		"oF": 0
+		},
+	"\/static\/lib\/visageRecognitionData.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/lib\/visageRecognitionData-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/lib\/visageSDK-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/lib\/visageSDK-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/lib\/visageSDK.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/lib\/visageSDK-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/libraries\/BRF\/BRFController": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/BRF\/BRFController",
+		"oF": 0
+		},
+	"\/static\/libraries\/BRF\/BRFController-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/BRF\/BRFController-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/libraries\/BRF\/BRFController.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/BRF\/BRFController-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/libraries\/BRF\/BRFv4_JS_trial.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/BRF\/BRFv4_JS_trial-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/libraries\/BRF\/BRFv4_JS_trial.js.mem": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/BRF\/BRFv4_JS_trial.js.mem",
+		"oF": 0
+		},
+	"\/static\/libraries\/datgui\/DAT.GUI.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/datgui\/DAT.GUI.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/libraries\/threejs\/STLLoader.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/threejs\/STLLoader-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/libraries\/threejs\/three.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/threejs\/three.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/libraries\/visage\/bezier-spline.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/bezier-spline-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/libraries\/visage\/facetracker.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/facetracker-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/libraries\/visage\/lib\/background.png": {
+		"ft": 32768,
+		"iS": 424,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/background.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/css\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/css\/main-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/doc.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/doc.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/doc\/Candide3VerticesAndTriangles.png": {
+		"ft": 32768,
+		"iS": 140860,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/doc\/Candide3VerticesAndTriangles.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/doc\/modeling_guide.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/doc\/modeling_guide.pdf",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/doc\/MPEG-4 FBA Overview.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/doc\/MPEG-4 FBA Overview.pdf",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/doc\/VisageTracker Configuration Manual.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/doc\/VisageTracker Configuration Manual.pdf",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/eyewear.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/eyewear.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/eyewear_model_guide.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/eyewear_model_guide.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/FaceData.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/FaceData.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/FaceData.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/FaceData.js.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/FaceDataVector.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/FaceDataVector.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/facedetector.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/facedetector.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/facetracker.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/facetracker.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/FDP.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/FDP.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/FDP.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/FDP.js.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/FeaturePoint.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/FeaturePoint.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/gazetracker.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/gazetracker.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/global.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/global.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/header.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/header.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/barb_facetrack.png": {
+		"ft": 32768,
+		"iS": 489794,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/barb_facetrack.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/beat_facedetect.png": {
+		"ft": 32768,
+		"iS": 574824,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/beat_facedetect.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/Candide3VerticesAndTriangles.png": {
+		"ft": 32768,
+		"iS": 956129,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/Candide3VerticesAndTriangles.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/coord-camera.png": {
+		"ft": 32768,
+		"iS": 84064,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/coord-camera.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/coord-rotation-eye.png": {
+		"ft": 32768,
+		"iS": 63200,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/coord-rotation-eye.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/coord-rotation.png": {
+		"ft": 32768,
+		"iS": 63311,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/coord-rotation.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/coord2.png": {
+		"ft": 32768,
+		"iS": 59557,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/coord2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/coord3.png": {
+		"ft": 32768,
+		"iS": 147367,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/coord3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/folder-closed.jpg": {
+		"ft": 16384,
+		"iS": 634,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/folder-closed.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/folder-open.jpg": {
+		"ft": 16384,
+		"iS": 622,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/folder-open.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/glass_no_oclussion.jpg": {
+		"ft": 16384,
+		"iS": 50006,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/glass_no_oclussion.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/half_profile_physical_2d.png": {
+		"ft": 32768,
+		"iS": 98661,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/half_profile_physical_2d.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/html5.png": {
+		"ft": 32768,
+		"iS": 2107,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/html5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/logo.png": {
+		"ft": 32768,
+		"iS": 7382,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/mpeg-4_fba.png": {
+		"ft": 32768,
+		"iS": 113699,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/mpeg-4_fba.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/occlude_ears_correct.jpg": {
+		"ft": 16384,
+		"iS": 42144,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/occlude_ears_correct.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/occlude_ears_wrong.jpg": {
+		"ft": 16384,
+		"iS": 40191,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/occlude_ears_wrong.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/occlude_head_correct.jpg": {
+		"ft": 16384,
+		"iS": 68375,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/occlude_head_correct.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/occlude_head_narrow.jpg": {
+		"ft": 16384,
+		"iS": 71066,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/occlude_head_narrow.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/occlude_head_wide.jpg": {
+		"ft": 16384,
+		"iS": 70642,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/occlude_head_wide.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/occlude_nose_correct.jpg": {
+		"ft": 16384,
+		"iS": 71561,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/occlude_nose_correct.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/occlude_nose_narrow.jpg": {
+		"ft": 16384,
+		"iS": 70796,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/occlude_nose_narrow.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/occlude_nose_wide.jpg": {
+		"ft": 16384,
+		"iS": 70016,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/occlude_nose_wide.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/occluder_final.jpg": {
+		"ft": 16384,
+		"iS": 55416,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/occluder_final.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/occluder_wireframe.jpg": {
+		"ft": 16384,
+		"iS": 61632,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/occluder_wireframe.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/open_folder.png": {
+		"ft": 32768,
+		"iS": 4219,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/open_folder.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/open_project_folder.png": {
+		"ft": 32768,
+		"iS": 1341,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/open_project_folder.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/open_source_folder.png": {
+		"ft": 32768,
+		"iS": 1381,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/open_source_folder.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/run_sample.png": {
+		"ft": 32768,
+		"iS": 2339,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/run_sample.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/user_manual.png": {
+		"ft": 32768,
+		"iS": 2119,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/user_manual.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/using_app.jpg": {
+		"ft": 16384,
+		"iS": 52629,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/using_app.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/using_app_facedetect.png": {
+		"ft": 32768,
+		"iS": 253589,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/using_app_facedetect.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/using_app_facetrack.jpg": {
+		"ft": 16384,
+		"iS": 48610,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/using_app_facetrack.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/images\/vet-geometry.jpg": {
+		"ft": 16384,
+		"iS": 25856,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/vet-geometry.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/index.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/index_api.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/index_api.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/license.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/license.txt",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/licensing.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/licensing.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/migration.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/migration.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/navi.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/navi.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/references.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/references.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/samples.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/samples.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/ScreenSpaceGazeData.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/ScreenSpaceGazeData.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/scripts\/linenumber.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/scripts\/linenumber-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/scripts\/prettify\/Apache-License-2.0.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/scripts\/prettify\/Apache-License-2.0.txt",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/scripts\/prettify\/lang-css.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/scripts\/prettify\/lang-css-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/scripts\/prettify\/prettify.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/scripts\/prettify\/prettify-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/showcase.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/showcase.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/styles\/jsdoc-default.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/styles\/jsdoc-default-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/styles\/prettify-jsdoc.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/styles\/prettify-jsdoc-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/styles\/prettify-tomorrow.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/styles\/prettify-tomorrow-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/usingsdk.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/usingsdk.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/VectorFloat.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/VectorFloat.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/VectorInt.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/VectorInt.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/VectorShort.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/VectorShort.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/VectorString.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/VectorString.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/VisageAR.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/VisageAR.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/visageAR.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/visageAR.js.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/VisageDetector.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/VisageDetector.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/VisageFaceAnalyser.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/VisageFaceAnalyser.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/VisageFaceAnalyser.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/VisageFaceAnalyser.js.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/VisageFaceRecognition.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/VisageFaceRecognition.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/VisageFaceRecognition.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/VisageFaceRecognition.js.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/VisageFeaturesDetector.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/VisageFeaturesDetector.js.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/VisageGazeTracker.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/VisageGazeTracker.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/VisageGazeTracker.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/VisageGazeTracker.js.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/VisageTracker Configuration Manual.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/VisageTracker Configuration Manual.pdf",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/VisageTracker.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/VisageTracker.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/VisageTracker.js.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/VisageTracker.js.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/visar_api.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/visar_api.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/VSRect.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/VSRect.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/doc\/VSRectVector.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/doc\/VSRectVector.html",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/Face Detector.cfg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/Face Detector.cfg",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/Facial Features Tracker - High.cfg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/Facial Features Tracker - High.cfg",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/Facial Features Tracker - Low.cfg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/Facial Features Tracker - Low.cfg",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/Head Tracker.cfg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/Head Tracker.cfg",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/load_splash.gif": {
+		"ft": 4194304,
+		"iS": 36122,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/load_splash.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/logotype.png": {
+		"ft": 32768,
+		"iS": 13890,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/logotype.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/libraries\/visage\/lib\/three.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/three.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/libraries\/visage\/lib\/visageAnalysisData.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/visageAnalysisData.data",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/visageAnalysisData.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/visageAnalysisData-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/libraries\/visage\/lib\/visageAR.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/visageAR-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/libraries\/visage\/lib\/visageRecognitionData.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/lib\/visageRecognitionData.data",
+		"oF": 0
+		},
+	"\/static\/libraries\/visage\/lib\/visageRecognitionData.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/visageRecognitionData-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/libraries\/visage\/lib\/visageSDK-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/visageSDK-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/libraries\/visage\/lib\/visageSDK.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/lib\/visageSDK-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/libraries\/visage\/loadModule.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/libraries\/visage\/loadModule-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/libraries\/visage\/visageSDK.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/visage\/visageSDK.data",
+		"oF": 0
+		},
+	"\/static\/scripts.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/static\/scripts.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/static\/settings.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/static\/settings-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/static\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/static\/styles-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/static\/test.stl": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/test.stl",
+		"oF": 0
 		},
 	"\/styles.css": {
 		"aP": 1,
@@ -2867,259 +4139,6 @@
 		"oAP": "\/styles-min.css",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/test.stl": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/test.stl",
-		"oF": 0
-		},
-	"\/tryon\/cc_glare.png": {
-		"ft": 32768,
-		"iS": 336548,
-		"oA": 0,
-		"oAP": "\/tryon\/cc_glare.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/tryon\/cc_paper.png": {
-		"ft": 32768,
-		"iS": 63772,
-		"oA": 0,
-		"oAP": "\/tryon\/cc_paper.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/tryon\/cc_scaled.png": {
-		"ft": 32768,
-		"iS": 570572,
-		"oA": 0,
-		"oAP": "\/tryon\/cc_scaled.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/tryon\/css\/eyewear.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/tryon\/css\/eyewear-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/tryon\/eyewear.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/tryon\/eyewear.html",
-		"oF": 0
-		},
-	"\/tryon\/icons\/glasses1-icon_new.png": {
-		"ft": 32768,
-		"iS": 10197,
-		"oA": 0,
-		"oAP": "\/tryon\/icons\/glasses1-icon_new.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/tryon\/icons\/glasses2-icon_new.png": {
-		"ft": 32768,
-		"iS": 20471,
-		"oA": 0,
-		"oAP": "\/tryon\/icons\/glasses2-icon_new.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/tryon\/icons\/glasses3-icon_new.png": {
-		"ft": 32768,
-		"iS": 17403,
-		"oA": 0,
-		"oAP": "\/tryon\/icons\/glasses3-icon_new.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/tryon\/icons\/glasses4-icon.png": {
-		"ft": 32768,
-		"iS": 28158,
-		"oA": 0,
-		"oAP": "\/tryon\/icons\/glasses4-icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/tryon\/icons\/glasses5-icon_new.png": {
-		"ft": 32768,
-		"iS": 12877,
-		"oA": 0,
-		"oAP": "\/tryon\/icons\/glasses5-icon_new.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/tryon\/instructions.jpg": {
-		"ft": 16384,
-		"iS": 98030,
-		"oA": 0,
-		"oAP": "\/tryon\/instructions.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/tryon\/models\/glass_gradient.png": {
-		"ft": 32768,
-		"iS": 11084,
-		"oA": 0,
-		"oAP": "\/tryon\/models\/glass_gradient.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/tryon\/models\/glasses.mtl": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/tryon\/models\/glasses.mtl",
-		"oF": 0
-		},
-	"\/tryon\/models\/glasses.obj": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/tryon\/models\/glasses.obj",
-		"oF": 0
-		},
-	"\/tryon\/models\/glasses8.mtl": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/tryon\/models\/glasses8.mtl",
-		"oF": 0
-		},
-	"\/tryon\/models\/glasses8.obj": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/tryon\/models\/glasses8.obj",
-		"oF": 0
-		},
-	"\/tryon\/models\/MauiJim_SunCoconuts.mtl": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/tryon\/models\/MauiJim_SunCoconuts.mtl",
-		"oF": 0
-		},
-	"\/tryon\/models\/MauiJim_SunCoconuts.obj": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/tryon\/models\/MauiJim_SunCoconuts.obj",
-		"oF": 0
-		},
-	"\/tryon\/models\/MauiJimLogo.jpg": {
-		"ft": 16384,
-		"iS": 12817,
-		"oA": 0,
-		"oAP": "\/tryon\/models\/MauiJimLogo.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/tryon\/models\/occlusion_mask.mtl": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/tryon\/models\/occlusion_mask.mtl",
-		"oF": 0
-		},
-	"\/tryon\/models\/occlusion_mask.obj": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/tryon\/models\/occlusion_mask.obj",
-		"oF": 0
-		},
-	"\/tryon\/models\/trada.mtl": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/tryon\/models\/trada.mtl",
-		"oF": 0
-		},
-	"\/tryon\/models\/trada.obj": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/tryon\/models\/trada.obj",
-		"oF": 0
-		},
-	"\/tryon\/models\/Vogue_2715_GRP.mtl": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/tryon\/models\/Vogue_2715_GRP.mtl",
-		"oF": 0
-		},
-	"\/tryon\/models\/Vogue_2715_GRP.obj": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/tryon\/models\/Vogue_2715_GRP.obj",
-		"oF": 0
-		},
-	"\/tryon\/models\/Vogue_2715_Texture.jpg": {
-		"ft": 16384,
-		"iS": 161350,
-		"oA": 0,
-		"oAP": "\/tryon\/models\/Vogue_2715_Texture.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/tryon\/MTLLoader.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/tryon\/MTLLoader-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/tryon\/OBJMTLLoader.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/tryon\/OBJMTLLoader-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/tryon\/visageSDK.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/tryon\/visageSDK.data",
-		"oF": 0
-		},
-	"\/visageSDK.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/visageSDK.data",
-		"oF": 0
 		}
 	},
 "hooks": [
@@ -3802,10 +4821,6 @@
 			"active": 1,
 			"optionString": ""
 			},
-		"no-compare-neg-zero": {
-			"active": 0,
-			"optionString": ""
-			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -4006,10 +5021,6 @@
 			"active": 0,
 			"optionString": ""
 			},
-		"no-multi-assign": {
-			"active": 0,
-			"optionString": ""
-			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -4087,10 +5098,6 @@
 			"optionString": ""
 			},
 		"no-proto": {
-			"active": 0,
-			"optionString": ""
-			},
-		"no-prototype-builtins": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -4290,10 +5297,6 @@
 			"active": 0,
 			"optionString": ""
 			},
-		"nonblock-statement-body-position": {
-			"active": 0,
-			"optionString": "'beside'"
-			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -4345,10 +5348,6 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
-			},
-		"prefer-promise-reject-errors": {
-			"active": 0,
-			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -4443,10 +5442,6 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
-			"active": 0,
-			"optionString": "'never'"
-			},
-		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -4893,8 +5888,7 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
-		"quality": 100
+		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -4917,6 +5911,14 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
+		},
+	"languageDefaultsJSX": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "jsx",
+		"autoOutputPathReplace2": "js",
+		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -4979,9 +5981,7 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
-		"optimizerType": 1,
-		"quality": 100
+		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -5066,7 +6066,6 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
-	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",

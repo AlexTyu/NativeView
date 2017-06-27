@@ -1,0 +1,19 @@
+{
+    "videos": [
+        {
+            "id": "0",
+            "likes": "0",
+            "title": "Why not?",
+            "type": "regular-transparent"
+        },
+        {
+            "id": "7",
+            "likes": "0",
+            "title": "Potatium",
+            "type": "regular",
+            "image" : "true",
+            "img": "static/data/posts/images/potatium.jpg",
+            "text": "Your existence is meaningless without New Potatium stickers update. Now Gluten Free!"
+        }
+    ]
+}

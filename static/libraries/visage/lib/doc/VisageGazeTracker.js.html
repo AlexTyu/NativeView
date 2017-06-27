@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: doc/HTML5/embind/VisageGazeTracker.js</title>
+    
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+    
+    <h1 class="page-title">Source: doc/HTML5/embind/VisageGazeTracker.js</h1>
+    
+    
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source"><code>
+/**
+* VisageGazeTracker is an upgrade of Tracker which extends Tracker functionality adding screen space gaze tracking on top of facial features/head tracking.
+* For information about using facial/head tracking refer to {@link VisageTracker|VisageTracker}.
+* &lt;br/>&lt;br/>
+* &lt;b>Screen Space Gaze Tracking&lt;/b>
+* &lt;br/>&lt;br/>
+* Screen space gaze tracking feature estimates gaze position (the location on the screen where the user is looking) in normalized screen coordinates. 
+* Screen space gaze tracking works in two phases: calibration and estimation. 
+* &lt;br/>&lt;br/>
+* In the calibration phase, the system is calibrated for gaze estimation by passing the calibration data to the tracker. Calibration data consists of series of points displayed on screen. 
+* The user looks at the calibration point. During the calibration phase tracker collects calibration points and matching tracking data for each point.
+* After all calibration points have been passed to the tracker, the tracker performs calibration of gaze tracking system and switches to estimation phase. 
+* &lt;br/>&lt;br/>
+* In the estimation phase the tracker estimates gaze location in screen space coordinates and returns the screen space gaze position in {@link ScreenSpaceGazeData#x|ScreenSpaceGazeData.x} and 
+* {@link ScreenSpaceGazeData#y|ScreenSpaceGazeData.y} members of the {@link FaceData#gazeData|FaceData.gazeData} object for each frame. 
+* &lt;br/>&lt;br/>
+* Screen space gaze tracking in HTML5 works only in online mode (some other versions of visage|SDK also include offline mode). 
+* Online mode is used when tracking in real time from camera. It is initialized by calling {@link VisageGazeTracker#initOnlineGazeCalibration|initOnlineGazeCalibration()} method. 
+* This method prepares the tracker for real time gaze tracking calibration.
+* Each calibration point in normalized screen coordinates is passed to the tracker by calling {@link VisageGazeTracker#addGazeCalibrationPoint|addGazeCalibrationPoint()}. 
+* It is expected that the point is displayed on the screen before calling the method and that the user looks at calibration points during the calibration.
+* Application is responsible for reading or generating the calibration data, displaying it on screen and synchronization with the tracker.
+* It is required to manually notify the tracker that calibration is finished (once all calibration points are used) by calling {@link VisageGazeTracker#finalizeOnlineGazeCalibration|finalizeOnlineGazeCalibration()} 
+* method. Once this method is called the tracker performs calibration of screen space gaze tracking system using provided calibration data and tracking data collected during the calibration process.
+* &lt;br/>&lt;br/>
+* After the system is calibrated, the estimation phase starts. Estimations are returned as part of {@link FaceData} objects returned by calling {@link Tracker#track|track()} method. 
+* Specifically location of screen space gaze point is returned in {@link FaceData#gazeData|gazeData.x} and {@link FaceData#gazeData|gazeData.y}
+* while the state of estimator is returned in {@link FaceData#gazeData|gazeData.inState}.
+* &lt;br/>&lt;br/>
+* &lt;b> Gaze tracking quality&lt;/b>
+* Gaze tracking quality is available on both frame and session level. 
+* Gaze quality is returned as a value from 0 to 1, where 0 is the worst and 1 is the best quality.
+* &lt;br/>&lt;br/>
+* Gaze quality is returned as a part of {@link FaceData} object. 
+* The frame level quality is returned as quality parameter in {@link FaceData#gazeData|gazeData.quality} object.
+* The session level quality is returned as {@link FaceData#gazeQuality|gazeQuality} parameter in {@link FaceData} object. All frames passed to the tracker are considered part of a session, 
+* meaning that the quality is recalculated for each new frame processed by the tracker. 
+* &lt;br/>&lt;br/>
+* &lt;b> Note: &lt;/b> VisageTracker' {@link VisageTracker#track|track} function tracks multiple faces and facial features however VisageGazeTracker estimates gaze for one face only (parameter &lt;b>maxFaces&lt;/b> is not used).
+* &lt;br/>&lt;br/>
+* @see {@link VisageGazeTracker#initOnlineGazeCalibration|initOnlineGazeCalibration()}, {@link VisageGazeTracker#addGazeCalibrationPoint|addGazeCalibrationPoint()}, {@link VisageGazeTracker#finalizeOnlineGazeCalibration|finalizeOnlineGazeCalibration()}
+* @constructor
+* @augments VisageTracker
+* @param {string} configurationName - the name of the tracker configuration file (.cfg; default configuration files are provided in lib folder; 
+* for further details see &lt;a href="doc/VisageTracker Configuration Manual.pdf">VisageTracker Configuration Manual&lt;/a>). 
+*/
+function VisageGazeTracker()
+{
+	/** Initializes online screen space gaze tracking. Online mode is used when tracking from camera.
+	* &lt;br/>&lt;br/>
+	* This method starts the calibration phase of screen space gaze tracking. In the calibration phase the application displays the calibration data on the screen and passes it to the tracker using{@link VisageGazeTracker#addGazeCalibrationPoint|addGazeCalibrationPoint()}. 
+	* Application is responsible for finishing the calibration phase by calling{@link VisageGazeTracker#finalizeOnlineGazeCalibration|finalizeOnlineGazeCalibration()}.
+	*@see {@link VisageGazeTracker#addGazeCalibrationPoint|addGazeCalibrationPoint()}, {@link VisageGazeTracker#finalizeOnlineGazeCalibration|finalizeOnlineGazeCalibration()}
+	*/
+	this.initOnlineGazeCalibration = function(){};
+
+
+	/** Passes a calibration point to the tracker in online screen space gaze tracking mode.
+	* &lt;br/>&lt;br/>
+	* This method is used in online gaze tracking mode to pass the position of the currently displayed calibration point to the tracker. This method should be called once for each calibration point, after the calibration point is displayed on the screen. 
+	* Position of the calibration point is in normalized screen coordinates. The origin of the coordinate system is in the upper left corner of the screen; the lower right corner has coordinates (1, 1). 
+	* &lt;br/>&lt;br/>
+	* NOTE: 
+	* Application is responsible for synchronization between the frequency of passing calibration points to the tracker and the frequency at which the tracker processes video frames.
+	* If calibration points are passed faster than the tracker works, it may happen that two (or more) calibration points are passed while the tracker is processing a single video frame.
+	* In such case, if the difference in speed is large enough, it is possible that the tracking data for the processed frame does not match to the calibration point. This reduces the quality of calibration and, consequently, estimation. 
+	* &lt;br/>&lt;br/>
+	*@param {float} x x coordinate of the calibration point in normalized screen coordinates
+	*@param {float} y y coordinate of the calibration point in normalized screen coordinates
+	*@see {@link FaceData#gazeData|gazeData.x}, {@link FaceData#gazeData|gazeData.y},{@link FaceData#gazeData|gazeData.inState}, {@link VisageGazeTracker#initOnlineGazeCalibration|initOnlineGazeCalibration()}, {@link VisageGazeTracker#finalizeOnlineGazeCalibration|finalizeOnlineGazeCalibration()}
+	*/
+	this.addGazeCalibrationPoint = function(x, y){};
+	
+	/** Finalizes online screen space gaze tracking calibration.
+	* &lt;br/>&lt;br/>
+	* This method should be called after all calibration data is displayed and passed to the tracker. After this method is called the tracker performs calibration of gaze tracking system using 
+	* the provided calibration data and the tracking data collected during the calibration phase.
+	* &lt;br/>&lt;br/>
+	* After the calibration is finished, screen space gaze position is obtained as a part of FaceData object passed to the {@link VisageTracler#track|track()} function 
+	* &lt;br/>&lt;br/>
+	* The FaceData object contains gaze position stored in {@link FaceData#gazeData|gazeData.x} and {@link FaceData#gazeData|gazeData.y}.
+	*@see {@link VisageGazeTracker#initOnlineGazeCalibration|initOnlineGazeCalibration()}, {@link FaceData#gazeData|gazeData}, {@link FaceData}, {@link VisageGazeTracker#addGazeCalibrationPoint|addGazeCalibrationPoint()}
+	*/
+	this.finalizeOnlineGazeCalibration = function(){};
+}</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Index</a></h2><h3>Classes</h3><ul><li><a href="FaceData.html">FaceData</a></li><li><a href="ScreenSpaceGazeData.html">ScreenSpaceGazeData</a></li><li><a href="VectorFloat.html">VectorFloat</a></li><li><a href="VectorInt.html">VectorInt</a></li><li><a href="VectorShort.html">VectorShort</a></li><li><a href="VectorString.html">VectorString</a></li><li><a href="VisageFaceAnalyser.html">VisageFaceAnalyser</a></li><li><a href="FeaturePoint.html">FeaturePoint</a></li><li><a href="FDP.html">FDP</a></li><li><a href="VisageDetector.html">VisageDetector</a></li><li><a href="FaceDataVector.html">FaceDataVector</a></li><li><a href="VSRectVector.html">VSRectVector</a></li><li><a href="VSRect.html">VSRect</a></li><li><a href="VisageGazeTracker.html">VisageGazeTracker</a></li><li><a href="VisageFaceRecognition.html">VisageFaceRecognition</a></li><li><a href="VisageTracker.html">VisageTracker</a></li><li><a href="VisageAR.html">VisageAR</a></li></ul><h3>Global</h3><ul><li><a href="global.html#FP_START_GROUP_INDEX">FP_START_GROUP_INDEX</a></li><li><a href="global.html#FP_END_GROUP_INDEX">FP_END_GROUP_INDEX</a></li><li><a href="global.html#FP_NUMBER_OF_GROUPS">FP_NUMBER_OF_GROUPS</a></li><li><a href="global.html#initializeLicenseManager">initializeLicenseManager</a></li><li><a href="global.html#VisageTrackerStatus">VisageTrackerStatus</a></li><li><a href="global.html#VisageTrackerImageFormat">VisageTrackerImageFormat</a></li></ul>
+</nav>
+
+<br clear="both">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.2.0</a> on Wed Apr 05 2017 16:09:11 GMT+0200 (CEST)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>
