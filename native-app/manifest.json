@@ -1,0 +1,15 @@
+{
+    "name": "Native Viewer",
+    "description": "Native Glass viewer",
+    "app": {
+        "urls": ["https://native.wtf"],
+        "launch": {
+            "web_url": "https://native.wtf"
+        }
+    },
+    "manifest_version": 2,
+    "version": "0.3",
+    "icons": {
+        "128": "icon.png"
+    }
+}
