@@ -3,36 +3,37 @@ html(ng-app="NativeView" ng-controller="ctrlr")
   head
     meta(charset='utf-8')
 
-    script(src='/libraries/threejs/three.min.js')
+    script(src='/libraries/threejs/three.js')
+    script(src='/libraries/threejs/stereo.js')
+    script(src='/libraries/threejs/detector.js')
     script(src='/libraries/threejs/STLLoader.js')
     script(src="/libraries/BRF/libs/createjs/preloadjs-0.6.2.min.js" ng-if="settings.headtracking.sdk == 'BRF'")
     script(src='/libraries/BRF/BRFv4Demo.js' ng-if="settings.headtracking.active")
 
     script.
-        window.onload = brfv4Example.start;
+        var settings = {
+            autoreload: true,
+            gyroscope: true,
+            stereo: true,
+            headtracking: {
+                active: false,
+                sdk: 'BRFv4',
+                basedon: 'Rotation'
+            },
+            eyetracking: false
+        }
+        
 
     script.
-
+        //- window.onload = brfv4Example.start;
 
     title Testg
     link(href='styles.css', rel='stylesheet')
 
 
-
   body
     #toolbar
       .logo
-
-
-
-    .tracker(ng-class="{full:settings.eyetracking}")
-        .tracking-wrapper#visage
-            canvas#canvas(width='640', height='480', style='float:left;border:1px solid black;-webkit-transform: scaleX(-1);-moz-transform: scaleX(-1);')
-            script(src='/libraries/visage/bezier-spline.js')
-            script#loadmodule(src="/libraries/visage/loadModule.js")
-            script#facetracker(src="/libraries/visage/facetracker.js")
-            script#sdk(src='/libraries/visage/lib/visageSDK.js')
-
 
     .tracker
         .tracking-wrapper#BRF
@@ -43,23 +44,26 @@ html(ng-app="NativeView" ng-controller="ctrlr")
             canvas#_f3d
             canvas#_drawing
 
-
     include scene
 
     #tools
-        .folder
-            .row
-                //- button(ng-click="updateSettings();" label="reload")
-            //- .row
-            //-     input(type="checkbox" ng-model="settings.autoreload")
-            //-     label Autoreload
-        .folder
+        .folder(ng-click="folder0 = !folder0" ng-class="{active:folder0}")
+            span Settings
             .row
                 input(type="checkbox" ng-model="settings.headtracking.active" ng-change="updateSDK()")
                 label Headtracking
+                
             .row
-                input(type="checkbox" ng-model="settings.eyetracking" ng-change="updateSDK(settings.eyetracking)")
-                label Eyetracking (FPS!)
+                input(type="checkbox" ng-model="settings.gyroscope")
+                label Gyroscope
+                
+            .row
+                input(type="checkbox" ng-model="settings.stereo")
+                label Stereo
+                
+            .row
+                button(type="button" onclick="refresh()") Reload page
+
             //- .row
             //-     select(ng-model="settings.headtracking.sdk")
             //-         option(ng-repeat="sdk in sdks" value="{{ sdk }}") {{ sdk }}
@@ -69,24 +73,62 @@ html(ng-app="NativeView" ng-controller="ctrlr")
             //-     input(type="checkbox" ng-model="camera.lookatobject")
             //-     label Look at object
 
-
-
-
-        .folder
+        .folder(ng-click="folder1 = !folder1" ng-class="{active:folder1}")
+            span Object 
+            .row
+                
+            
+        .folder.active(ng-click="folder2 = !folder2" ng-class="{active:folder2}")
+            span Camera
             .row
                 input(type="range" min=0 max=200 ng-model="camera.position.x" ng-change="updateCamera()")
-                label X: {{camera.position.x}}
+                label pos X: {{camera.position.x}}
             .row
                 input(type="range" min=0 max=200 ng-model="camera.position.y" ng-change="updateCamera()")
-                label Y: {{camera.position.y}}
+                label pos Y: {{camera.position.y}}
             .row
                 input(type="range" min=0 max=200 ng-model="camera.position.z" ng-change="updateCamera()")
-                label Z: {{camera.position.z}}
-
+                label pos Z: {{camera.position.z}}    
             .row
-                button(type="button" onclick="refresh()") Reload
+                input(type="range" min=-3 max=3 step=0.001 ng-model="camera.rotation.y")
+                label Yaw: {{ camera.rotation.y }}
+            .row
+                input(type="range" min=-3 max=3 step=0.001 ng-model="camera.rotation.x")
+                label Pitch: {{ camera.rotation.x }}
+            .row
+                input(type="range" min=-3 max=3 step=0.001 ng-model="camera.rotation.z")
+                label Roll: {{ camera.rotation.z }}
+            .row
+                button(type="button" onclick="resetPosition()") Reset Position
+                button(type="button" ng-click="recenterRotation()") Recenter Rotation
+                button(type="button" ng-click="resetRotation()") Reset Values
+        
+        .folder(ng-click="folder3 = !folder3" ng-class="{active:folder3}")
+            span distortion
+            .row 
+                input(type="range" min=1 max=160 step=0.001 ng-model="distortion.horizontalFOV" oninput="updateDistortionEffect()")
+                label FOV: {{ distortion.horizontalFOV }}
+            .row 
+                input(type="range" min=1 max=10 step=0.001 ng-model="distortion.strength" oninput="updateDistortionEffect()")
+                label Strength: {{ distortion.strength }}
+            .row 
+                input(type="range" min=1 max=10 step=0.001 ng-model="distortion.cylindricalRatio" oninput="updateDistortionEffect()")
+                label Cylindrical Ratio: {{ distortion.cylindricalRatio }}
+        
+        .folder.active
+            spam Vector
+            .row 
+                input(type="range" min=1 max=100 step=0.001 ng-model="vector.y" ng-change="changeVector();")
+                label vector.y: {{ vector.y }}
+                
+                
+                
+                
+            
 
-        .folder
+
+
+        .folder(ng-click="folder3 = !folder3" ng-class="{active:folder3}")
 
 
 
@@ -108,11 +150,15 @@ html(ng-app="NativeView" ng-controller="ctrlr")
 
 
     #metrics
+        span Gyroscope: <br>
+        span yaw: {{ gyro.yaw }} <br>
+        span pitch: {{ gyro.pitch }} <br>
+        span roll: {{ gyro.roll }} <br>
         span  {{ data }}
 
-    #pointer
+    //- #pointer
 
-
+    script(src="js/socket.io.js")
     script(src='scripts.min.js')
     script(src='js/main.js')
     script(src='/js/ngStorage.js')

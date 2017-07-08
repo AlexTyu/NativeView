@@ -1,0 +1,118 @@
+doctype html
+html(ng-app="NativeView" ng-controller="ctrlr")
+  head
+    meta(charset='utf-8')
+
+    script(src='/libraries/threejs/three.min.js')
+    script(src='/libraries/threejs/STLLoader.js')
+    script(src="/libraries/BRF/libs/createjs/preloadjs-0.6.2.min.js" ng-if="settings.headtracking.sdk == 'BRF'")
+    script(src='/libraries/BRF/BRFv4Demo.js' ng-if="settings.headtracking.active")
+
+    script.
+        window.onload = brfv4Example.start;
+
+    script.
+
+
+    title Testg
+    link(href='styles.css', rel='stylesheet')
+
+
+
+  body
+    #toolbar
+      .logo
+
+
+
+    .tracker(ng-class="{full:settings.eyetracking}")
+        .tracking-wrapper#visage
+            canvas#canvas(width='640', height='480', style='float:left;border:1px solid black;-webkit-transform: scaleX(-1);-moz-transform: scaleX(-1);')
+            script(src='/libraries/visage/bezier-spline.js')
+            script#loadmodule(src="/libraries/visage/loadModule.js")
+            script#facetracker(src="/libraries/visage/facetracker.js")
+            script#sdk(src='/libraries/visage/lib/visageSDK.js')
+
+
+    .tracker
+        .tracking-wrapper#BRF
+            video#_webcam(style="transform: scaleX(-1)")
+            canvas#_imageData(style="opacity: 0;")
+            canvas#_faceSub
+            canvas#_t3d
+            canvas#_f3d
+            canvas#_drawing
+
+
+    include scene
+
+    #tools
+        .folder
+            .row
+                //- button(ng-click="updateSettings();" label="reload")
+            //- .row
+            //-     input(type="checkbox" ng-model="settings.autoreload")
+            //-     label Autoreload
+        .folder
+            .row
+                input(type="checkbox" ng-model="settings.headtracking.active" ng-change="updateSDK()")
+                label Headtracking
+            .row
+                input(type="checkbox" ng-model="settings.eyetracking" ng-change="updateSDK(settings.eyetracking)")
+                label Eyetracking (FPS!)
+            //- .row
+            //-     select(ng-model="settings.headtracking.sdk")
+            //-         option(ng-repeat="sdk in sdks" value="{{ sdk }}") {{ sdk }}
+            //-     label SDK
+
+            //- .row
+            //-     input(type="checkbox" ng-model="camera.lookatobject")
+            //-     label Look at object
+
+
+
+
+        .folder
+            .row
+                input(type="range" min=0 max=200 ng-model="camera.position.x" ng-change="updateCamera()")
+                label X: {{camera.position.x}}
+            .row
+                input(type="range" min=0 max=200 ng-model="camera.position.y" ng-change="updateCamera()")
+                label Y: {{camera.position.y}}
+            .row
+                input(type="range" min=0 max=200 ng-model="camera.position.z" ng-change="updateCamera()")
+                label Z: {{camera.position.z}}
+
+            .row
+                button(type="button" onclick="refresh()") Reload
+
+        .folder
+
+
+
+
+        .debuger(style="margin-top: 40px; color: white;")
+
+
+        //- .folder Camera
+        //-
+        //- .folder Object Behaviour
+        //-
+        //- .folder Environment
+        //-
+        //- .folder Simulations
+        //-
+        //- .folder metrics
+
+
+
+
+    #metrics
+        span  {{ data }}
+
+    #pointer
+
+
+    script(src='scripts.min.js')
+    script(src='js/main.js')
+    script(src='/js/ngStorage.js')

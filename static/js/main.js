@@ -1,15 +1,9 @@
 var app = angular.module('NativeView', ['ngStorage']);
 
+var socket = io();
+var gyro;
 
-var settings = {
-    autoreload: true,
-    headtracking: {
-        active: true,
-        sdk: 'BRFv4',
-        basedon: 'Rotation'
-    },
-    eyetracking: false
-}
+var socket = io.connect();
 
 
 var sdks = ['visage', 'BRFv4']
@@ -30,9 +24,26 @@ var head = {
     smile: false
 }
 
-camera.position.x = 71;
-camera.position.y = 29;
-camera.position.z = 116;
+// camera.position.x = 0;
+// camera.position.y = 0;
+camera.position.z = 85;
+
+neck.rotation.x = 0;
+neck.rotation.y = 0;
+neck.rotation.z = 0;
+
+
+function resetRotation(){
+    neck.rotation.x = 0;
+    neck.rotation.y = 0;
+    neck.rotation.z = 0;
+}
+
+function resetPosition(){
+    camera.position.x = 0;
+    camera.position.y = 0;
+    camera.position.z = 35;
+}
 
 function getFace(facos){
     data = facos[0];
@@ -50,22 +61,82 @@ function getSmile(smileFactor){
     }
 }
 
+function updateDistortion(value){
+    effect2.uniforms[ "strength" ].value = value;
+}
+
+
 app.controller("ctrlr", function($scope, $localStorage, $http, $timeout) {
 
     $scope.$storage = $localStorage;
-
     $scope.camera = camera;
     $scope.sdks = sdks;
     $scope.based = based;
     $scope.settings = settings;
     $scope.data = head;
+    $scope.gyroCenter = {
+        yaw: 0,
+        pitch: 0,
+        roll: 0
+    };
 
-    setInterval(function(){
-       $scope.$apply(function() {
-           if (settings.headtracking.active){
-               $scope.data = head;
-               $scope.camera.position.x = head.position.x - 300;
-               $scope.camera.position.y = -head.position.y + 190;
+    $scope.vector = lineGeometry.vertices[1];
+
+    $scope.changeVector = function (){
+        lineGeometry.vertices[1] = $scope.vector;
+    };
+
+    $scope.folder0 = false;
+    $scope.folder1 = false;
+    $scope.folder2 = false;
+    $scope.folder3 = false;
+
+    $scope.distortion = distortion;
+
+
+
+    socket.on('sendGyro', function (data) {
+        var text = data.gyro.toString();
+        var quotes = text.replace(/'/g, '"')
+        var json = JSON.parse(quotes)
+        $scope.gyro = json;
+
+        if (settings.gyroscope) {
+            camera.rotation.y =  -$scope.gyro.yaw * 0.016666 - $scope.gyroCenter.yaw;
+            camera.rotation.x = $scope.gyro.pitch * 0.016666 - $scope.gyroCenter.pitch;
+            camera.rotation.z = -$scope.gyro.roll * 0.016666 - $scope.gyroCenter.roll;
+        }
+    });
+
+
+    $scope.recenterRotation = function() {
+        $scope.gyroCenter.yaw = 0;
+        camera.rotation.y = -$scope.gyro.yaw * 0.016666;
+        $scope.gyroCenter.yaw = camera.rotation.y - $scope.gyroCenter.yaw;
+        $scope.gyroCenter.pitch = 0;
+        camera.rotation.x = $scope.gyro.pitch * 0.016666;
+        $scope.gyroCenter.pitch = camera.rotation.x - $scope.gyroCenter.pitch;
+        $scope.gyroCenter.roll = 0;
+        camera.rotation.z = -$scope.gyro.roll * 0.016666;
+        $scope.gyroCenter.roll = camera.rotation.z  - $scope.gyroCenter.roll;
+    }
+
+    $scope.resetRotation = function() {
+        camera.rotation.y = 0;
+        camera.rotation.x = 0;
+        camera.rotation.z = 0;
+    }
+
+
+    // if (settings.headtracking.active){
+    //     brfv4Example.start();
+
+    // setInterval(function(){
+    //    $scope.$apply(function() {
+    //        if (settings.headtracking.active){
+    //            $scope.data = head;
+    //            $scope.camera.position.x = head.position.x - 300;
+    //            $scope.camera.position.y = -head.position.y + 190;
             //    $scope.camera.position.y = head.rotation.z
             //    $scope.camera.rotation.x = head.rotationX;
             //    $scope.camera.rotation.y = $scope.head.rotationY;
@@ -75,10 +146,12 @@ app.controller("ctrlr", function($scope, $localStorage, $http, $timeout) {
             //    camera.position.x = head.translationX;
             //    camera.position.y = head.translationY;
             //    camera.rotation._z = head.rotation.z;
-            StopTracker();
-           }
-       });
-   }, 10);
+            // StopTracker();
+   //         }
+   //     });
+   // }, 10);
+    // }
+
 
     // updateSDK(false);
     $scope.updateSDK = function(bool){

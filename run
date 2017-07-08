@@ -1,2 +1,2 @@
 npm install
-grunt run & grunt less & grunt & node app.js -p=4444
+grunt run & grunt less & grunt & node app.js

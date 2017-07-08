@@ -145,30 +145,68 @@ canvas{
 }
 
 #tools{
-  width: 190px;
+  width: 100%;
   right: 0;
   height: 100%;
+  display: flex;
   position: fixed;
   top: 0px;
   left: 0;
-  z-index: 10;
+  z-index: 100;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-  padding: 20px;
+  padding: 4px 20px;
 
   .folder{
       color: white;
+      margin-right: 20px;
+      box-sizing: border-box;
+      height: 20px;
+      overflow: hidden;
+      width: 100px;
+      transition: 0.3s ease;
+      span{
+        height: 30px;
+        flex-shrink: 0;
+        display: block;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+        &::before{
+            content: "^";
+            display: block;
+            width: 20px;
+            height: 31px;
+            transform: translate3d(-10px, 7px, 0px) rotate(90deg);
+            opacity: 0.5;
+        }
+      }
+      &.active{
+          height: 270px;
+          width: 250px;
+
+      }
   }
 
   .row{
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-      height: 30px;
+      height: 32px;
       display: flex;
       align-items: center;
+      position: relative;
+      button{
+          -webkit-appearance: none;
+          width: 100%;
+          text-align: left;
+          border: none;
+          height: 28px;
+          color: white;
+          background: rgba(255, 255, 255, 0.42);
+      }
   }
 
   label{
       padding-left: 15px;
       z-index: 10;
+      pointer-events: none;
   }
 
     input[type=range] {
