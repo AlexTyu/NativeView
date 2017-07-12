@@ -5,7 +5,6 @@ var gyro;
 
 var socket = io.connect();
 
-
 var sdks = ['visage', 'BRFv4']
 var based = ['Movement', 'Rotation', 'Magic']
 
@@ -65,7 +64,6 @@ function updateDistortion(value){
     effect2.uniforms[ "strength" ].value = value;
 }
 
-
 app.controller("ctrlr", function($scope, $localStorage, $http, $timeout) {
 
     $scope.$storage = $localStorage;
@@ -96,16 +94,17 @@ app.controller("ctrlr", function($scope, $localStorage, $http, $timeout) {
 
 
     socket.on('sendGyro', function (data) {
-        var text = data.gyro.toString();
+        var text = data.gyroscope.data.toString();
         var quotes = text.replace(/'/g, '"')
         var json = JSON.parse(quotes)
         $scope.gyro = json;
 
-        if (settings.gyroscope) {
+        if (gyroscope.active){
             camera.rotation.y =  -$scope.gyro.yaw * 0.016666 - $scope.gyroCenter.yaw;
             camera.rotation.x = $scope.gyro.pitch * 0.016666 - $scope.gyroCenter.pitch;
             camera.rotation.z = -$scope.gyro.roll * 0.016666 - $scope.gyroCenter.roll;
         }
+
     });
 
 

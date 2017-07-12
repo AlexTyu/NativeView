@@ -19853,7 +19853,7 @@
 			}
 
 			scope.numPlanes = nPlanes;
-			
+
 			return dstArray;
 
 		}
@@ -35770,7 +35770,7 @@
 
 		this.aspect = 1;
 
-		this.eyeSep = 0.064;
+		this.eyeSep = 0.094;
 
 		this.cameraL = new PerspectiveCamera();
 		this.cameraL.layers.enable( 1 );
@@ -36370,7 +36370,7 @@
 			return this.gain.gain.value;
 
 		},
-		
+
 		setVolume: function ( value ) {
 
 			this.gain.gain.value = value;

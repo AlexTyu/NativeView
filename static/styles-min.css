@@ -1,0 +1,257 @@
+html {
+  background: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -o-user-select: none;
+  overflow: hidden;
+  font-family: monospace !important; }
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black; }
+
+.logo {
+  position: fixed;
+  right: 45px;
+  width: 100px;
+  height: 20px;
+  background: url("/img/logo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 0px; }
+
+.logo::after {
+  content: 'Viewer';
+  color: white;
+  position: absolute;
+  right: -90px;
+  font-family: Helvetica;
+  font-weight: 100;
+  top: 3px;
+  letter-spacing: 2px;
+  opacity: 0.5;
+  border-left: 1px solid rgba(255, 255, 255, 0.6);
+  padding-left: 10px;
+  box-sizing: border-box;
+  display: none; }
+
+.tools {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 20px; }
+
+video {
+  -webkit-filter: saturate(0%) contrast(0.7);
+  opacity: 0.4; }
+
+input {
+  color: white;
+  position: relative; }
+
+input::before {
+  content: attr(data-name);
+  position: absolute;
+  top: -20px;
+  left: 0; }
+
+#pointer {
+  /*transition: 0.1s ease;*/ }
+
+#container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+canvas {
+  opacity: 1;
+  position: fixed;
+  z-index: 9; }
+
+#pointer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  background: red;
+  z-index: 100; }
+
+#canvas {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.3;
+  z-index: -1; }
+
+#metrics {
+  position: absolute;
+  bottom: 10px;
+  left: 18px;
+  color: white;
+  z-index: 10;
+  font-family: monospace; }
+
+#toolbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 40px;
+  background: black;
+  z-index: 100; }
+
+#tools {
+  width: 100%;
+  right: 0;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  z-index: 100;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 4px 20px; }
+
+#tools .folder {
+  color: white;
+  margin-right: 20px;
+  box-sizing: border-box;
+  height: 20px;
+  overflow: hidden;
+  width: 100px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease; }
+
+#tools .folder span {
+  height: 30px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16); }
+
+#tools .folder span::before {
+  content: "^";
+  display: block;
+  width: 20px;
+  height: 31px;
+  -webkit-transform: translate3d(-10px, 7px, 0px) rotate(90deg);
+          transform: translate3d(-10px, 7px, 0px) rotate(90deg);
+  opacity: 0.5; }
+
+#tools .folder.active {
+  height: 270px;
+  width: 250px; }
+
+#tools .row {
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative; }
+
+#tools .row button {
+  -webkit-appearance: none;
+  width: 100%;
+  text-align: left;
+  border: none;
+  height: 28px;
+  color: white;
+  background: rgba(255, 255, 255, 0.42); }
+
+#tools label {
+  padding-left: 15px;
+  z-index: 10;
+  pointer-events: none; }
+
+#tools input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 13.8px 0;
+  background: rgba(255, 255, 255, 0.1); }
+
+#tools input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 26px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.1);
+  outline: none; }
+
+#tools input[type=range]::-webkit-slider-thumb {
+  height: 26px;
+  width: 2px;
+  background: aqua;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: 0px;
+  outline: none; }
+
+#tools input[type=range]::-webkit-slider-thumb::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: red;
+  outline: none; }
+
+#tools input[type=range]:focus::-webkit-slider-runnable-track {
+  background: gray; }
+
+#tools input + label {
+  position: absolute;
+  right: 20px;
+  padding-left: 15px; }
+
+.tracker {
+  position: fixed;
+  width: 400px;
+  height: 300px;
+  bottom: 0;
+  right: 0;
+  z-index: 10; }
+
+.tracker.full {
+  width: 140vh;
+  height: 100vh; }
+
+.tracker .tracking-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+.tracker video,
+.tracker canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
