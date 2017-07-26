@@ -1,66 +1,36 @@
-var express = require('express')
-var http    = require('http');
-
+var express = require('express');
 var path    = require("path");
 var fs      = require('fs');
 var pug     = require('pug');
+var http    = require('http');
 
-var app = require('express')();
-
-var io = require("socket.io").listen(server)
-
-
-
-var server = app.listen(4444, function(){
-    console.log("Express server listening on port %d in %s mode", app.get('port'),
-    app.settings.env);
-});
-
-
-
-
-var gyroscope = {
-    active: false,
-    data: null
-}
-
-if (gyroscope.active){
-    var SerialPort = require('serialport');
-    var serialport = new SerialPort("/dev/cu.usbmodem1431", {
-      baudRate: 57600,
-      parser: SerialPort.parsers.readline('\n')
-    });
-
-    serialport.on('open', function(){
-      console.log('Serial Port Opend');
-      serialport.on('data', function(data){
-          gyroscope.data = data; //assign data
-          updateGyro(gyroscope);
-      });
-    });
-} else {
-    updateGyro(gyroscope);
-}
-
-function updateGyro(data){
-    io.sockets.emit('sendGyro', { gyro: data });
-    console.log(data)
-}
-
-function onConnection(socket){
-    console.log('CONNCECTED');
-    socket.emit('sendGyro', { gyro: gyroscope });
-}
-
-io.sockets.on('connection', onConnection);
-
+var app     = express();
 
 app.use(express.static('static'));
-
 app.set('views', 'src/views');
 app.set('view engine', 'pug');
 
+var port    = 80;
+process.argv.forEach((val, index) => {
+    if( val.indexOf('-p=') >= 0 ) {
+        try {
+            port = parseInt(val.replace('-p=', ''));
+        } catch (e) {
+            console.log('Unable to parse port');
+        }
+    }
+});
+
+app.listen(port, function() {
+    console.log('App is running on port', port);
+});
+
 app.get('/', function (req, res) {
-    res.render('index.pug', {
-    });
+    res.render('index.pug', {});
+});
+
+app.get('/views/:name', function (req, res) {
+    var name = req.params.name;
+    console.log(name);
+    res.render(name + '.pug', {});
 });

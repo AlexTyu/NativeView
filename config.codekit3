@@ -7,7 +7,7 @@
 		"uuidString": "CB90F47A-EBC2-4BF6-8A79-44E2FC217E46"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25504",
 "files": {
 	"\/app.js": {
 		"ft": 64,
@@ -27,11 +27,1283 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/gyro\/gyro.ino": {
+	"\/light-viz\/.editorconfig": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/gyro\/gyro.ino",
+		"oAP": "\/light-viz\/.editorconfig",
 		"oF": 0
+		},
+	"\/light-viz\/.eslintrc.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/.eslintrc-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/.gitignore",
+		"oF": 0
+		},
+	"\/light-viz\/.travis.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/.travis.yml",
+		"oF": 0
+		},
+	"\/light-viz\/bin\/light-viz-cli.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/bin\/light-viz-cli-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/DependencyStatus.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/light-viz\/DependencyStatus.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/light-viz\/dist\/1dc35d25e61d819a9c357074014867ab.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/dist\/1dc35d25e61d819a9c357074014867ab.ttf",
+		"oF": 0
+		},
+	"\/light-viz\/dist\/25a32416abee198dd821b0b17a198a8f.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/dist\/25a32416abee198dd821b0b17a198a8f.eot",
+		"oF": 0
+		},
+	"\/light-viz\/dist\/c8ddf1e5e5bf3682bc7bebf30f394148.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/dist\/c8ddf1e5e5bf3682bc7bebf30f394148.woff",
+		"oF": 0
+		},
+	"\/light-viz\/dist\/d7c639084f684d66a1bc66855d193ed8.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/dist\/d7c639084f684d66a1bc66855d193ed8.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/dist\/e6cf7c6ec7c2d6f670ae9d762604cb0b.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/dist\/e6cf7c6ec7c2d6f670ae9d762604cb0b.woff2",
+		"oF": 0
+		},
+	"\/light-viz\/dist\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 386,
+		"oA": 0,
+		"oAP": "\/light-viz\/dist\/favicon-16x16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/dist\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 847,
+		"oA": 0,
+		"oAP": "\/light-viz\/dist\/favicon-32x32.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/dist\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/dist\/index.html",
+		"oF": 0
+		},
+	"\/light-viz\/dist\/LightViz.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/dist\/LightViz-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/Documentation\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/Documentation\/.gitignore",
+		"oF": 0
+		},
+	"\/light-viz\/Documentation\/config.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/config-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/contributing.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/contributing.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/index.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/index.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz.config": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz.config",
+		"oF": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/clip.png": {
+		"ft": 32768,
+		"iS": 20977,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/clip.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/colormap.png": {
+		"ft": 32768,
+		"iS": 34982,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/colormap.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/colormap_default.png": {
+		"ft": 32768,
+		"iS": 15128,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/colormap_default.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/colormap_preset.png": {
+		"ft": 32768,
+		"iS": 19739,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/colormap_preset.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/contour.png": {
+		"ft": 32768,
+		"iS": 19868,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/contour.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/dataset.png": {
+		"ft": 32768,
+		"iS": 40493,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/dataset.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/default.png": {
+		"ft": 32768,
+		"iS": 46156,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/default.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/main_controls.png": {
+		"ft": 32768,
+		"iS": 5779,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/main_controls.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/mslice.png": {
+		"ft": 32768,
+		"iS": 21396,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/mslice.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/slice.png": {
+		"ft": 32768,
+		"iS": 20634,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/slice.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/streamline.png": {
+		"ft": 32768,
+		"iS": 29121,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/streamline.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/threshold.png": {
+		"ft": 32768,
+		"iS": 19204,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/threshold.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/time.png": {
+		"ft": 32768,
+		"iS": 6859,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/time.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/volume.png": {
+		"ft": 32768,
+		"iS": 21863,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui1\/volume.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/clip.png": {
+		"ft": 32768,
+		"iS": 13106,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/clip.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/colormap.png": {
+		"ft": 32768,
+		"iS": 21528,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/colormap.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/colormap_set_preset.png": {
+		"ft": 32768,
+		"iS": 10438,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/colormap_set_preset.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/contour.png": {
+		"ft": 32768,
+		"iS": 16226,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/contour.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/dataset.png": {
+		"ft": 32768,
+		"iS": 10806,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/dataset.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/dataset_blocks.png": {
+		"ft": 32768,
+		"iS": 34273,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/dataset_blocks.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/default.png": {
+		"ft": 32768,
+		"iS": 35664,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/default.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/expand_controls.png": {
+		"ft": 32768,
+		"iS": 62855,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/expand_controls.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/mslice.png": {
+		"ft": 32768,
+		"iS": 18671,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/mslice.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/select_dataset.png": {
+		"ft": 32768,
+		"iS": 166287,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/select_dataset.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/slice.png": {
+		"ft": 32768,
+		"iS": 14121,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/slice.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/streamline.png": {
+		"ft": 32768,
+		"iS": 22764,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/streamline.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/threshold.png": {
+		"ft": 32768,
+		"iS": 16461,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/threshold.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/time.png": {
+		"ft": 32768,
+		"iS": 9052,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/time.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/volume.png": {
+		"ft": 32768,
+		"iS": 19167,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/lightviz_ui2\/volume.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/setup.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/setup.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/tools.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/tools.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/troubleshooting.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/troubleshooting.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/light-viz\/Documentation\/content\/docs\/userguide.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/docs\/userguide.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/light-viz\/Documentation\/content\/icon\/favicon-160x160.png": {
+		"ft": 32768,
+		"iS": 5537,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/icon\/favicon-160x160.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/icon\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 386,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/icon\/favicon-16x16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/icon\/favicon-196x196.png": {
+		"ft": 32768,
+		"iS": 7164,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/icon\/favicon-196x196.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/icon\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 847,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/icon\/favicon-32x32.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/icon\/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 3069,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/icon\/favicon-96x96.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/index.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/light-viz\/Documentation\/content\/logo-wide.png": {
+		"ft": 32768,
+		"iS": 7565,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/logo-wide.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/logo-wide.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/Documentation\/content\/logo-wide.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/Documentation\/content\/logo.png": {
+		"ft": 32768,
+		"iS": 7164,
+		"oA": 0,
+		"oAP": "\/light-viz\/Documentation\/content\/logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/Documentation\/content\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/Documentation\/content\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/Documentation\/data\/menu.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/Documentation\/data\/menu.yml",
+		"oF": 0
+		},
+	"\/light-viz\/Documentation\/tpl\/__en__": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/light-viz\/Documentation\/tpl\/__en__",
+		"oF": 0
+		},
+	"\/light-viz\/Documentation\/tpl\/__sidebar__": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/light-viz\/Documentation\/tpl\/__sidebar__",
+		"oF": 0
+		},
+	"\/light-viz\/index.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/light-viz\/index-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/light-viz\/lib\/app.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/app-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/client.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/light-viz\/lib\/client-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/config.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/light-viz\/lib\/config-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/modules\/clip.png": {
+		"ft": 32768,
+		"iS": 5196,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/modules\/clip.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/modules\/contour.png": {
+		"ft": 32768,
+		"iS": 7158,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/modules\/contour.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/modules\/dataset.png": {
+		"ft": 32768,
+		"iS": 5057,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/modules\/dataset.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/modules\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/modules\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/modules\/oslice.png": {
+		"ft": 32768,
+		"iS": 5826,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/modules\/oslice.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/modules\/pslice.png": {
+		"ft": 32768,
+		"iS": 6373,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/modules\/pslice.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/modules\/streamline.png": {
+		"ft": 32768,
+		"iS": 1390,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/modules\/streamline.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/modules\/volume.png": {
+		"ft": 32768,
+		"iS": 856,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/modules\/volume.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/pages\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/pages\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/pages\/ListDatasets\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/pages\/ListDatasets\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/pages\/ListDatasets\/ThumbnailList.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/light-viz\/lib\/pages\/ListDatasets\/ThumbnailList-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/pages\/ViewDataset\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/pages\/ViewDataset\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/pages\/ViewDataset2\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/pages\/ViewDataset2\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/pages\/ViewSelector\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/pages\/ViewSelector\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/AbstractPanel\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/AbstractPanel\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/AbstractPanel\/not-clip.png": {
+		"ft": 32768,
+		"iS": 4282,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/AbstractPanel\/not-clip.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/panels\/Clip\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Clip\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/ColorControls\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/ColorControls\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/Contour\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Contour\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/Dataset\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Dataset\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/Module\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Module\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/MultiSlice\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/MultiSlice\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/Section\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Section\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/Slice\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Slice\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/Streamline\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Streamline\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/Threshold\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Threshold\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/Time\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Time\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/Volume\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Volume\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/panels\/Volume\/volume.png": {
+		"ft": 32768,
+		"iS": 856,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/panels\/Volume\/volume.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/widgets\/ColorBy\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/ColorBy\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/widgets\/ColorMap\/blackbody.png": {
+		"ft": 32768,
+		"iS": 106,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/ColorMap\/blackbody.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/widgets\/ColorMap\/coolToWarm.png": {
+		"ft": 32768,
+		"iS": 258,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/ColorMap\/coolToWarm.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/widgets\/ColorMap\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/ColorMap\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/widgets\/ColorMap\/OpacityMapSyncer.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/ColorMap\/OpacityMapSyncer-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/widgets\/ColorMap\/viridis.png": {
+		"ft": 32768,
+		"iS": 245,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/ColorMap\/viridis.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/widgets\/ForegroundBackground\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/ForegroundBackground\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/widgets\/OpacityMap\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/OpacityMap\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/widgets\/Representation\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/Representation\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/lib\/widgets\/Representation\/surface-with-edge.png": {
+		"ft": 32768,
+		"iS": 1898,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/Representation\/surface-with-edge.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/widgets\/Representation\/surface.png": {
+		"ft": 32768,
+		"iS": 1300,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/Representation\/surface.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/widgets\/Representation\/wireframe.png": {
+		"ft": 32768,
+		"iS": 1231,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/Representation\/wireframe.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/light-viz\/lib\/widgets\/TogglePanel\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/lib\/widgets\/TogglePanel\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/LICENSE",
+		"oF": 0
+		},
+	"\/light-viz\/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "\/build\/light-viz\/node_modules",
+		"oF": 0
+		},
+	"\/light-viz\/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/light-viz\/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/light-viz\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/light-viz\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/light-viz\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/light-viz\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/light-viz\/server\/add_dataset.py": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/server\/add_dataset.py",
+		"oF": 0
+		},
+	"\/light-viz\/server\/light_viz_protocols.py": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/server\/light_viz_protocols.py",
+		"oF": 0
+		},
+	"\/light-viz\/server\/pvw-light-viz.py": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/server\/pvw-light-viz.py",
+		"oF": 0
+		},
+	"\/light-viz\/style\/AbstractPanel.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/AbstractPanel.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/ClipPanel.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/ClipPanel.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/ColorControls.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/ColorControls.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/ColorMapWidget.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/ColorMapWidget.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/ContourPanel.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/ContourPanel.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/DatasetPanel.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/DatasetPanel.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/ForegroundBackgroundWidget.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/ForegroundBackgroundWidget.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/ListDatasets.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/ListDatasets.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/MultiSlicePanel.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/MultiSlicePanel.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/OpacityMapWidget.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/OpacityMapWidget.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/Section.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/Section.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/SlicePanel.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/SlicePanel.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/StreamlinePanel.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/StreamlinePanel.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/ThresholdPanel.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/ThresholdPanel.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/TimePanel.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/TimePanel.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/TogglePanel.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/TogglePanel.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/ViewDataset.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/ViewDataset.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/style\/ViewDataset2.mcss": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/light-viz\/style\/ViewDataset2.mcss",
+		"oF": 0
+		},
+	"\/light-viz\/svg\/Clip.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/svg\/Clip.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/svg\/Contour.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/svg\/Contour.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/svg\/DataSet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/svg\/DataSet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/svg\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/svg\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/light-viz\/svg\/LightViz.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/svg\/LightViz.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/svg\/SliceOrthogonal.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/svg\/SliceOrthogonal.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/svg\/SliceParallel.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/svg\/SliceParallel.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/svg\/StreamLines.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/svg\/StreamLines.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/svg\/Threshold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/svg\/Threshold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/svg\/Volume.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/light-viz\/svg\/Volume.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/light-viz\/URLS.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/light-viz\/URLS.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/light-viz\/webpack.config.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/light-viz\/webpack.config-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/MISC\/bridge\/.gitignore": {
 		"ft": 8192,
@@ -659,8 +1931,7 @@
 		"oA": 0,
 		"oAP": "\/MISC\/bridge\/app\/src\/resources\/status.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/MISC\/bridge\/app\/src\/src\/Oculus.cpp": {
 		"ft": 8192,
@@ -828,28 +2099,23 @@
 		"oA": 0,
 		"oAP": "\/MISC\/bridge\/examples\/img\/grid.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/MISC\/bridge\/examples\/img\/oculus_bridge.png": {
 		"ft": 32768,
 		"iS": 3050,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/MISC\/bridge\/examples\/img\/oculus_bridge.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/MISC\/bridge\/examples\/img\/oculus_bridge_offline.png": {
 		"ft": 32768,
 		"iS": 2477,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/MISC\/bridge\/examples\/img\/oculus_bridge_offline.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/MISC\/bridge\/examples\/js\/connect.js": {
 		"ft": 64,
@@ -902,8 +2168,7 @@
 		"oA": 0,
 		"oAP": "\/MISC\/bridge\/examples\/textures\/blue_blue.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/MISC\/bridge\/examples\/textures\/purple_blue.jpg": {
 		"ft": 16384,
@@ -911,8 +2176,7 @@
 		"oA": 0,
 		"oAP": "\/MISC\/bridge\/examples\/textures\/purple_blue.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/MISC\/bridge\/examples\/textures\/tile.jpg": {
 		"ft": 16384,
@@ -920,8 +2184,7 @@
 		"oA": 0,
 		"oAP": "\/MISC\/bridge\/examples\/textures\/tile.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/MISC\/bridge\/LICENSE": {
 		"ft": 8192,
@@ -959,8 +2222,7 @@
 		"oA": 0,
 		"oAP": "\/MISC\/bridge\/Oculus Bridge.app\/Contents\/Resources\/status.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/MISC\/bridge\/README.md": {
 		"cS": 0,
@@ -1084,90 +2346,58 @@
 	"\/MISC\/Plugins\/AddInSample\/resources\/16x16-dark.png": {
 		"ft": 32768,
 		"iS": 726,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/MISC\/Plugins\/AddInSample\/resources\/16x16-dark.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/MISC\/Plugins\/AddInSample\/resources\/16x16-disabled.png": {
 		"ft": 32768,
 		"iS": 726,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/MISC\/Plugins\/AddInSample\/resources\/16x16-disabled.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/MISC\/Plugins\/AddInSample\/resources\/16x16-pressed.png": {
 		"ft": 32768,
 		"iS": 842,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/MISC\/Plugins\/AddInSample\/resources\/16x16-pressed.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/MISC\/Plugins\/AddInSample\/resources\/16x16.png": {
 		"ft": 32768,
 		"iS": 708,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/MISC\/Plugins\/AddInSample\/resources\/16x16.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/MISC\/Plugins\/AddInSample\/resources\/32x32-dark.png": {
 		"ft": 32768,
 		"iS": 1300,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/MISC\/Plugins\/AddInSample\/resources\/32x32-dark.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/MISC\/Plugins\/AddInSample\/resources\/32x32-disabled.png": {
 		"ft": 32768,
 		"iS": 1300,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/MISC\/Plugins\/AddInSample\/resources\/32x32-disabled.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/MISC\/Plugins\/AddInSample\/resources\/32x32.png": {
 		"ft": 32768,
 		"iS": 1234,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/MISC\/Plugins\/AddInSample\/resources\/32x32.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/native-app\/icon.png": {
-		"ft": 32768,
-		"iS": 21841,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/native-app\/icon.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/native-app\/manifest.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/native-app\/manifest-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
+		"opt": 0
 		},
 	"\/node_modules": {
 		"ft": 65536,
@@ -1206,14 +2436,6 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/src\/views\/index-eye.pug": {
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "\/src\/views\/index-eye.html",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/src\/views\/index.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -1233,12 +2455,10 @@
 	"\/static\/img\/box.png": {
 		"ft": 32768,
 		"iS": 6757,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/img\/box.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/img\/logo.svg": {
 		"ft": 2097152,
@@ -1268,24 +2488,13 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/static\/js\/socket.io.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/js\/socket.io-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/static\/lib\/background.png": {
 		"ft": 32768,
 		"iS": 424,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/lib\/background.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/css\/main.css": {
 		"aP": 1,
@@ -1306,12 +2515,10 @@
 	"\/static\/lib\/doc\/doc\/Candide3VerticesAndTriangles.png": {
 		"ft": 32768,
 		"iS": 140860,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/doc\/Candide3VerticesAndTriangles.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/doc\/modeling_guide.pdf": {
 		"ft": 8192,
@@ -1412,82 +2619,66 @@
 	"\/static\/lib\/doc\/images\/barb_facetrack.png": {
 		"ft": 32768,
 		"iS": 489794,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/barb_facetrack.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/beat_facedetect.png": {
 		"ft": 32768,
 		"iS": 574824,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/beat_facedetect.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/Candide3VerticesAndTriangles.png": {
 		"ft": 32768,
 		"iS": 956129,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/Candide3VerticesAndTriangles.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/coord-camera.png": {
 		"ft": 32768,
 		"iS": 84064,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/coord-camera.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/coord-rotation-eye.png": {
 		"ft": 32768,
 		"iS": 63200,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/coord-rotation-eye.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/coord-rotation.png": {
 		"ft": 32768,
 		"iS": 63311,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/coord-rotation.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/coord2.png": {
 		"ft": 32768,
 		"iS": 59557,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/coord2.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/coord3.png": {
 		"ft": 32768,
 		"iS": 147367,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/coord3.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/folder-closed.jpg": {
 		"ft": 16384,
@@ -1495,8 +2686,7 @@
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/folder-closed.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/folder-open.jpg": {
 		"ft": 16384,
@@ -1504,8 +2694,7 @@
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/folder-open.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/glass_no_oclussion.jpg": {
 		"ft": 16384,
@@ -1513,48 +2702,39 @@
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/glass_no_oclussion.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/half_profile_physical_2d.png": {
 		"ft": 32768,
 		"iS": 98661,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/half_profile_physical_2d.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/html5.png": {
 		"ft": 32768,
 		"iS": 2107,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/html5.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/logo.png": {
 		"ft": 32768,
 		"iS": 7382,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/logo.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/mpeg-4_fba.png": {
 		"ft": 32768,
 		"iS": 113699,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/mpeg-4_fba.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/occlude_ears_correct.jpg": {
 		"ft": 16384,
@@ -1562,8 +2742,7 @@
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/occlude_ears_correct.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/occlude_ears_wrong.jpg": {
 		"ft": 16384,
@@ -1571,8 +2750,7 @@
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/occlude_ears_wrong.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/occlude_head_correct.jpg": {
 		"ft": 16384,
@@ -1580,8 +2758,7 @@
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/occlude_head_correct.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/occlude_head_narrow.jpg": {
 		"ft": 16384,
@@ -1589,8 +2766,7 @@
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/occlude_head_narrow.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/occlude_head_wide.jpg": {
 		"ft": 16384,
@@ -1598,8 +2774,7 @@
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/occlude_head_wide.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/occlude_nose_correct.jpg": {
 		"ft": 16384,
@@ -1607,8 +2782,7 @@
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/occlude_nose_correct.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/occlude_nose_narrow.jpg": {
 		"ft": 16384,
@@ -1616,8 +2790,7 @@
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/occlude_nose_narrow.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/occlude_nose_wide.jpg": {
 		"ft": 16384,
@@ -1625,8 +2798,7 @@
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/occlude_nose_wide.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/occluder_final.jpg": {
 		"ft": 16384,
@@ -1634,8 +2806,7 @@
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/occluder_final.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/occluder_wireframe.jpg": {
 		"ft": 16384,
@@ -1643,58 +2814,47 @@
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/occluder_wireframe.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/open_folder.png": {
 		"ft": 32768,
 		"iS": 4219,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/open_folder.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/open_project_folder.png": {
 		"ft": 32768,
 		"iS": 1341,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/open_project_folder.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/open_source_folder.png": {
 		"ft": 32768,
 		"iS": 1381,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/open_source_folder.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/run_sample.png": {
 		"ft": 32768,
 		"iS": 2339,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/run_sample.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/user_manual.png": {
 		"ft": 32768,
 		"iS": 2119,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/user_manual.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/using_app.jpg": {
 		"ft": 16384,
@@ -1702,18 +2862,15 @@
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/using_app.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/using_app_facedetect.png": {
 		"ft": 32768,
 		"iS": 253589,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/using_app_facedetect.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/using_app_facetrack.jpg": {
 		"ft": 16384,
@@ -1721,8 +2878,7 @@
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/using_app_facetrack.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/images\/vet-geometry.jpg": {
 		"ft": 16384,
@@ -1730,8 +2886,7 @@
 		"oA": 0,
 		"oAP": "\/static\/lib\/doc\/images\/vet-geometry.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/doc\/index.html": {
 		"ft": 8192,
@@ -2017,12 +3172,10 @@
 	"\/static\/lib\/logotype.png": {
 		"ft": 32768,
 		"iS": 13890,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/lib\/logotype.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/lib\/three.min.js": {
 		"ft": 64,
@@ -2090,105 +3243,11 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/static\/libraries\/BRF\/assets\/brfv4_face_textures.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/assets\/brfv4_face_textures-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/assets\/brfv4_img_glasses.png": {
-		"ft": 32768,
-		"iS": 40400,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/assets\/brfv4_img_glasses.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/static\/libraries\/BRF\/assets\/brfv4_lion.png": {
-		"ft": 32768,
-		"iS": 576711,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/assets\/brfv4_lion.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/static\/libraries\/BRF\/assets\/brfv4_logo.png": {
-		"ft": 32768,
-		"iS": 6563,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/assets\/brfv4_logo.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/static\/libraries\/BRF\/assets\/brfv4_model.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/static\/libraries\/BRF\/assets\/brfv4_model-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/static\/libraries\/BRF\/assets\/brfv4_occlusion_head.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/static\/libraries\/BRF\/assets\/brfv4_occlusion_head-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/static\/libraries\/BRF\/assets\/brfv4_portrait_chris.jpg": {
-		"ft": 16384,
-		"iS": 82161,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/assets\/brfv4_portrait_chris.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/static\/libraries\/BRF\/assets\/brfv4_portrait_marcel.jpg": {
-		"ft": 16384,
-		"iS": 122133,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/assets\/brfv4_portrait_marcel.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/static\/libraries\/BRF\/assets\/brfv4_two_faces.jpg": {
-		"ft": 16384,
-		"iS": 203908,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/assets\/brfv4_two_faces.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/static\/libraries\/BRF\/assets\/brfv4_woman_old.jpg": {
-		"ft": 16384,
-		"iS": 258473,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/assets\/brfv4_woman_old.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/static\/libraries\/BRF\/assets\/brfv4_women_young.jpg": {
-		"ft": 16384,
-		"iS": 165593,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/assets\/brfv4_women_young.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
+	"\/static\/libraries\/BRF\/BRFController": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/static\/libraries\/BRF\/BRFController",
+		"oF": 0
 		},
 	"\/static\/libraries\/BRF\/BRFController-min.js": {
 		"ft": 64,
@@ -2223,420 +3282,6 @@
 		"oAP": "\/static\/libraries\/BRF\/BRFv4_JS_trial.js.mem",
 		"oF": 0
 		},
-	"\/static\/libraries\/BRF\/BRFv4Demo.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/BRFv4Demo-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/examples\/face_detection\/detect_in_center.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/examples\/face_detection\/detect_in_center-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/examples\/face_detection\/detect_in_whole_image.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/examples\/face_detection\/detect_in_whole_image-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/examples\/face_detection\/detect_larger_faces.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/examples\/face_detection\/detect_larger_faces-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/examples\/face_detection\/detect_smaller_faces.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/examples\/face_detection\/detect_smaller_faces-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/examples\/face_tracking\/blink_detection.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/examples\/face_tracking\/blink_detection-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/examples\/face_tracking\/candide_overlay.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/examples\/face_tracking\/candide_overlay-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/examples\/face_tracking\/color_libs.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/examples\/face_tracking\/color_libs-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/examples\/face_tracking\/extended_face_shape.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/examples\/face_tracking\/extended_face_shape-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/examples\/face_tracking\/face_swap_two_faces.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/examples\/face_tracking\/face_swap_two_faces-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/examples\/face_tracking\/face_texture_overlay.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/examples\/face_tracking\/face_texture_overlay-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/examples\/face_tracking\/png_mask_overlay.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/examples\/face_tracking\/png_mask_overlay-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/examples\/face_tracking\/restrict_to_center.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/examples\/face_tracking\/restrict_to_center-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/examples\/face_tracking\/smile_detection.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/examples\/face_tracking\/smile_detection-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/examples\/face_tracking\/ThreeJS_example.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/examples\/face_tracking\/ThreeJS_example-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/examples\/face_tracking\/track_multiple_faces.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/examples\/face_tracking\/track_multiple_faces-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/examples\/face_tracking\/track_single_face.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/examples\/face_tracking\/track_single_face-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/examples\/face_tracking\/yawn_detection.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/examples\/face_tracking\/yawn_detection-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/examples\/point_tracking\/track_multiple_points.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/examples\/point_tracking\/track_multiple_points-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/examples\/point_tracking\/track_points_and_face.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/examples\/point_tracking\/track_points_and_face-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/libs\/brf\/BRFv4_JS_trial.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/libs\/brf\/BRFv4_JS_trial-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/libs\/brf\/BRFv4_JS_trial.js.mem": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/static\/libraries\/BRF\/libs\/brf\/BRFv4_JS_trial.js.mem",
-		"oF": 0
-		},
-	"\/static\/libraries\/BRF\/libs\/createjs\/BitmapData.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/libs\/createjs\/BitmapData-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/libs\/createjs\/easeljs-0.8.2.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/libs\/createjs\/easeljs-0.8.2.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/libs\/createjs\/preloadjs-0.6.2.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/libs\/createjs\/preloadjs-0.6.2.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/libs\/highlight\/highlight.pack.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/libs\/highlight\/highlight.pack-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/libs\/highlight\/highlight_tomorrow.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/libs\/highlight\/highlight_tomorrow-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/static\/libraries\/BRF\/libs\/quicksettings\/quicksettings.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/libs\/quicksettings\/quicksettings-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/libs\/quicksettings\/quicksettings.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/libs\/quicksettings\/quicksettings.min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/static\/libraries\/BRF\/libs\/quicksettings\/quicksettings.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/libs\/quicksettings\/quicksettings.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/libs\/quicksettings\/quicksettings_tiny.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/libs\/quicksettings\/quicksettings_tiny.min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/static\/libraries\/BRF\/libs\/threejs\/Detector.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/libs\/threejs\/Detector-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/libs\/threejs\/three.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/libs\/threejs\/three-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/utils\/BRFv4DOMUtils.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/utils\/BRFv4DOMUtils-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/utils\/BRFv4DownloadChooser.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/utils\/BRFv4DownloadChooser-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/utils\/BRFv4Drawing3DUtils_ThreeJS.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/utils\/BRFv4Drawing3DUtils_ThreeJS-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/utils\/BRFv4DrawingUtils_CreateJS.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/utils\/BRFv4DrawingUtils_CreateJS-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/utils\/BRFv4ExampleChooser.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/utils\/BRFv4ExampleChooser-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/utils\/BRFv4ExtendedFace.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/utils\/BRFv4ExtendedFace-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/utils\/BRFv4PointUtils.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/utils\/BRFv4PointUtils-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/utils\/BRFv4PublicAPI.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/utils\/BRFv4PublicAPI-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/utils\/BRFv4SetupChooser.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/utils\/BRFv4SetupChooser-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/utils\/BRFv4SetupExample.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/utils\/BRFv4SetupExample-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/utils\/BRFv4SetupPicture.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/utils\/BRFv4SetupPicture-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/utils\/BRFv4SetupWebcam.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/utils\/BRFv4SetupWebcam-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/BRF\/utils\/BRFv4Stats.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/BRF\/utils\/BRFv4Stats-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/static\/libraries\/datgui\/DAT.GUI.min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -2646,101 +3291,11 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/static\/libraries\/threejs\/CopyShader.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/threejs\/CopyShader-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/threejs\/detector.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/threejs\/detector-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/threejs\/EffectComposer.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/threejs\/EffectComposer-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/threejs\/MaskPass.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/threejs\/MaskPass-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/threejs\/OrbitControls.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/threejs\/OrbitControls-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/threejs\/RenderPass.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/threejs\/RenderPass-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/threejs\/ShaderPass.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/threejs\/ShaderPass-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/threejs\/stats.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/threejs\/stats-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/threejs\/stereo.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/threejs\/stereo-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/static\/libraries\/threejs\/STLLoader.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/threejs\/STLLoader-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/libraries\/threejs\/three.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/libraries\/threejs\/three-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2775,12 +3330,10 @@
 	"\/static\/libraries\/visage\/lib\/background.png": {
 		"ft": 32768,
 		"iS": 424,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/background.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/css\/main.css": {
 		"aP": 1,
@@ -2801,12 +3354,10 @@
 	"\/static\/libraries\/visage\/lib\/doc\/doc\/Candide3VerticesAndTriangles.png": {
 		"ft": 32768,
 		"iS": 140860,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/doc\/Candide3VerticesAndTriangles.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/doc\/modeling_guide.pdf": {
 		"ft": 8192,
@@ -2907,82 +3458,66 @@
 	"\/static\/libraries\/visage\/lib\/doc\/images\/barb_facetrack.png": {
 		"ft": 32768,
 		"iS": 489794,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/barb_facetrack.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/beat_facedetect.png": {
 		"ft": 32768,
 		"iS": 574824,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/beat_facedetect.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/Candide3VerticesAndTriangles.png": {
 		"ft": 32768,
 		"iS": 956129,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/Candide3VerticesAndTriangles.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/coord-camera.png": {
 		"ft": 32768,
 		"iS": 84064,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/coord-camera.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/coord-rotation-eye.png": {
 		"ft": 32768,
 		"iS": 63200,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/coord-rotation-eye.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/coord-rotation.png": {
 		"ft": 32768,
 		"iS": 63311,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/coord-rotation.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/coord2.png": {
 		"ft": 32768,
 		"iS": 59557,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/coord2.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/coord3.png": {
 		"ft": 32768,
 		"iS": 147367,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/coord3.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/folder-closed.jpg": {
 		"ft": 16384,
@@ -2990,8 +3525,7 @@
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/folder-closed.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/folder-open.jpg": {
 		"ft": 16384,
@@ -2999,8 +3533,7 @@
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/folder-open.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/glass_no_oclussion.jpg": {
 		"ft": 16384,
@@ -3008,48 +3541,39 @@
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/glass_no_oclussion.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/half_profile_physical_2d.png": {
 		"ft": 32768,
 		"iS": 98661,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/half_profile_physical_2d.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/html5.png": {
 		"ft": 32768,
 		"iS": 2107,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/html5.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/logo.png": {
 		"ft": 32768,
 		"iS": 7382,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/logo.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/mpeg-4_fba.png": {
 		"ft": 32768,
 		"iS": 113699,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/mpeg-4_fba.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/occlude_ears_correct.jpg": {
 		"ft": 16384,
@@ -3057,8 +3581,7 @@
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/occlude_ears_correct.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/occlude_ears_wrong.jpg": {
 		"ft": 16384,
@@ -3066,8 +3589,7 @@
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/occlude_ears_wrong.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/occlude_head_correct.jpg": {
 		"ft": 16384,
@@ -3075,8 +3597,7 @@
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/occlude_head_correct.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/occlude_head_narrow.jpg": {
 		"ft": 16384,
@@ -3084,8 +3605,7 @@
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/occlude_head_narrow.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/occlude_head_wide.jpg": {
 		"ft": 16384,
@@ -3093,8 +3613,7 @@
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/occlude_head_wide.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/occlude_nose_correct.jpg": {
 		"ft": 16384,
@@ -3102,8 +3621,7 @@
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/occlude_nose_correct.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/occlude_nose_narrow.jpg": {
 		"ft": 16384,
@@ -3111,8 +3629,7 @@
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/occlude_nose_narrow.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/occlude_nose_wide.jpg": {
 		"ft": 16384,
@@ -3120,8 +3637,7 @@
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/occlude_nose_wide.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/occluder_final.jpg": {
 		"ft": 16384,
@@ -3129,8 +3645,7 @@
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/occluder_final.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/occluder_wireframe.jpg": {
 		"ft": 16384,
@@ -3138,58 +3653,47 @@
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/occluder_wireframe.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/open_folder.png": {
 		"ft": 32768,
 		"iS": 4219,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/open_folder.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/open_project_folder.png": {
 		"ft": 32768,
 		"iS": 1341,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/open_project_folder.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/open_source_folder.png": {
 		"ft": 32768,
 		"iS": 1381,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/open_source_folder.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/run_sample.png": {
 		"ft": 32768,
 		"iS": 2339,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/run_sample.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/user_manual.png": {
 		"ft": 32768,
 		"iS": 2119,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/user_manual.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/using_app.jpg": {
 		"ft": 16384,
@@ -3197,18 +3701,15 @@
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/using_app.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/using_app_facedetect.png": {
 		"ft": 32768,
 		"iS": 253589,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/using_app_facedetect.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/using_app_facetrack.jpg": {
 		"ft": 16384,
@@ -3216,8 +3717,7 @@
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/using_app_facetrack.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/images\/vet-geometry.jpg": {
 		"ft": 16384,
@@ -3225,8 +3725,7 @@
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/doc\/images\/vet-geometry.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/doc\/index.html": {
 		"ft": 8192,
@@ -3512,12 +4011,10 @@
 	"\/static\/libraries\/visage\/lib\/logotype.png": {
 		"ft": 32768,
 		"iS": 13890,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/static\/libraries\/visage\/lib\/logotype.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/static\/libraries\/visage\/lib\/three.min.js": {
 		"ft": 64,
@@ -3617,24 +4114,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/static\/socket.io\/client.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/socket.io\/client-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/static\/socket.io\/socket.io.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/static\/socket.io\/socket.io-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/static\/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -3649,18 +4128,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/static\/test.stl",
-		"oF": 0
-		},
-	"\/static\/test3.stl": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/static\/test3.stl",
-		"oF": 0
-		},
-	"\/static\/tsest.stl": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/static\/tsest.stl",
 		"oF": 0
 		},
 	"\/styles.css": {
@@ -4354,10 +4821,6 @@
 			"active": 1,
 			"optionString": ""
 			},
-		"no-compare-neg-zero": {
-			"active": 0,
-			"optionString": ""
-			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -4555,10 +5018,6 @@
 			"optionString": "{'grouping': false, 'allowCall': false }"
 			},
 		"no-mixed-spaces-and-tabs": {
-			"active": 0,
-			"optionString": ""
-			},
-		"no-multi-assign": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -4838,10 +5297,6 @@
 			"active": 0,
 			"optionString": ""
 			},
-		"nonblock-statement-body-position": {
-			"active": 0,
-			"optionString": "'beside'"
-			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -4893,10 +5348,6 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
-			},
-		"prefer-promise-reject-errors": {
-			"active": 0,
-			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -4991,10 +5442,6 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
-			"active": 0,
-			"optionString": "'never'"
-			},
-		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -5441,8 +5888,7 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
-		"quality": 100
+		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -5535,9 +5981,7 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
-		"enableLossy": 1,
-		"quality": 100
+		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
